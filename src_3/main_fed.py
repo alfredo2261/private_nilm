@@ -204,7 +204,5 @@ for i in home_ids_train:
     result = {"Train_home_" + str(train_homes) + "_Test_home_" + str(test_homes): test_results}
     final_results.update(result)
     print(final_results)
-    best_model.cpu()
-    model.cpu()
-    best_models.append(best_model)
-    # torch.save(model.state_dict(), r"C:\Users\aar245\Desktop\FL_models")
+    global_model.cpu()
+    torch.save(global_model.state_dict(), PATH + "/seq2point_fl_refrigerator_model_3383test_train" + str(len(training_homes)) + "_homes_trial1.pth")
