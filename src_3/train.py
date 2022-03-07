@@ -106,6 +106,7 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
 
         train_tracker = 0
         train_examples = 0
+
         #if any(isinstance(el, list) for el in epoch_predictions):
         for i in range(len(epoch_predictions)):
             epoch_true_vals[i] = np.add(np.multiply(epoch_true_vals[i], train_seq_std), train_seq_mean)

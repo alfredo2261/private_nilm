@@ -22,7 +22,7 @@ def f1_score(prec, rec):
 
 
 def train(model, loader, validation_loader, criterion, optimizer, config, example_ct, batch_ct, all_epochs,
-          scheduler, val_seq_min, val_seq_max, train_seq_min, train_seq_max, patience):  # , privacy_engine):
+          scheduler, val_seq_std, val_seq_mean, train_seq_std, train_seq_mean, patience):  # , privacy_engine):
 
     the_last_loss = 1000
     trigger_times = 0
@@ -109,17 +109,16 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
 
         #if any(isinstance(el, list) for el in epoch_predictions):
         for i in range(len(epoch_predictions)):
-            if len(epoch_true_vals[i]) > 1 and len(epoch_predictions[i]) > 1: #check implementation
-                epoch_true_vals[i] = np.add(np.multiply(epoch_true_vals[i], train_seq_max - train_seq_min), train_seq_min)
-                epoch_true_vals[i] = np.exp(epoch_true_vals[i]) - 1
-                epoch_predictions[i] = np.add(np.multiply(epoch_predictions[i], train_seq_max - train_seq_min), train_seq_min)
-                epoch_predictions[i] = np.exp(epoch_predictions[i]) - 1
-                epoch_abs_diff += np.sum(abs(np.subtract(epoch_true_vals[i], epoch_predictions[i])))
-                epoch_squ_diff += np.sum(np.square(np.subtract(epoch_true_vals[i], epoch_predictions[i])))
-                epoch_true_sum += np.sum(epoch_true_vals[i])
-                epoch_squ_sum += np.sum(np.square(epoch_true_vals[i]))
-                train_tracker += 1
-                train_examples += len(epoch_predictions[i])
+            epoch_true_vals[i] = np.add(np.multiply(epoch_true_vals[i], train_seq_std), train_seq_mean)
+            #epoch_true_vals[i] = np.exp(epoch_true_vals[i]) - 1
+            epoch_predictions[i] = np.add(np.multiply(epoch_predictions[i], train_seq_std), train_seq_mean)
+            #epoch_predictions[i] = np.exp(epoch_predictions[i]) - 1
+            epoch_abs_diff += np.sum(abs(np.subtract(epoch_true_vals[i], epoch_predictions[i])))
+            epoch_squ_diff += np.sum(np.square(np.subtract(epoch_true_vals[i], epoch_predictions[i])))
+            epoch_true_sum += np.sum(epoch_true_vals[i])
+            epoch_squ_sum += np.sum(np.square(epoch_true_vals[i]))
+            train_tracker += 1
+            train_examples += len(epoch_predictions[i])
 
         epoch_predictions = [item for sublist in epoch_predictions for item in sublist]
         epoch_true_vals = [item for sublist in epoch_true_vals for item in sublist]
@@ -132,17 +131,16 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
         val_tracker = 0
         val_examples = 0
         for i in range(len(val_preds)):
-            if len(val_true[i]) > 1 and len(val_preds[i]) > 1:
-                val_true[i] = np.add(np.multiply(val_true[i], val_seq_max - val_seq_min), val_seq_min)
-                val_true[i] = np.exp(val_true[i]) - 1
-                val_preds[i] = np.add(np.multiply(val_preds[i], val_seq_max - val_seq_min), val_seq_min)
-                val_preds[i] = np.exp(val_preds[i]) - 1
-                val_abs_diff += np.sum(abs(np.subtract(val_true[i], val_preds[i])))
-                val_squ_diff += np.sum(np.square(np.subtract(val_true[i], val_preds[i])))
-                val_true_sum += np.sum(val_true[i])
-                val_squ_sum += np.sum(np.square(val_true[i]))
-                val_tracker += 1
-                val_examples += len(val_preds[i])
+            val_true[i] = np.add(np.multiply(val_true[i], val_seq_std), val_seq_mean)
+            #val_true[i] = np.exp(val_true[i]) - 1
+            val_preds[i] = np.add(np.multiply(val_preds[i], val_seq_std), val_seq_mean)
+            #val_preds[i] = np.exp(val_preds[i]) - 1
+            val_abs_diff += np.sum(abs(np.subtract(val_true[i], val_preds[i])))
+            val_squ_diff += np.sum(np.square(np.subtract(val_true[i], val_preds[i])))
+            val_true_sum += np.sum(val_true[i])
+            val_squ_sum += np.sum(np.square(val_true[i]))
+            val_tracker += 1
+            val_examples += len(val_preds[i])
 
         val_preds = [item for sublist in val_preds for item in sublist]
         val_true = [item for sublist in val_true for item in sublist]
@@ -160,8 +158,8 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
             mae_compare = validation_loss
 
         wandb.log({
-            'Training_Loss': epoch_total_loss / batch_number, #good
-            'Validation_Loss': validation_total_loss / val_batch, #good
+            'Training_Loss': epoch_total_loss/batch_number, #good
+            'Validation_Loss': validation_total_loss/val_batch, #good
             'Training_R2': epoch_r2, #good
             'Validation_R2': val_r2, #good
             'Training_F1': f1_score(epoch_precision, epoch_recall), #good
@@ -196,8 +194,6 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
         # based on local minimum validation MAE achieved
         #the_last_loss = current_loss
         print(f"Loss after " + str(example_ct).zfill(5) + f" batches: {epoch_total_loss/batch_number:.4f}")
-        # for param in best_model.parameters():
-        #     print(param.data)
     return example_ct, batch_ct, all_epochs, best_model, epoch_total_loss/batch_number
 
 
@@ -217,11 +213,6 @@ def train_batch(features, labels, model, optimizer, criterion):
     loss.backward()
 
     optimizer.step()
-    #print("Conv_gradient: ", model.conv1.weight.grad)
-    #print("LSTM1_gradient_ih: ", model.lstm1.weight_ih_l0.grad)
-    #print("LSTM1_gradient_hh: ", model.lstm1.weight_hh_l0.grad)
-    #print("LSTM2_gradient_ih: ", model.lstm2.weight_ih_l0.grad)
-    #print("LSTM2_gradient_hh: ", model.lstm2.weight_hh_l0.grad)
     del features, labels
 
     return y_pred, y_true, loss
@@ -240,7 +231,7 @@ def train_log(loss, val_loss, example_ct, epoch):
     print(f"Loss after " + str(example_ct).zfill(5) + f" total epochs: {loss:.4f}")
 
 
-def test(model, test_loader, criterion, test_seq_min, test_seq_max):  # , privacy_engine):
+def test(model, test_loader, criterion, test_seq_std, test_seq_mean):  # , privacy_engine):
     model.eval()
     with torch.no_grad():
         total_loss = 0.0
@@ -280,17 +271,16 @@ def test(model, test_loader, criterion, test_seq_min, test_seq_max):  # , privac
         tracker = 0
         test_examples = 0
         for i in range(len(predictions)):
-            if len(true_vals[i]) > 1 and len(predictions[i]) > 1:
-                true_vals[i] = np.add(np.multiply(true_vals[i], test_seq_max - test_seq_min), test_seq_min)
-                true_vals[i] = np.exp(true_vals[i]) - 1
-                predictions[i] = np.add(np.multiply(predictions[i], test_seq_max - test_seq_min), test_seq_min)
-                predictions[i] = np.exp(predictions[i]) - 1
-                abs_diff += np.sum(abs(np.subtract(true_vals[i], predictions[i])))
-                squ_diff += np.sum(np.square(np.subtract(true_vals[i], predictions[i])))
-                squ_sum += np.sum(np.square(true_vals[i]))
-                true_sum += np.sum(true_vals[i])
-                tracker += 1
-                test_examples += len(predictions[i])
+            true_vals[i] = np.add(np.multiply(true_vals[i], test_seq_std), test_seq_mean)
+            #true_vals[i] = np.exp(true_vals[i]) - 1
+            predictions[i] = np.add(np.multiply(predictions[i], test_seq_std), test_seq_mean)
+            #predictions[i] = np.exp(predictions[i]) - 1
+            abs_diff += np.sum(abs(np.subtract(true_vals[i], predictions[i])))
+            squ_diff += np.sum(np.square(np.subtract(true_vals[i], predictions[i])))
+            squ_sum += np.sum(np.square(true_vals[i]))
+            true_sum += np.sum(true_vals[i])
+            tracker += 1
+            test_examples += len(predictions[i])
 
         predictions = [item for sublist in predictions for item in sublist]
         true_vals = [item for sublist in true_vals for item in sublist]
