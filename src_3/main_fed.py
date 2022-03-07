@@ -165,7 +165,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             print("train_results: ", train_results)
             print("test_results: ", test_results)
             print("Round_" + str(r) + "_results: ",
-                  test(global_model, test_loader, criterion, test_val_seq_min, test_val_seq_max))
+                  test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
 
     return train_results, test_results, global_model
 
