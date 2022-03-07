@@ -1,0 +1,135 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=235000, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  499
+Adjusting learning rate of group 0 to 6.6362e-04.
+C:\Users\aar245\Anaconda3\envs\privacy_ml_env\lib\site-packages\torch\nn\modules\loss.py:520: UserWarning: Using a target size (torch.Size([10, 1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 6.9016e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 7.1671e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 7.4325e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 7.6980e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 7.9634e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 8.2289e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 8.4943e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 8.7598e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 9.0252e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 9.2907e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 9.5561e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 9.8215e-04.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.0087e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.0352e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.0618e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.0883e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.1149e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.1414e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.1680e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.1945e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.2211e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.2476e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.2741e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.3007e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.3272e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.3538e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.3803e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.4069e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])
+Adjusting learning rate of group 0 to 1.4334e-03.
+torch.Size([1024])
+torch.Size([1])
+torch.Size([])

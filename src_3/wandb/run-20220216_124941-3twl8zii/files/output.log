@@ -1,0 +1,21 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=23500, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  499
+C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\train.py:120: RuntimeWarning: overflow encountered in square
+  epoch_squ_diff += np.sum(np.square(np.subtract(epoch_true_vals[i], epoch_predictions[i])))
+C:\Users\aar245\Anaconda3\envs\privacy_ml_env\lib\site-packages\sklearn\metrics\_regression.py:805: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\train.py:132: RuntimeWarning: overflow encountered in square
+  epoch_mse = np.mean(np.square(np.subtract(np.array(epoch_true_vals), np.array(epoch_predictions))))
+[34m[1mwandb[39m[22m: Processing terminal ouput (stdout)...
+[34m[1mwandb[39m[22m: Done.

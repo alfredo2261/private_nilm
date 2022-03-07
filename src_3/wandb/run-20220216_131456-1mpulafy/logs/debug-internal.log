@@ -1,0 +1,208 @@
+2022-02-16 13:14:59,543 INFO    MainThread:2495092 [internal.py:wandb_internal():87] W&B internal server running at pid: 2495092, started at: 2022-02-16 13:14:59.542543
+2022-02-16 13:14:59,546 INFO    WriterThread:2495092 [datastore.py:open_for_write():77] open: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\run-1mpulafy.wandb
+2022-02-16 13:14:59,547 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: check_version
+2022-02-16 13:14:59,554 DEBUG   SenderThread:2495092 [sender.py:send():234] send: header
+2022-02-16 13:14:59,554 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: check_version
+2022-02-16 13:14:59,735 DEBUG   SenderThread:2495092 [sender.py:send():234] send: run
+2022-02-16 13:14:59,986 INFO    SenderThread:2495092 [dir_watcher.py:__init__():169] watching files in: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files
+2022-02-16 13:14:59,986 INFO    SenderThread:2495092 [sender.py:_start_run_threads():804] run started: 1mpulafy with start time 1645035296
+2022-02-16 13:14:59,987 DEBUG   SenderThread:2495092 [sender.py:send():234] send: summary
+2022-02-16 13:14:59,988 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: run_start
+2022-02-16 13:14:59,988 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 13:15:00,027 DEBUG   HandlerThread:2495092 [meta.py:__init__():40] meta init
+2022-02-16 13:15:00,028 DEBUG   HandlerThread:2495092 [meta.py:__init__():54] meta init done
+2022-02-16 13:15:00,028 DEBUG   HandlerThread:2495092 [meta.py:probe():214] probe
+2022-02-16 13:15:01,919 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:15:02,439 DEBUG   HandlerThread:2495092 [meta.py:_setup_git():204] setup git
+2022-02-16 13:15:02,539 DEBUG   HandlerThread:2495092 [meta.py:_setup_git():211] setup git done
+2022-02-16 13:15:02,539 DEBUG   HandlerThread:2495092 [meta.py:_save_code():92] save code
+2022-02-16 13:15:02,539 WARNING HandlerThread:2495092 [meta.py:_save_code():94] unable to save code -- program entry not found
+2022-02-16 13:15:02,540 DEBUG   HandlerThread:2495092 [meta.py:_save_patches():130] save patches
+2022-02-16 13:15:02,834 DEBUG   HandlerThread:2495092 [meta.py:_save_patches():172] save patches done
+2022-02-16 13:15:02,835 DEBUG   HandlerThread:2495092 [meta.py:_save_pip():58] save pip
+2022-02-16 13:15:02,836 DEBUG   HandlerThread:2495092 [meta.py:_save_pip():72] save pip done
+2022-02-16 13:15:02,837 DEBUG   HandlerThread:2495092 [meta.py:_save_conda():79] save conda
+2022-02-16 13:15:02,918 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\conda-environment.yaml
+2022-02-16 13:15:02,918 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\requirements.txt
+2022-02-16 13:15:05,492 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:15:07,495 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:17:15,785 DEBUG   HandlerThread:2495092 [meta.py:_save_conda():89] save conda done
+2022-02-16 13:17:15,785 DEBUG   HandlerThread:2495092 [meta.py:probe():252] probe done
+2022-02-16 13:17:15,862 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,862 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:15,867 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,868 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,869 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,869 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,870 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,871 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:15,884 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\conda-environment.yaml
+2022-02-16 13:17:15,885 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-metadata.json
+2022-02-16 13:17:15,975 DEBUG   SenderThread:2495092 [sender.py:send():234] send: run
+2022-02-16 13:17:16,122 INFO    SenderThread:2495092 [sender.py:send_run():702] updated run: 1mpulafy
+2022-02-16 13:17:16,123 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:16,236 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:16,349 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:17:16,350 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:18,026 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\config.yaml
+2022-02-16 13:17:18,030 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:18,150 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:17:18,151 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:18,263 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:18,371 DEBUG   SenderThread:2495092 [sender.py:send():234] send: files
+2022-02-16 13:17:18,371 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-16 13:17:18,791 INFO    Thread-23 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\AppData\Local\Temp\3\tmpw76c_1ecwandb\2ps9mpfa-wandb-metadata.json
+2022-02-16 13:17:25,393 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:25,393 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:33,258 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:17:40,540 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:40,541 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:17:55,678 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:17:55,679 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:18:11,184 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:18:11,184 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:18:26,802 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:18:26,868 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:18:26,991 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:18:41,993 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:18:41,993 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:18:57,135 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:18:57,136 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:19:04,116 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:19:12,939 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:19:12,940 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:19:15,478 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:19:16,887 DEBUG   SenderThread:2495092 [sender.py:send():234] send: history
+2022-02-16 13:19:16,900 DEBUG   SenderThread:2495092 [sender.py:send():234] send: summary
+2022-02-16 13:19:16,909 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 13:19:16,910 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:19:16,910 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:19:17,911 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:19:21,606 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:19:28,834 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:19:28,834 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:19:43,954 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:19:43,955 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:19:59,077 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 13:19:59,078 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 13:20:04,801 DEBUG   SenderThread:2495092 [sender.py:send():234] send: config
+2022-02-16 13:20:04,807 DEBUG   SenderThread:2495092 [sender.py:send():234] send: history
+2022-02-16 13:20:04,835 DEBUG   SenderThread:2495092 [sender.py:send():234] send: summary
+2022-02-16 13:20:05,227 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:05,228 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 13:20:05,229 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:20:05,229 DEBUG   SenderThread:2495092 [sender.py:send():234] send: telemetry
+2022-02-16 13:20:05,230 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:20:05,230 DEBUG   SenderThread:2495092 [sender.py:send():234] send: exit
+2022-02-16 13:20:05,230 INFO    SenderThread:2495092 [sender.py:send_exit():366] handling exit code: 1
+2022-02-16 13:20:05,231 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\code\_session_history.ipynb
+2022-02-16 13:20:05,231 INFO    SenderThread:2495092 [sender.py:send_exit():368] handling runtime: 305
+2022-02-16 13:20:05,236 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\code
+2022-02-16 13:20:05,237 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 13:20:05,237 INFO    SenderThread:2495092 [sender.py:send_exit():374] send defer
+2022-02-16 13:20:05,238 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:05,238 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:05,239 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-16 13:20:05,239 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:05,239 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-16 13:20:05,239 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 1
+2022-02-16 13:20:05,240 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:05,240 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-16 13:20:06,265 INFO    Thread-12 :2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:20:07,003 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,003 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,003 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-16 13:20:07,003 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 2
+2022-02-16 13:20:07,004 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,004 DEBUG   SenderThread:2495092 [sender.py:send():234] send: stats
+2022-02-16 13:20:07,005 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,006 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-16 13:20:07,006 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,006 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-16 13:20:07,006 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 3
+2022-02-16 13:20:07,007 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,007 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-16 13:20:07,012 DEBUG   SenderThread:2495092 [sender.py:send():234] send: summary
+2022-02-16 13:20:07,021 INFO    SenderThread:2495092 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 13:20:07,021 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,021 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-16 13:20:07,022 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 4
+2022-02-16 13:20:07,022 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,022 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-16 13:20:07,022 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,023 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-16 13:20:07,107 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,213 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 5
+2022-02-16 13:20:07,213 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,214 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,214 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-16 13:20:07,214 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,215 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-16 13:20:07,215 INFO    SenderThread:2495092 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-16 13:20:07,268 INFO    SenderThread:2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\config.yaml
+2022-02-16 13:20:07,268 INFO    SenderThread:2495092 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:20:07,269 INFO    SenderThread:2495092 [dir_watcher.py:finish():313] scan: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files
+2022-02-16 13:20:07,269 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\conda-environment.yaml conda-environment.yaml
+2022-02-16 13:20:07,270 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\config.yaml config.yaml
+2022-02-16 13:20:07,271 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log output.log
+2022-02-16 13:20:07,277 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\requirements.txt requirements.txt
+2022-02-16 13:20:07,283 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-metadata.json wandb-metadata.json
+2022-02-16 13:20:07,288 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json wandb-summary.json
+2022-02-16 13:20:07,296 INFO    SenderThread:2495092 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\code\_session_history.ipynb code\_session_history.ipynb
+2022-02-16 13:20:07,302 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 6
+2022-02-16 13:20:07,304 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,304 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-16 13:20:07,308 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,309 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-16 13:20:07,310 INFO    SenderThread:2495092 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-16 13:20:07,316 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,317 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,420 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,421 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,523 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,524 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,628 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,629 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,727 INFO    Thread-26 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\output.log
+2022-02-16 13:20:07,735 INFO    Thread-27 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\requirements.txt
+2022-02-16 13:20:07,735 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,736 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,748 INFO    Thread-25 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\config.yaml
+2022-02-16 13:20:07,759 INFO    Thread-29 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\code\_session_history.ipynb
+2022-02-16 13:20:07,759 INFO    Thread-24 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\conda-environment.yaml
+2022-02-16 13:20:07,771 INFO    Thread-28 :2495092 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\files\wandb-summary.json
+2022-02-16 13:20:07,838 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,839 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,941 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:07,942 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:07,973 INFO    Thread-11 :2495092 [sender.py:transition_state():387] send defer: 7
+2022-02-16 13:20:07,974 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:07,974 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-16 13:20:07,974 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:07,974 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-16 13:20:08,044 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:08,462 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 8
+2022-02-16 13:20:08,463 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:08,464 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:08,464 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-16 13:20:08,464 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:08,464 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-16 13:20:08,465 INFO    SenderThread:2495092 [sender.py:transition_state():387] send defer: 9
+2022-02-16 13:20:08,465 DEBUG   SenderThread:2495092 [sender.py:send():234] send: final
+2022-02-16 13:20:08,466 DEBUG   SenderThread:2495092 [sender.py:send():234] send: footer
+2022-02-16 13:20:08,466 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 13:20:08,466 INFO    HandlerThread:2495092 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-16 13:20:08,467 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: defer
+2022-02-16 13:20:08,467 INFO    SenderThread:2495092 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-16 13:20:08,566 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 13:20:08,567 DEBUG   SenderThread:2495092 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 13:20:08,567 INFO    SenderThread:2495092 [file_pusher.py:join():182] waiting for file pusher
+2022-02-16 13:20:08,807 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-16 13:20:08,817 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-16 13:20:08,820 DEBUG   HandlerThread:2495092 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-16 13:20:08,820 INFO    HandlerThread:2495092 [handler.py:finish():731] shutting down handler
+2022-02-16 13:20:09,467 INFO    WriterThread:2495092 [datastore.py:close():281] close: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220216_131456-1mpulafy\run-1mpulafy.wandb
+2022-02-16 13:20:09,804 INFO    SenderThread:2495092 [sender.py:finish():1070] shutting down sender
+2022-02-16 13:20:09,804 INFO    SenderThread:2495092 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-16 13:20:09,804 INFO    SenderThread:2495092 [file_pusher.py:join():182] waiting for file pusher
+2022-02-16 13:20:09,808 INFO    MainThread:2495092 [internal.py:handle_exit():77] Internal process exited

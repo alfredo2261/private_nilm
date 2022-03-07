@@ -1,0 +1,197 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=23500, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  499
+Adjusting learning rate of group 0 to 3.3181e-04.
+Adjusting learning rate of group 0 to 3.3181e-04.
+trigger times: 0
+Loss after 624540 batches: 0.5632
+Adjusting learning rate of group 0 to 3.3181e-04.
+trigger times: 1
+Loss after 1249080 batches: 0.3772
+Adjusting learning rate of group 0 to 3.3181e-04.
+trigger times: 2
+Loss after 1873620 batches: 0.2668
+Adjusting learning rate of group 0 to 3.3181e-04.
+trigger times: 0
+Loss after 2498160 batches: 0.1931
+Adjusting learning rate of group 0 to 3.1522e-04.
+trigger times: 1
+Loss after 3122700 batches: 0.1499
+Adjusting learning rate of group 0 to 3.1522e-04.
+trigger times: 2
+Loss after 3747240 batches: 0.1235
+Adjusting learning rate of group 0 to 3.1522e-04.
+trigger times: 3
+Loss after 4371780 batches: 0.1075
+Adjusting learning rate of group 0 to 3.1522e-04.
+trigger times: 0
+Loss after 4996320 batches: 0.0946
+Adjusting learning rate of group 0 to 3.1522e-04.
+trigger times: 1
+Loss after 5620860 batches: 0.0868
+Adjusting learning rate of group 0 to 2.9946e-04.
+trigger times: 0
+Loss after 6245400 batches: 0.0791
+Adjusting learning rate of group 0 to 2.9946e-04.
+trigger times: 1
+Loss after 6869940 batches: 0.0721
+Adjusting learning rate of group 0 to 2.9946e-04.
+trigger times: 0
+Loss after 7494480 batches: 0.0667
+Adjusting learning rate of group 0 to 2.9946e-04.
+trigger times: 1
+Loss after 8119020 batches: 0.0624
+Adjusting learning rate of group 0 to 2.9946e-04.
+trigger times: 2
+Loss after 8743560 batches: 0.0592
+Adjusting learning rate of group 0 to 2.8448e-04.
+trigger times: 0
+Loss after 9368100 batches: 0.0549
+Adjusting learning rate of group 0 to 2.8448e-04.
+trigger times: 1
+Loss after 9992640 batches: 0.0522
+Adjusting learning rate of group 0 to 2.8448e-04.
+trigger times: 0
+Loss after 10617180 batches: 0.0511
+Adjusting learning rate of group 0 to 2.8448e-04.
+trigger times: 1
+Loss after 11241720 batches: 0.0471
+Adjusting learning rate of group 0 to 2.8448e-04.
+trigger times: 2
+Loss after 11866260 batches: 0.0455
+Adjusting learning rate of group 0 to 2.7026e-04.
+trigger times: 3
+Loss after 12490800 batches: 0.0447
+Adjusting learning rate of group 0 to 2.7026e-04.
+trigger times: 4
+Loss after 13115340 batches: 0.0422
+Adjusting learning rate of group 0 to 2.7026e-04.
+trigger times: 5
+Loss after 13739880 batches: 0.0406
+Adjusting learning rate of group 0 to 2.7026e-04.
+trigger times: 6
+Loss after 14364420 batches: 0.0400
+Adjusting learning rate of group 0 to 2.7026e-04.
+trigger times: 7
+Loss after 14988960 batches: 0.0389
+Adjusting learning rate of group 0 to 2.5675e-04.
+trigger times: 0
+Loss after 15613500 batches: 0.0382
+Adjusting learning rate of group 0 to 2.5675e-04.
+trigger times: 1
+Loss after 16238040 batches: 0.0372
+Adjusting learning rate of group 0 to 2.5675e-04.
+trigger times: 2
+Loss after 16862580 batches: 0.0355
+Adjusting learning rate of group 0 to 2.5675e-04.
+trigger times: 3
+Loss after 17487120 batches: 0.0350
+Adjusting learning rate of group 0 to 2.5675e-04.
+trigger times: 4
+Loss after 18111660 batches: 0.0343
+Adjusting learning rate of group 0 to 2.4391e-04.
+trigger times: 5
+Loss after 18736200 batches: 0.0337
+Adjusting learning rate of group 0 to 2.4391e-04.
+trigger times: 6
+Loss after 19360740 batches: 0.0330
+Adjusting learning rate of group 0 to 2.4391e-04.
+trigger times: 0
+Loss after 19985280 batches: 0.0321
+Adjusting learning rate of group 0 to 2.4391e-04.
+trigger times: 1
+Loss after 20609820 batches: 0.0319
+Adjusting learning rate of group 0 to 2.4391e-04.
+trigger times: 2
+Loss after 21234360 batches: 0.0313
+Adjusting learning rate of group 0 to 2.3171e-04.
+trigger times: 3
+Loss after 21858900 batches: 0.0309
+Adjusting learning rate of group 0 to 2.3171e-04.
+trigger times: 4
+Loss after 22483440 batches: 0.0298
+Adjusting learning rate of group 0 to 2.3171e-04.
+trigger times: 5
+Loss after 23107980 batches: 0.0294
+Adjusting learning rate of group 0 to 2.3171e-04.
+trigger times: 0
+Loss after 23732520 batches: 0.0294
+Adjusting learning rate of group 0 to 2.3171e-04.
+trigger times: 1
+Loss after 24357060 batches: 0.0288
+Adjusting learning rate of group 0 to 2.2013e-04.
+trigger times: 0
+Loss after 24981600 batches: 0.0284
+Adjusting learning rate of group 0 to 2.2013e-04.
+trigger times: 1
+Loss after 25606140 batches: 0.0277
+Adjusting learning rate of group 0 to 2.2013e-04.
+trigger times: 2
+Loss after 26230680 batches: 0.0274
+Adjusting learning rate of group 0 to 2.2013e-04.
+trigger times: 3
+Loss after 26855220 batches: 0.0272
+Adjusting learning rate of group 0 to 2.2013e-04.
+trigger times: 4
+Loss after 27479760 batches: 0.0268
+Adjusting learning rate of group 0 to 2.0912e-04.
+trigger times: 5
+Loss after 28104300 batches: 0.0267
+Adjusting learning rate of group 0 to 2.0912e-04.
+trigger times: 6
+Loss after 28728840 batches: 0.0262
+Adjusting learning rate of group 0 to 2.0912e-04.
+trigger times: 7
+Loss after 29353380 batches: 0.0261
+Adjusting learning rate of group 0 to 2.0912e-04.
+trigger times: 8
+Loss after 29977920 batches: 0.0254
+Adjusting learning rate of group 0 to 2.0912e-04.
+trigger times: 9
+Loss after 30602460 batches: 0.0252
+Adjusting learning rate of group 0 to 1.9867e-04.
+trigger times: 10
+Loss after 31227000 batches: 0.0251
+Adjusting learning rate of group 0 to 1.9867e-04.
+trigger times: 11
+Loss after 31851540 batches: 0.0247
+Adjusting learning rate of group 0 to 1.9867e-04.
+trigger times: 12
+Loss after 32476080 batches: 0.0244
+Adjusting learning rate of group 0 to 1.9867e-04.
+trigger times: 13
+Loss after 33100620 batches: 0.0241
+Adjusting learning rate of group 0 to 1.9867e-04.
+trigger times: 14
+Loss after 33725160 batches: 0.0242
+Adjusting learning rate of group 0 to 1.8873e-04.
+trigger times: 15
+Loss after 34349700 batches: 0.0240
+Adjusting learning rate of group 0 to 1.8873e-04.
+trigger times: 16
+Loss after 34974240 batches: 0.0235
+Adjusting learning rate of group 0 to 1.8873e-04.
+trigger times: 17
+Loss after 35598780 batches: 0.0233
+Adjusting learning rate of group 0 to 1.8873e-04.
+trigger times: 18
+Loss after 36223320 batches: 0.0232
+Adjusting learning rate of group 0 to 1.8873e-04.
+trigger times: 19
+Loss after 36847860 batches: 0.0231
+Adjusting learning rate of group 0 to 1.7930e-04.
+trigger times: 20
+Early stopping!
+Start to test process.
+Loss after 37472400 batches: 0.0230
+Time to train on one home:  13373.1989569664

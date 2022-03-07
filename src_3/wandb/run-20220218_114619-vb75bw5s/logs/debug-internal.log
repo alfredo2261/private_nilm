@@ -1,0 +1,238 @@
+2022-02-18 11:46:21,593 INFO    MainThread:3964 [internal.py:wandb_internal():87] W&B internal server running at pid: 3964, started at: 2022-02-18 11:46:21.593674
+2022-02-18 11:46:21,593 INFO    WriterThread:3964 [datastore.py:open_for_write():77] open: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\run-vb75bw5s.wandb
+2022-02-18 11:46:21,593 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: check_version
+2022-02-18 11:46:21,609 DEBUG   SenderThread:3964 [sender.py:send():234] send: header
+2022-02-18 11:46:21,609 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: check_version
+2022-02-18 11:46:21,734 DEBUG   SenderThread:3964 [sender.py:send():234] send: run
+2022-02-18 11:46:21,907 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: run_start
+2022-02-18 11:46:21,923 DEBUG   HandlerThread:3964 [meta.py:__init__():40] meta init
+2022-02-18 11:46:21,923 DEBUG   HandlerThread:3964 [meta.py:__init__():54] meta init done
+2022-02-18 11:46:21,923 DEBUG   HandlerThread:3964 [meta.py:probe():214] probe
+2022-02-18 11:46:21,923 INFO    SenderThread:3964 [dir_watcher.py:__init__():169] watching files in: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files
+2022-02-18 11:46:21,923 INFO    SenderThread:3964 [sender.py:_start_run_threads():804] run started: vb75bw5s with start time 1645202779
+2022-02-18 11:46:21,923 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:46:21,923 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:46:21,939 DEBUG   HandlerThread:3964 [meta.py:_setup_git():204] setup git
+2022-02-18 11:46:22,032 DEBUG   HandlerThread:3964 [meta.py:_setup_git():211] setup git done
+2022-02-18 11:46:22,032 DEBUG   HandlerThread:3964 [meta.py:_save_code():92] save code
+2022-02-18 11:46:22,032 WARNING HandlerThread:3964 [meta.py:_save_code():94] unable to save code -- program entry not found
+2022-02-18 11:46:22,032 DEBUG   HandlerThread:3964 [meta.py:_save_patches():130] save patches
+2022-02-18 11:46:22,282 DEBUG   HandlerThread:3964 [meta.py:_save_patches():172] save patches done
+2022-02-18 11:46:22,282 DEBUG   HandlerThread:3964 [meta.py:_save_pip():58] save pip
+2022-02-18 11:46:22,298 DEBUG   HandlerThread:3964 [meta.py:_save_pip():72] save pip done
+2022-02-18 11:46:22,298 DEBUG   HandlerThread:3964 [meta.py:_save_conda():79] save conda
+2022-02-18 11:46:22,941 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\conda-environment.yaml
+2022-02-18 11:46:22,941 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:46:22,941 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\requirements.txt
+2022-02-18 11:46:26,974 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:46:28,997 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:47:43,610 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:47:51,671 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:48:31,858 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:48:37,893 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:49:16,095 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:49:26,157 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:49:27,564 DEBUG   HandlerThread:3964 [meta.py:_save_conda():89] save conda done
+2022-02-18 11:49:27,564 DEBUG   HandlerThread:3964 [meta.py:probe():252] probe done
+2022-02-18 11:49:27,611 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,611 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:27,611 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,611 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,611 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,611 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,626 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,626 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,626 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,626 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,642 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:27,736 DEBUG   SenderThread:3964 [sender.py:send():234] send: run
+2022-02-18 11:49:27,876 INFO    SenderThread:3964 [sender.py:send_run():702] updated run: vb75bw5s
+2022-02-18 11:49:27,876 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,017 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:28,017 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,126 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:28,126 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,189 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\conda-environment.yaml
+2022-02-18 11:49:28,189 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\config.yaml
+2022-02-18 11:49:28,189 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-metadata.json
+2022-02-18 11:49:28,267 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,392 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:49:28,392 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:49:28,408 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:49:28,408 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:28,408 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,517 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,642 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:49:28,642 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:49:28,657 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:49:28,657 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:28,657 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,767 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:28,876 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:49:28,876 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:49:28,892 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:49:28,892 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:28,892 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:29,001 DEBUG   SenderThread:3964 [sender.py:send():234] send: files
+2022-02-18 11:49:29,001 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-18 11:49:29,204 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:49:29,408 INFO    Thread-23 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\AppData\Local\Temp\2\tmpmsxq9ogqwandb\25xhug3w-wandb-metadata.json
+2022-02-18 11:49:35,594 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:49:44,009 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:44,009 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:49:59,158 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:49:59,158 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:50:04,377 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:50:08,205 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:50:10,289 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:50:10,289 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:50:10,305 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:50:10,432 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:50:12,435 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:50:14,306 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:50:14,306 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:50:29,423 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:50:29,423 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:50:40,998 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:50:44,555 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:50:44,555 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:50:50,590 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:50:56,505 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:50:56,505 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:50:56,521 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:50:56,614 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:50:58,620 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:50:59,673 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:50:59,673 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:51:13,915 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:51:14,817 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:51:14,817 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:51:29,959 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:51:29,960 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:51:36,824 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:51:43,379 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:51:43,395 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:51:43,408 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:51:43,834 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:51:44,835 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:51:45,004 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:51:45,081 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-18 11:51:45,081 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: stop_status
+2022-02-18 11:51:52,099 DEBUG   SenderThread:3964 [sender.py:send():234] send: config
+2022-02-18 11:51:52,131 DEBUG   SenderThread:3964 [sender.py:send():234] send: history
+2022-02-18 11:51:52,149 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:51:52,160 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:51:52,849 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:51:52,850 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\code\_session_history.ipynb
+2022-02-18 11:51:52,850 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\code
+2022-02-18 11:51:53,007 DEBUG   SenderThread:3964 [sender.py:send():234] send: telemetry
+2022-02-18 11:51:53,008 DEBUG   SenderThread:3964 [sender.py:send():234] send: exit
+2022-02-18 11:51:53,008 INFO    SenderThread:3964 [sender.py:send_exit():366] handling exit code: 1
+2022-02-18 11:51:53,008 INFO    SenderThread:3964 [sender.py:send_exit():368] handling runtime: 331
+2022-02-18 11:51:53,008 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:53,016 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:51:53,016 INFO    SenderThread:3964 [sender.py:send_exit():374] send defer
+2022-02-18 11:51:53,017 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:53,018 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,018 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-18 11:51:53,018 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,018 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-18 11:51:53,019 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 1
+2022-02-18 11:51:53,019 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,020 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-18 11:51:53,099 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,100 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-18 11:51:53,100 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 2
+2022-02-18 11:51:53,101 DEBUG   SenderThread:3964 [sender.py:send():234] send: stats
+2022-02-18 11:51:53,102 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,102 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-18 11:51:53,103 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,103 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-18 11:51:53,103 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 3
+2022-02-18 11:51:53,104 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,104 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-18 11:51:53,110 DEBUG   SenderThread:3964 [sender.py:send():234] send: summary
+2022-02-18 11:51:53,120 INFO    SenderThread:3964 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-18 11:51:53,120 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,120 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-18 11:51:53,120 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 4
+2022-02-18 11:51:53,121 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,121 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-18 11:51:53,121 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,121 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-18 11:51:53,127 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:53,272 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 5
+2022-02-18 11:51:53,273 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:53,273 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,274 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-18 11:51:53,274 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,274 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-18 11:51:53,274 INFO    SenderThread:3964 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-18 11:51:53,375 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:53,850 INFO    Thread-12 :3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:51:53,853 INFO    SenderThread:3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\config.yaml
+2022-02-18 11:51:53,853 INFO    SenderThread:3964 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:51:53,854 INFO    SenderThread:3964 [dir_watcher.py:finish():313] scan: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files
+2022-02-18 11:51:53,855 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\conda-environment.yaml conda-environment.yaml
+2022-02-18 11:51:53,855 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\config.yaml config.yaml
+2022-02-18 11:51:53,856 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log output.log
+2022-02-18 11:51:53,871 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\requirements.txt requirements.txt
+2022-02-18 11:51:53,878 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-metadata.json wandb-metadata.json
+2022-02-18 11:51:53,878 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json wandb-summary.json
+2022-02-18 11:51:53,889 INFO    SenderThread:3964 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\code\_session_history.ipynb code\_session_history.ipynb
+2022-02-18 11:51:53,895 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 6
+2022-02-18 11:51:53,896 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:53,897 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:53,898 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-18 11:51:53,904 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:53,905 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-18 11:51:53,905 INFO    SenderThread:3964 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-18 11:51:54,000 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,001 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,105 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,106 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,210 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,210 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,299 INFO    Thread-24 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\conda-environment.yaml
+2022-02-18 11:51:54,314 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,315 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,323 INFO    Thread-25 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\config.yaml
+2022-02-18 11:51:54,354 INFO    Thread-29 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\code\_session_history.ipynb
+2022-02-18 11:51:54,363 INFO    Thread-26 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\output.log
+2022-02-18 11:51:54,363 INFO    Thread-28 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\wandb-summary.json
+2022-02-18 11:51:54,369 INFO    Thread-27 :3964 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\files\requirements.txt
+2022-02-18 11:51:54,417 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,420 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,521 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:54,522 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:54,569 INFO    Thread-11 :3964 [sender.py:transition_state():387] send defer: 7
+2022-02-18 11:51:54,570 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:54,570 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-18 11:51:54,570 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:54,571 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-18 11:51:54,624 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:55,097 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 8
+2022-02-18 11:51:55,098 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:55,099 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:55,099 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-18 11:51:55,099 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:55,099 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-18 11:51:55,100 INFO    SenderThread:3964 [sender.py:transition_state():387] send defer: 9
+2022-02-18 11:51:55,101 DEBUG   SenderThread:3964 [sender.py:send():234] send: final
+2022-02-18 11:51:55,101 DEBUG   SenderThread:3964 [sender.py:send():234] send: footer
+2022-02-18 11:51:55,102 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: defer
+2022-02-18 11:51:55,102 INFO    HandlerThread:3964 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-18 11:51:55,102 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: defer
+2022-02-18 11:51:55,103 INFO    SenderThread:3964 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-18 11:51:55,200 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-18 11:51:55,200 DEBUG   SenderThread:3964 [sender.py:send_request():248] send_request: poll_exit
+2022-02-18 11:51:55,201 INFO    SenderThread:3964 [file_pusher.py:join():182] waiting for file pusher
+2022-02-18 11:51:55,461 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-18 11:51:55,473 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-18 11:51:55,476 DEBUG   HandlerThread:3964 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-18 11:51:55,476 INFO    HandlerThread:3964 [handler.py:finish():731] shutting down handler
+2022-02-18 11:51:56,103 INFO    WriterThread:3964 [datastore.py:close():281] close: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220218_114619-vb75bw5s\run-vb75bw5s.wandb
+2022-02-18 11:51:56,459 INFO    SenderThread:3964 [sender.py:finish():1070] shutting down sender
+2022-02-18 11:51:56,459 INFO    SenderThread:3964 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-18 11:51:56,459 INFO    SenderThread:3964 [file_pusher.py:join():182] waiting for file pusher
+2022-02-18 11:51:56,463 INFO    MainThread:3964 [internal.py:handle_exit():77] Internal process exited
