@@ -4,7 +4,7 @@ from train_fed import train, test, precision, recall, f1_score
 import torch
 import time
 import gc
-import lstm
+#import lstm
 import config_file
 from clean_data_seq2point import load_all_houses_with_device
 import random
@@ -69,13 +69,15 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
         global_model, criterion, optimizer = make_model(config)
 
-        client_models = [lstm.LSTM(
+        client_models = [LSTM(
             config.in_channels,
             config.out_channels,
             config.kernel_size,
             config.hidden_size_1,
             config.hidden_size_2,
-            config.fc1
+            config.fc1,
+            config.batch_size,
+            config.window_size
         ).to(device) for _ in range(len(train_buildings))]
 
         for model in client_models:
