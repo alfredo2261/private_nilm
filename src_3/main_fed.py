@@ -107,7 +107,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         example_ct = 0
         batch_ct = 0
         all_epochs = 0
-        for r in range(30):
+        for r in range(20):
             client_losses = 0.0
             gc.collect()
             torch.cuda.empty_cache()

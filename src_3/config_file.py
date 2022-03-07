@@ -6,7 +6,7 @@ def load_hyperparameters(appliance):
         config = dict(
             appliance=str(appliance),
             epochs=200,
-            batch_size=500,
+            batch_size=2500,
             learning_rate=3.3180899699083407e-04,#e-06,
             in_channels=1,
             out_channels=16,
