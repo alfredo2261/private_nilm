@@ -1,0 +1,1207 @@
+2022-02-01 21:17:41,712 INFO    MainThread:58212 [internal.py:wandb_internal():87] W&B internal server running at pid: 58212, started at: 2022-02-01 21:17:41.704684
+2022-02-01 21:17:41,715 INFO    WriterThread:58212 [datastore.py:open_for_write():77] open: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\run-3hu3xhty.wandb
+2022-02-01 21:17:41,715 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: check_version
+2022-02-01 21:17:41,719 DEBUG   SenderThread:58212 [sender.py:send():234] send: header
+2022-02-01 21:17:41,720 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: check_version
+2022-02-01 21:17:41,820 DEBUG   SenderThread:58212 [sender.py:send():234] send: run
+2022-02-01 21:17:41,996 INFO    SenderThread:58212 [dir_watcher.py:__init__():169] watching files in: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files
+2022-02-01 21:17:41,996 INFO    SenderThread:58212 [sender.py:_start_run_threads():804] run started: 3hu3xhty with start time 1643768260
+2022-02-01 21:17:41,997 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:17:41,998 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: run_start
+2022-02-01 21:17:41,999 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:17:42,030 DEBUG   HandlerThread:58212 [meta.py:__init__():40] meta init
+2022-02-01 21:17:42,030 DEBUG   HandlerThread:58212 [meta.py:__init__():54] meta init done
+2022-02-01 21:17:42,031 DEBUG   HandlerThread:58212 [meta.py:probe():214] probe
+2022-02-01 21:17:42,037 DEBUG   HandlerThread:58212 [meta.py:_save_code():92] save code
+2022-02-01 21:17:42,037 WARNING HandlerThread:58212 [meta.py:_save_code():94] unable to save code -- program entry not found
+2022-02-01 21:17:42,037 DEBUG   HandlerThread:58212 [meta.py:_save_pip():58] save pip
+2022-02-01 21:17:42,038 DEBUG   HandlerThread:58212 [meta.py:_save_pip():72] save pip done
+2022-02-01 21:17:42,038 DEBUG   HandlerThread:58212 [meta.py:_save_conda():79] save conda
+2022-02-01 21:17:43,002 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\conda-environment.yaml
+2022-02-01 21:17:43,003 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:17:43,003 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\requirements.txt
+2022-02-01 21:17:47,865 DEBUG   HandlerThread:58212 [meta.py:_save_conda():89] save conda done
+2022-02-01 21:17:47,865 DEBUG   HandlerThread:58212 [meta.py:probe():252] probe done
+2022-02-01 21:17:47,874 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:17:47,874 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:17:48,005 DEBUG   SenderThread:58212 [sender.py:send():234] send: run
+2022-02-01 21:17:48,013 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\conda-environment.yaml
+2022-02-01 21:17:48,019 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:17:48,020 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-metadata.json
+2022-02-01 21:17:48,154 INFO    SenderThread:58212 [sender.py:send_run():702] updated run: 3hu3xhty
+2022-02-01 21:17:48,154 DEBUG   SenderThread:58212 [sender.py:send():234] send: files
+2022-02-01 21:17:48,154 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-01 21:17:48,592 INFO    Thread-11 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\AppData\Local\Temp\2\tmp_f3zphh0wandb\1lbw7ot4-wandb-metadata.json
+2022-02-01 21:17:49,014 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\config.yaml
+2022-02-01 21:17:50,016 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:00,029 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:03,006 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:18:03,006 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:18:11,080 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:18:18,122 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:18:18,122 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:18:33,245 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:18:33,246 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:18:40,089 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:42,097 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:42,141 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:18:44,100 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:46,102 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:48,104 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:48,379 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:18:48,379 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:18:50,107 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:52,110 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:18:57,086 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:18:57,113 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:18:57,127 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:18:57,128 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:18:58,129 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:00,132 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:02,134 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:03,494 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:19:03,495 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:19:04,136 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:06,139 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:08,141 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:10,145 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:12,147 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:13,196 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:19:17,834 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:19:17,861 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:19:17,872 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:19:18,167 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:19:18,615 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:19:18,615 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:19:20,170 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:22,173 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:24,175 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:26,179 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:28,181 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:30,183 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:32,187 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:33,763 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:19:33,764 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:19:38,302 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:19:38,328 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:19:38,342 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:19:39,197 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:19:40,198 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:42,201 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:44,211 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:44,229 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:19:46,213 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:48,216 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:48,921 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:19:48,922 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:19:50,219 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:52,221 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:54,225 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:19:58,754 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:19:58,784 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:19:58,799 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:19:59,233 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:20:01,236 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:03,239 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:04,034 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:20:04,034 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:20:05,241 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:07,244 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:09,246 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:11,249 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:13,252 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:15,242 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:20:15,255 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:19,376 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:20:19,376 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:20:19,497 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:20:19,511 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:20:19,526 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:20:20,263 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:20:21,264 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:23,267 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:25,269 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:27,272 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:29,275 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:31,277 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:33,281 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:34,807 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:20:34,807 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:20:35,284 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:39,890 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:20:39,920 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:20:39,937 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:20:40,293 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:20:41,294 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:43,298 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:45,299 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:46,249 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:20:47,302 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:49,310 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:49,946 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:20:49,947 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:20:51,318 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:53,321 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:20:55,324 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:00,419 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:21:00,446 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:21:00,459 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:21:01,333 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:21:02,335 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:04,337 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:05,070 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:21:05,071 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:21:06,340 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:08,342 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:10,345 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:12,348 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:14,350 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:16,353 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:17,284 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:21:20,255 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:21:20,255 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:21:21,170 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:21:21,196 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:21:21,210 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:21:21,361 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:21:22,363 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:24,366 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:26,368 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:28,372 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:30,375 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:32,378 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:34,380 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:35,508 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:21:35,509 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:21:36,383 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:41,684 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:21:41,705 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:21:41,716 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:21:42,392 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:21:44,394 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:46,396 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:48,335 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:21:48,399 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:50,401 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:50,642 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:21:50,643 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:21:52,403 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:54,407 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:56,409 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:21:58,413 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:02,335 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:22:02,356 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:22:02,368 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:22:02,419 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:22:04,423 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:05,754 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:22:05,754 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:22:06,425 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:08,427 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:10,430 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:12,432 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:14,435 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:16,438 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:18,440 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:19,353 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:22:20,887 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:22:20,887 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:22:23,170 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:22:23,186 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:22:23,200 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:22:23,470 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:22:24,472 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:26,475 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:28,478 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:30,481 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:32,483 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:34,485 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:36,055 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:22:36,056 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:22:36,488 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:38,491 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:43,813 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:22:43,833 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:22:43,845 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:22:44,500 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:22:44,501 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:46,504 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:48,507 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:50,397 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:22:50,511 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:51,180 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:22:51,181 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:22:52,513 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:54,527 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:56,530 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:22:58,532 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:04,640 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:23:04,669 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:23:04,690 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:23:05,544 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:23:06,309 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:23:06,309 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:23:07,546 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:09,550 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:11,552 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:13,555 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:15,556 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:17,558 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:19,561 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:21,435 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:23:21,435 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:23:21,556 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:23:21,564 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:25,410 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:23:25,437 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:23:25,451 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:23:25,584 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:23:27,586 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:29,589 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:31,591 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:33,594 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:35,596 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:36,580 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:23:36,581 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:23:37,598 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:39,601 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:41,693 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:46,020 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:23:46,051 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:23:46,065 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:23:46,700 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:23:47,702 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:49,704 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:51,684 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:23:51,685 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:23:51,706 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:52,514 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:23:53,709 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:55,712 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:57,714 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:23:59,717 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:01,721 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:06,599 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:24:06,620 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:24:06,636 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:24:06,733 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:24:06,815 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:24:06,815 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:24:07,734 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:09,736 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:11,740 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:13,743 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:15,746 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:17,748 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:19,750 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:21,753 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:21,958 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:24:21,958 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:24:23,539 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:24:27,410 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:24:27,433 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:24:27,441 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:24:27,762 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:24:29,875 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:31,878 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:33,881 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:35,884 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:37,097 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:24:37,098 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:24:37,887 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:39,888 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:41,891 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:48,140 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:24:48,159 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:24:48,169 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:24:48,901 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:24:49,903 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:51,906 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:52,214 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:24:52,215 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:24:53,908 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:54,542 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:24:55,911 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:57,913 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:24:59,915 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:01,918 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:03,922 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:07,354 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:25:07,354 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:25:08,821 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:25:08,850 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:25:08,865 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:25:08,940 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:25:10,943 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:12,945 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:14,946 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:16,950 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:18,952 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:20,956 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:22,642 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:25:22,643 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:25:22,958 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:24,961 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:25,568 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:25:29,859 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:25:29,886 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:25:29,899 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:25:29,970 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:25:30,972 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:32,974 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:34,977 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:36,980 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:37,754 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:25:37,754 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:25:38,982 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:40,984 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:42,987 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:44,989 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:50,605 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:25:50,619 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:25:50,628 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:25:51,000 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:25:52,872 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:25:52,873 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:25:53,003 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:55,005 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:56,574 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:25:57,007 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:25:59,009 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:01,011 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:03,015 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:05,018 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:07,022 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:08,034 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:26:08,034 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:26:11,500 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:26:11,528 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:26:11,544 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:26:12,029 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:26:13,031 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:15,033 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:17,036 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:19,037 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:21,040 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:23,043 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:23,388 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:26:23,388 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:26:25,045 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:27,049 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:27,575 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:26:32,461 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:26:32,479 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:26:32,487 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:26:33,059 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:26:33,059 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:35,061 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:37,063 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:38,513 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:26:38,513 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:26:39,067 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:41,069 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:43,071 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:45,095 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:47,097 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:52,855 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:26:52,879 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:26:52,890 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:26:53,107 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:26:53,632 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:26:53,632 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:26:56,111 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:58,114 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:26:58,626 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:27:00,116 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:02,119 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:04,121 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:06,125 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:08,128 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:08,767 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:27:08,767 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:27:13,570 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:27:13,595 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:27:13,612 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:27:14,137 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:27:16,147 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:18,150 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:20,151 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:22,154 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:23,925 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:27:23,926 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:27:24,156 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:26,158 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:28,161 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:29,649 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:27:30,164 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:34,285 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:27:34,302 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:27:34,314 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:27:35,171 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:27:36,172 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:38,174 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:39,034 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:27:39,034 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:27:40,177 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:42,180 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:44,182 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:46,185 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:48,207 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:50,210 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:54,204 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:27:54,204 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:27:54,902 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:27:54,925 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:27:54,937 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:27:55,218 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:27:56,219 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:27:58,223 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:00,225 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:00,665 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:28:02,228 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:04,231 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:06,233 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:08,236 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:09,834 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:28:09,834 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:28:10,239 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:15,677 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:28:15,701 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:28:15,719 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:28:16,249 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:28:16,250 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:18,251 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:20,254 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:22,256 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:24,259 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:24,988 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:28:24,989 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:28:26,262 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:28,264 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:30,267 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:31,684 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:28:36,630 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:28:36,653 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:28:36,665 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:28:37,277 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:28:39,280 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:40,101 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:28:40,101 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:28:41,283 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:43,285 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:45,288 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:47,290 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:49,293 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:51,296 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:53,310 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:28:55,229 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:28:55,229 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:28:57,384 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:28:57,406 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:28:57,415 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:28:58,319 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:28:59,320 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:01,324 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:02,684 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:29:03,327 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:05,328 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:07,332 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:09,333 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:10,381 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:29:10,382 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:29:11,337 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:13,339 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:18,211 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:29:18,232 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:29:18,247 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:29:18,345 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:29:19,347 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:21,350 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:23,353 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:25,356 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:25,500 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:29:25,501 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:29:27,360 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:29,363 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:31,365 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:33,368 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:33,698 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:29:39,246 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:29:39,276 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:29:39,292 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:29:39,378 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:29:40,616 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:29:40,616 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:29:41,381 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:43,384 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:45,388 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:47,391 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:49,394 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:51,396 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:53,399 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:55,403 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:29:55,742 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:29:55,742 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:30:00,017 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:30:00,041 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:30:00,052 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:30:00,410 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:30:01,412 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:03,414 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:04,696 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:30:05,417 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:07,419 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:09,421 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:10,893 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:30:10,894 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:30:11,424 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:13,426 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:15,429 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:20,523 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:30:20,558 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:30:20,570 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:30:21,440 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:30:22,441 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:24,445 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:26,008 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:30:26,009 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:30:26,446 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:28,450 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:30,453 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:32,455 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:34,458 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:35,742 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:30:36,461 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:41,261 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:30:41,261 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:30:41,391 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:30:41,408 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:30:41,418 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:30:41,469 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:30:42,471 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:44,473 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:46,477 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:48,479 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:50,482 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:52,485 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:54,486 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:56,490 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:30:56,692 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:30:56,692 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:31:01,909 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:31:01,929 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:31:01,939 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:31:02,499 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:31:04,501 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:06,504 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:06,806 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:31:08,506 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:10,509 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:11,828 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:31:11,828 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:31:12,512 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:14,514 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:16,517 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:22,510 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:31:22,535 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:31:22,552 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:31:22,553 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:31:24,555 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:26,557 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:26,949 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:31:26,949 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:31:28,561 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:30,563 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:32,565 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:34,568 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:36,569 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:37,862 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:31:38,573 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:42,260 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:31:42,260 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:31:43,519 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:31:43,538 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:31:43,547 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:31:43,581 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:31:45,584 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:47,587 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:49,589 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:51,593 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:53,595 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:55,597 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:57,545 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:31:57,545 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:31:57,601 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:31:59,604 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:04,238 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:32:04,266 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:32:04,281 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:32:04,612 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:32:05,612 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:07,616 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:08,873 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:32:09,618 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:11,621 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:12,690 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:32:12,690 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:32:13,624 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:15,626 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:17,630 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:19,633 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:24,916 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:32:24,938 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:32:24,958 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:32:25,642 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:32:25,642 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:27,644 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:27,797 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:32:27,798 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:32:29,689 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:31,691 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:33,694 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:35,696 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:37,698 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:39,701 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:39,878 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:32:43,149 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:32:43,150 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:32:45,972 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:32:45,996 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:32:46,010 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:32:46,713 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:32:47,714 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:49,718 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:51,720 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:53,722 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:55,725 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:57,728 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:32:58,302 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:32:58,303 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:32:59,731 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:01,734 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:06,828 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:33:06,845 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:33:06,857 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:33:07,743 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:33:08,745 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:10,748 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:10,898 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:33:12,752 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:13,428 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:33:13,429 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:33:14,755 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:16,757 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:18,759 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:20,762 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:22,764 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:27,625 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:33:27,653 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:33:27,673 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:33:27,773 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:33:28,557 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:33:28,557 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:33:28,774 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:30,776 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:32,778 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:34,782 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:36,785 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:38,787 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:40,789 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:41,923 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:33:42,792 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:43,672 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:33:43,672 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:33:48,485 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:33:48,503 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:33:48,511 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:33:48,806 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:33:50,808 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:52,811 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:54,814 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:56,815 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:58,818 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:33:58,825 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:33:58,825 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:34:00,822 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:02,824 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:04,827 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:09,119 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:34:09,144 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:34:09,157 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:34:09,834 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:34:10,836 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:12,838 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:12,908 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:34:13,947 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:34:13,947 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:34:14,841 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:16,845 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:18,847 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:20,851 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:22,853 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:24,856 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:29,097 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:34:29,098 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:34:29,769 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:34:29,796 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:34:29,815 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:34:29,865 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:34:30,867 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:32,870 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:35,873 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:37,875 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:39,878 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:41,881 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:43,905 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:43,919 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:34:44,701 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:34:44,701 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:34:45,973 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:51,112 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:34:51,139 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:34:51,151 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:34:51,982 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:34:53,985 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:55,988 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:57,991 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:34:59,842 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:34:59,843 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:34:59,994 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:01,995 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:03,998 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:06,002 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:11,563 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:35:11,589 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:35:11,604 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:35:12,012 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:35:14,014 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:14,939 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:35:14,961 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:35:14,961 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:35:16,018 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:18,021 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:20,024 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:22,026 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:24,028 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:26,031 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:28,034 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:30,074 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:35:30,075 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:35:32,173 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:35:32,199 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:35:32,216 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:35:33,042 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:35:34,043 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:36,047 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:38,050 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:40,052 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:42,054 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:44,057 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:45,226 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:35:45,226 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:35:45,927 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:35:46,061 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:48,064 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:53,126 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:35:53,154 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:35:53,168 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:35:54,073 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:35:54,074 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:56,077 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:35:58,186 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:00,189 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:00,330 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:36:00,330 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:36:02,192 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:04,194 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:06,196 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:08,199 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:14,068 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:36:14,095 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:36:14,112 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:36:14,209 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:36:15,455 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:36:15,455 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:36:16,212 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:16,929 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:36:18,216 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:20,218 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:22,222 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:24,224 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:26,227 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:28,250 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:30,253 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:30,585 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:36:30,586 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:36:34,859 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:36:34,881 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:36:34,895 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:36:35,261 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:36:36,262 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:38,265 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:40,268 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:42,270 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:44,272 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:45,722 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:36:45,723 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:36:46,274 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:47,972 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:36:48,277 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:50,279 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:55,883 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:36:55,905 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:36:55,916 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:36:56,288 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:36:57,290 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:36:59,292 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:00,870 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:37:00,870 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:37:01,295 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:03,297 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:05,299 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:07,303 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:09,305 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:11,309 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:16,223 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:37:16,223 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:37:16,554 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:37:16,573 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:37:16,586 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:37:17,318 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:37:18,949 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:37:19,320 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:21,323 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:23,324 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:25,327 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:27,330 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:29,331 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:31,347 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:31,479 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:37:31,479 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:37:33,350 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:37,311 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:37:37,331 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:37:37,346 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:37:37,356 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:37:39,358 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:41,361 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:43,364 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:45,366 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:46,633 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:37:46,634 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:37:47,369 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:49,372 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:49,966 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:37:51,374 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:53,378 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:37:58,130 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:37:58,158 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:37:58,172 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:37:58,386 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:37:59,388 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:01,391 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:01,745 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:38:01,745 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:38:03,394 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:05,404 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:07,407 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:09,410 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:11,413 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:13,417 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:16,878 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:38:16,878 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:38:18,695 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:38:18,722 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:38:18,739 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:38:19,454 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:38:20,974 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:38:21,457 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:23,460 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:25,461 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:27,464 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:29,467 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:31,469 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:32,267 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:38:32,267 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:38:33,472 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:35,475 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:39,319 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:38:39,350 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:38:39,374 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:38:39,483 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:38:41,486 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:43,489 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:45,491 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:47,399 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:38:47,400 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:38:47,530 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:49,533 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:51,535 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:52,006 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:38:53,539 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:38:55,542 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:00,260 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:39:00,295 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:39:00,305 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:39:00,550 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:39:01,552 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:02,515 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:39:02,515 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:39:04,556 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:06,559 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:08,566 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:10,567 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:12,571 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:14,574 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:16,578 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:17,639 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:39:17,639 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:39:21,007 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:39:21,022 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:39:21,034 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:39:21,586 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:39:22,588 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:23,046 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:39:24,590 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:26,607 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:28,610 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:30,611 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:32,615 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:32,933 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:39:32,934 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:39:34,617 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:36,620 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:41,892 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:39:41,921 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:39:41,942 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:39:42,640 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:39:42,641 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:44,642 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:46,644 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:48,066 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:39:48,066 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:39:48,648 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:50,651 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:52,655 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:54,069 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:39:54,657 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:56,659 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:39:58,662 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:02,898 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:40:02,923 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:40:02,937 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:40:03,247 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:40:03,247 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:40:03,669 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:40:04,671 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:06,673 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:08,676 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:10,679 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:12,681 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:14,683 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:16,685 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:18,527 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:40:18,527 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:40:18,688 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:23,709 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:40:23,734 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:40:23,748 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:40:24,698 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:40:25,129 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:40:25,700 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:27,701 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:29,704 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:31,708 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:33,669 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:40:33,670 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:40:33,711 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:35,715 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:37,717 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:39,720 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:44,404 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:40:44,434 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:40:44,447 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:40:44,729 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:40:45,757 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:47,761 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:48,793 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:40:48,794 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:40:49,763 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:51,767 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:53,769 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:55,771 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:56,122 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:40:57,775 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:40:59,777 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:04,097 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:41:04,097 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:41:05,284 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:41:05,307 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:41:05,316 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:41:05,787 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:41:07,790 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:09,793 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:11,796 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:13,798 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:15,800 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:17,804 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:19,377 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:41:19,377 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:41:19,806 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:21,810 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:26,043 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:41:26,070 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:41:26,083 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:41:26,818 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:41:27,145 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:41:27,820 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:29,823 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:31,826 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:33,828 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:34,515 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:41:34,516 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:41:35,830 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:37,834 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:39,836 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:41,838 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:46,778 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:41:46,808 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:41:46,825 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:41:46,847 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:41:48,849 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:49,644 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:41:49,644 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:41:50,852 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:52,855 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:54,858 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:56,860 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:41:58,197 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:41:58,862 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:42:00,866 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:42:02,869 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:42:04,929 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-01 21:42:04,929 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: stop_status
+2022-02-01 21:42:07,841 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:42:07,868 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:42:07,884 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:42:07,884 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:42:08,016 DEBUG   SenderThread:58212 [sender.py:send():234] send: history
+2022-02-01 21:42:08,025 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:42:08,042 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:42:08,043 DEBUG   SenderThread:58212 [sender.py:send():234] send: config
+2022-02-01 21:42:08,777 DEBUG   SenderThread:58212 [sender.py:send():234] send: telemetry
+2022-02-01 21:42:08,778 DEBUG   SenderThread:58212 [sender.py:send():234] send: exit
+2022-02-01 21:42:08,778 INFO    SenderThread:58212 [sender.py:send_exit():366] handling exit code: 0
+2022-02-01 21:42:08,779 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:08,779 INFO    SenderThread:58212 [sender.py:send_exit():368] handling runtime: 1466
+2022-02-01 21:42:08,790 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:42:08,791 INFO    SenderThread:58212 [sender.py:send_exit():374] send defer
+2022-02-01 21:42:08,791 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:08,792 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:08,792 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-01 21:42:08,793 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:08,793 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-01 21:42:08,793 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 1
+2022-02-01 21:42:08,793 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:08,794 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-01 21:42:08,892 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:08,893 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-01 21:42:08,893 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 2
+2022-02-01 21:42:08,894 DEBUG   SenderThread:58212 [sender.py:send():234] send: stats
+2022-02-01 21:42:08,895 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:08,895 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-01 21:42:08,896 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:08,896 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-01 21:42:08,896 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 3
+2022-02-01 21:42:08,897 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:08,897 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-01 21:42:08,907 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:42:08,907 DEBUG   SenderThread:58212 [sender.py:send():234] send: summary
+2022-02-01 21:42:08,907 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:08,914 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:42:08,925 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\code\_session_history.ipynb
+2022-02-01 21:42:08,927 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\code
+2022-02-01 21:42:08,927 INFO    SenderThread:58212 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-01 21:42:08,928 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:08,928 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-01 21:42:08,928 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 4
+2022-02-01 21:42:08,929 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:08,929 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:08,929 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-01 21:42:08,930 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:08,930 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-01 21:42:09,031 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:09,068 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 5
+2022-02-01 21:42:09,069 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:09,070 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:09,070 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-01 21:42:09,070 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:09,070 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-01 21:42:09,071 INFO    SenderThread:58212 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-01 21:42:09,171 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:09,899 INFO    Thread-8  :58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:42:09,901 INFO    SenderThread:58212 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\config.yaml
+2022-02-01 21:42:09,902 INFO    SenderThread:58212 [dir_watcher.py:finish():313] scan: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files
+2022-02-01 21:42:09,902 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\conda-environment.yaml conda-environment.yaml
+2022-02-01 21:42:09,903 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\config.yaml config.yaml
+2022-02-01 21:42:09,904 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log output.log
+2022-02-01 21:42:09,918 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\requirements.txt requirements.txt
+2022-02-01 21:42:09,919 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-metadata.json wandb-metadata.json
+2022-02-01 21:42:09,925 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json wandb-summary.json
+2022-02-01 21:42:09,935 INFO    SenderThread:58212 [dir_watcher.py:finish():327] scan save: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\code\_session_history.ipynb code\_session_history.ipynb
+2022-02-01 21:42:09,942 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 6
+2022-02-01 21:42:09,943 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:09,951 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:09,951 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-01 21:42:09,951 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:09,952 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-01 21:42:09,952 INFO    SenderThread:58212 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-01 21:42:10,048 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,048 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,151 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,151 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,255 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,256 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,335 INFO    Thread-12 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\conda-environment.yaml
+2022-02-01 21:42:10,357 INFO    Thread-15 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\requirements.txt
+2022-02-01 21:42:10,360 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,361 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,364 INFO    Thread-13 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\config.yaml
+2022-02-01 21:42:10,378 INFO    Thread-17 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\code\_session_history.ipynb
+2022-02-01 21:42:10,388 INFO    Thread-14 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\output.log
+2022-02-01 21:42:10,405 INFO    Thread-16 :58212 [upload_job.py:push():137] Uploaded file C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\files\wandb-summary.json
+2022-02-01 21:42:10,464 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,464 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,567 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:10,567 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:10,608 INFO    Thread-7  :58212 [sender.py:transition_state():387] send defer: 7
+2022-02-01 21:42:10,608 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:10,609 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-01 21:42:10,609 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:10,609 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-01 21:42:10,670 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:11,060 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 8
+2022-02-01 21:42:11,060 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:11,061 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:11,061 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-01 21:42:11,061 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:11,062 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-01 21:42:11,062 INFO    SenderThread:58212 [sender.py:transition_state():387] send defer: 9
+2022-02-01 21:42:11,063 DEBUG   SenderThread:58212 [sender.py:send():234] send: final
+2022-02-01 21:42:11,063 DEBUG   SenderThread:58212 [sender.py:send():234] send: footer
+2022-02-01 21:42:11,064 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: defer
+2022-02-01 21:42:11,064 INFO    HandlerThread:58212 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-01 21:42:11,064 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: defer
+2022-02-01 21:42:11,064 INFO    SenderThread:58212 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-01 21:42:11,162 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-01 21:42:11,195 DEBUG   SenderThread:58212 [sender.py:send_request():248] send_request: poll_exit
+2022-02-01 21:42:11,196 INFO    SenderThread:58212 [file_pusher.py:join():182] waiting for file pusher
+2022-02-01 21:42:11,426 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-01 21:42:11,441 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-01 21:42:11,444 DEBUG   HandlerThread:58212 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-01 21:42:11,444 INFO    HandlerThread:58212 [handler.py:finish():731] shutting down handler
+2022-02-01 21:42:12,064 INFO    WriterThread:58212 [datastore.py:close():281] close: C:\Users\aar245\Desktop\privacy_preserving_nn\src_2\wandb\run-20220201_211740-3hu3xhty\run-3hu3xhty.wandb
+2022-02-01 21:42:12,424 INFO    SenderThread:58212 [sender.py:finish():1070] shutting down sender
+2022-02-01 21:42:12,424 INFO    SenderThread:58212 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-01 21:42:12,424 INFO    SenderThread:58212 [file_pusher.py:join():182] waiting for file pusher
+2022-02-01 21:42:12,428 INFO    MainThread:58212 [internal.py:handle_exit():77] Internal process exited

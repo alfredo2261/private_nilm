@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-01T21:11:08.725159",
+    "startedAt": "2022-02-01T21:11:06.536819",
+    "docker": null,
+    "gpu": "Quadro P4000",
+    "gpu_count": 1,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\aar245\\AppData\\Roaming\\jupyter\\runtime\\kernel-9e23fb68-090c-4745-9795-d16525f585cb.json"
+    ],
+    "state": "running",
+    "program": "Desktop/privacy_preserving_nn/src_2/main.ipynb",
+    "root": "C:\\Users\\aar245",
+    "host": "en-ma-eerl",
+    "username": "aar245",
+    "executable": "C:\\Users\\aar245\\Anaconda3\\envs\\privacy_ml_env\\python.exe"
+}

@@ -1,0 +1,16 @@
+LSTM(
+  (conv1): Conv1d(1, 16, kernel_size=(7,), stride=(1,), padding=(3,))
+  (lstm1): LSTM(16, 64, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(128, 85, batch_first=True, bidirectional=True)
+  (attention): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=170, out_features=170, bias=True)
+  )
+  (linear1): Linear(in_features=170, out_features=211, bias=True)
+  (linear2): Linear(in_features=211, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (maxpool): MaxPool1d(kernel_size=5, stride=1, padding=2, dilation=1, ceil_mode=False)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+Window Length:  136
+Adjusting learning rate of group 0 to 3.3181e-05.
