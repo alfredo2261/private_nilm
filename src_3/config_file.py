@@ -1,4 +1,4 @@
-path = r"C:\Users\aar245\Desktop\privacy_preserving_nn\input\1min_real_sept_oct_nov2019.csv"
+path = "/home/Alfredo/input/1min_real_sept_oct_nov2019.csv"
 
 def load_hyperparameters(appliance):
 

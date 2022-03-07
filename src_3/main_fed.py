@@ -60,7 +60,7 @@ def server_aggregate(global_model, client_models):
 
 def model_pipeline(hyperparameters, train_months, test_month, appliance, window_length, train_buildings,
                    test_buildings, patience):
-    with wandb.init(project="jan27_FL_trials", config=hyperparameters):
+    with wandb.init(project="march7_FL_trials", config=hyperparameters):
         wandb.run.name = str(config_['appliance']) + "_Test:" + str(test_buildings) + "_Train:" + str(train_buildings)
 
         config = wandb.config
@@ -171,7 +171,7 @@ home_ids = homes.dataid.unique()
 
 home_ids_train = [x for x in home_ids if x!=3383]
 
-PATH = r"C:\Users\aar245\Desktop\privacy_preserving_nn\models_power_ratio_filter"
+PATH = "/home/Alfredo/private_nilm/models_power_ratio_filter_with_fl"
 
 final_results = {}
 random.seed(3)
