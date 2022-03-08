@@ -201,7 +201,7 @@ for i in home_ids_train:
         testing_homes,
         patience)
     global_models.append(global_model)
-    result = {"Train_home_" + str(train_homes) + "_Test_home_" + str(test_homes): test_results}
+    result = {"Train_home_" + str(training_homes) + "_Test_home_" + str(testing_homes): test_results}
     final_results.update(result)
     print(final_results)
     global_model.cpu()
