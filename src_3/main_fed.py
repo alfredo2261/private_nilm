@@ -179,12 +179,12 @@ final_results = {}
 random.seed(3)
 global_models = []
 best_models = []
-training_homes = [3383]
+training_homes = list(home_ids)
 
-for i in home_ids_train:
+for i in range(1):
     gc.collect()
     torch.cuda.empty_cache()
-    training_homes.append(i)
+    #training_homes.append(i)
     testing_homes = [3383]
 
     patience = 20
