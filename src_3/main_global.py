@@ -110,7 +110,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
     return model, results, best_model
 
-#home_ids = homes.dataid.unique()
+home_ids = homes.dataid.unique()
 
 #home_ids_train = [x for x in home_ids if x!=3383]
 
@@ -122,15 +122,16 @@ train_homes = []
 best_models = []
 max_patience = 200
 min_patience = 50
-training_homes = [10811]
+#training_homes = [10811]
 
-for i in range(1):
+for i in home_ids:
     gc.collect()
     torch.cuda.empty_cache()
     #training_homes=[3383]
     #training_homes.append(i)
     #training_homes = train_homes_from_fl[-1]
-    testing_homes = [10811]
+    training_homes = [i]
+    testing_homes = [i]
     #testing_homes = [test_homes_from_fl[-1]]
     #patience = int((max_patience-min_patience)/(1-random_select[-1])*len(training_homes)+max_patience+(max_patience-min_patience)/(1-random_select[-1]))
     patience = 20
@@ -154,4 +155,4 @@ for i in range(1):
     best_model.cpu()
     model.cpu()
     best_models.append(best_model)
-    torch.save(best_model.state_dict(), PATH+"\\seq2point_global_refrigerator_model_[10811]test_train"+str(training_homes)+"_trial1.pth")
+    torch.save(best_model.state_dict(), PATH+"\\seq2point_global_refrigerator_model_"+str(testing_homes)+"test_train"+str(training_homes)+"_trial1.pth")
