@@ -1,0 +1,24 @@
+{
+    "os": "Linux-3.10.0-1160.53.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-03-07T20:58:18.400188",
+    "startedAt": "2022-03-07T20:58:17.877558",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "cpu_count": 128,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/Alfredo/private_nilm/src_3/main_fed.py",
+    "codePath": "src_3/main_fed.py",
+    "git": {
+        "remote": "https://github.com/alfredo2261/private_nilm.git",
+        "commit": "845da07844d85961bc6c79c963ad51015a06c832"
+    },
+    "email": null,
+    "root": "/home/Alfredo/private_nilm",
+    "host": "en-ma-eerl3.mae.cornell.edu",
+    "username": "Alfredo",
+    "executable": "/home/Alfredo/anaconda3/envs/private_nn_env/bin/python"
+}
