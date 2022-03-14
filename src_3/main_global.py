@@ -86,7 +86,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             train_buildings
         )
 
-        model, example_ct, batch_ct, all_epochs, best_model = train(
+        model, example_ct, batch_ct, all_epochs, best_model, train_results = train(
             model,
             train_loader,
             validation_loader,
@@ -106,9 +106,9 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
         print("Time to train on one home: ", time.time() - time_log)
 
-        results = test(best_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean)
+        test_results = test(best_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean)
 
-    return model, results, best_model
+    return model, train_results, test_results, best_model
 
 home_ids = homes.dataid.unique()
 
@@ -116,7 +116,8 @@ home_ids = homes.dataid.unique()
 
 PATH = "/home/Alfredo/private_nilm/models_power_ratio_filter_global"
 
-final_results = {}
+final_test_results = {}
+final_train_results = {}
 random.seed(3)
 train_homes = []
 best_models = []
@@ -138,7 +139,7 @@ for i in home_ids:
     print("patience: ", patience)
     print("training_home: ", training_homes)
     print("test_home: ", testing_homes)
-    model, per_house_result, best_model = model_pipeline(
+    model, train_results, test_results, best_model = model_pipeline(
     config_,
     'sept_oct_nov',
     'dec',
@@ -147,12 +148,16 @@ for i in home_ids:
     training_homes,
     testing_homes,
     patience)
-    result = {str(config_["appliance"])+"_Train_home_"+str(training_homes)+"_Test_home_"+str(testing_homes)+"_total_homes_"+str(1): per_house_result}
-    final_results.update(result)
-    print(final_results)
+    test_results = {str(config_["appliance"])+"_Train_home_"+str(training_homes)+"_Test_home_"+str(testing_homes)+"_test_results": test_results}
+    train_results = {str(config_["appliance"]) + "_Train_home_" + str(training_homes) + "_Test_home_" + str(
+        testing_homes) + "_train_results": train_results}
+    final_test_results.update(test_results)
+    final_train_results.update(train_results)
+    print(final_train_results)
+    print(final_test_results)
     #model.cpu()
     #torch.save(model.state_dict(), PATH+"\\refrigerator_model_total_houses_"+str(random_select[i])+"_trial_3.pth")
     best_model.cpu()
     model.cpu()
     best_models.append(best_model)
-    torch.save(best_model.state_dict(), PATH+"\\seq2point_global_refrigerator_model_"+str(testing_homes)+"test_train"+str(training_homes)+"_trial1.pth")
+    torch.save(best_model.state_dict(), PATH+"seq2point_global_refrigerator_model_"+str(testing_homes)+"test_train"+str(training_homes)+"_trial1.pth")
