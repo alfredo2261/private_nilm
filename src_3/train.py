@@ -174,6 +174,16 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
             'Validation_MSE': val_mse}, #good
             step=all_epochs)
 
+        train_results = [
+            epoch_total_loss / batch_number,
+            epoch_r2,
+            f1_score(epoch_precision, epoch_recall),
+            epoch_abs_diff / epoch_true_sum,
+            epoch_squ_diff / epoch_squ_sum,
+            epoch_abs_diff / train_examples,
+            epoch_mse
+        ]
+
         # Early stopping
         current_loss = val_abs_diff / val_examples
         if current_loss > the_last_loss:
@@ -183,7 +193,7 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
            if trigger_times >= patience:
                print('Early stopping!\nStart to test process.')
                print(f"Loss after " + str(example_ct).zfill(5) + f" batches: {epoch_total_loss/batch_number:.4f}")
-               return model, example_ct, batch_ct, all_epochs, best_model
+               return model, example_ct, batch_ct, all_epochs, best_model, train_results
 
         else:
            print('trigger times: 0')
@@ -194,7 +204,7 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
         # based on local minimum validation MAE achieved
         #the_last_loss = current_loss
         print(f"Loss after " + str(example_ct).zfill(5) + f" batches: {epoch_total_loss/batch_number:.4f}")
-    return model, example_ct, batch_ct, all_epochs, best_model
+    return model, example_ct, batch_ct, all_epochs, best_model, train_results
 
 
 def train_batch(features, labels, model, optimizer, criterion):
