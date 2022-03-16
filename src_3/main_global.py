@@ -36,7 +36,7 @@ homes = load_all_houses_with_device(config_file.path, config_['appliance'])
 
 def model_pipeline(hyperparameters, train_months, test_month, appliance, window_length, train_buildings,
                    test_buildings, patience):
-    with wandb.init(project="global_models_march14", config=hyperparameters):
+    with wandb.init(project="global_models_feb10", config=hyperparameters):
         wandb.run.name = str(config_['appliance']) + "_Test:" + str(test_buildings) + "_Train:" + str(train_buildings)
 
         config = wandb.config
@@ -55,7 +55,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         all_epochs = 0
 
         # Scheduler for training on single building
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.95, verbose=True)
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=1, verbose=True)
 
         # base_lr: 0.001*lr, max_lr: 4*lr, step_size_up:50, step_size_down:2000
         #         scheduler = torch.optim.lr_scheduler.CyclicLR(
@@ -125,17 +125,17 @@ max_patience = 200
 min_patience = 50
 #training_homes = [10811]
 
-for i in home_ids:
+for i in range(1):
     gc.collect()
     torch.cuda.empty_cache()
     #training_homes=[3383]
     #training_homes.append(i)
     #training_homes = train_homes_from_fl[-1]
-    training_homes = [i]
-    testing_homes = [i]
+    training_homes = [3383, 145]
+    testing_homes = [3383]
     #testing_homes = [test_homes_from_fl[-1]]
     #patience = int((max_patience-min_patience)/(1-random_select[-1])*len(training_homes)+max_patience+(max_patience-min_patience)/(1-random_select[-1]))
-    patience = 20
+    patience = 350
     print("patience: ", patience)
     print("training_home: ", training_homes)
     print("test_home: ", testing_homes)
