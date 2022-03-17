@@ -52,9 +52,9 @@ def train(model, loader, validation_loader, criterion, optimizer, config, exampl
             batch_ct += 1
             batch_number += 1
             #When using cyclicLR
-            scheduler.step()
+            #scheduler.step()
         #When using stepLR
-        #scheduler.step()
+        scheduler.step()
 
         # validation process
         model.eval()

@@ -55,19 +55,19 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         all_epochs = 0
 
         # Scheduler for training on single building
-        #scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=1, verbose=True)
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=1, verbose=True)
 
-        #base_lr: 0.001*lr, max_lr: 4*lr, step_size_up:50, step_size_down:2000
-        scheduler = torch.optim.lr_scheduler.CyclicLR(
-            optimizer,
-            base_lr = 0.99999999999999999999999*config_['learning_rate'], #0.01
-            max_lr = config_['learning_rate'], #1
-            step_size_up = 1, #200
-            step_size_down = 1, #1000
-            gamma = 1, #1
-            cycle_momentum=False,
-            verbose=False
-        )
+        # #base_lr: 0.001*lr, max_lr: 4*lr, step_size_up:50, step_size_down:2000
+        # scheduler = torch.optim.lr_scheduler.CyclicLR(
+        #     optimizer,
+        #     base_lr = 0.99999999999999999999999*config_['learning_rate'], #0.01
+        #     max_lr = config_['learning_rate'], #1
+        #     step_size_up = 1, #200
+        #     step_size_down = 1, #1000
+        #     gamma = 1, #1
+        #     cycle_momentum=False,
+        #     verbose=False
+        # )
 
         validation_loader, test_loader, test_val_seq_std, test_val_seq_mean = make_test_val_data(
             config,
