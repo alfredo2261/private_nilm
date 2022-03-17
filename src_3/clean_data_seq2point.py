@@ -296,7 +296,17 @@ def synthetic_data(data, ratio, threshold):
 def create_activations(path, appliance, window_length, buildings):
     data = load_all_houses_with_device(path, appliance)
     data = [data.loc[data['dataid'] == i] for i in buildings]
-    data = pd.concat(data)
+
+    x_sets = []
+    y_sets = []
+    for i in data:
+        x_sets.append(split_data(normalize_x(i['net_power'].values), window_length))
+        y_sets.append(i['appliance_power'].values)
+
+    x_data = [i for subset in x_sets for i in subset]
+    y_data = [i for subset in y_sets for i in subset]
+
+    #data = pd.concat(data)
     # x_data = []
     # y_data = []
     # for home in buildings:
@@ -307,12 +317,12 @@ def create_activations(path, appliance, window_length, buildings):
     # x_data = [i for subitem in x_data for i in subitem]
     # y_data = [i for subitem in y_data for i in subitem]
 
-    y_data = data['appliance_power'].values
+    #y_data = data['appliance_power'].values
     y_data, std, y_mean = normalize_y(y_data)
     y_data = np.reshape(y_data, (-1,1))
 
-    x_data = data['net_power'].values
-    x_data = normalize_x(x_data)
-    x_data = split_data(x_data, window_length)
+    #x_data = data['net_power'].values
+    #x_data = normalize_x(x_data)
+    #x_data = split_data(x_data, window_length)
 
     return np.array(x_data, dtype=np.float32), np.array(y_data, dtype=np.float32), np.array(std, dtype=np.float32), np.array(y_mean, dtype=np.float32)
