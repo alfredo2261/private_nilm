@@ -60,10 +60,10 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         #base_lr: 0.001*lr, max_lr: 4*lr, step_size_up:50, step_size_down:2000
         scheduler = torch.optim.lr_scheduler.CyclicLR(
             optimizer,
-            base_lr = 0.95*config_['learning_rate'], #0.01
+            base_lr = 0.99999999999999999999999*config_['learning_rate'], #0.01
             max_lr = config_['learning_rate'], #1
-            #step_size_up = 10000, #200
-            #step_size_down = 10000, #1000
+            step_size_up = 1, #200
+            step_size_down = 1, #1000
             gamma = 1, #1
             cycle_momentum=False,
             verbose=False
