@@ -124,25 +124,25 @@ best_models = []
 max_patience = 200
 min_patience = 50
 #training_homes = [10811]
-
-for i in range(1):
+#
+for i in home_ids:
     gc.collect()
     torch.cuda.empty_cache()
     #training_homes=[3383]
     #training_homes.append(i)
     #training_homes = train_homes_from_fl[-1]
-    training_homes = [3383, 145]
-    testing_homes = [3383]
+    training_homes = [i]
+    testing_homes = [i]
     #testing_homes = [test_homes_from_fl[-1]]
     #patience = int((max_patience-min_patience)/(1-random_select[-1])*len(training_homes)+max_patience+(max_patience-min_patience)/(1-random_select[-1]))
-    patience = 350
+    patience = 50
     print("patience: ", patience)
     print("training_home: ", training_homes)
     print("test_home: ", testing_homes)
     model, train_results, test_results, best_model = model_pipeline(
     config_,
     'sept_oct_nov',
-    'dec',
+    'dec1thru20_',
     config_['appliance'],
     config_['window_size'],
     training_homes,
@@ -160,4 +160,4 @@ for i in range(1):
     best_model.cpu()
     model.cpu()
     best_models.append(best_model)
-    torch.save(best_model.state_dict(), PATH+"seq2point_global_refrigerator_model_"+str(testing_homes)+"test_train"+str(training_homes)+"_trial1.pth")
+    torch.save(best_model.state_dict(), PATH+"seq2point_global_refrigerator_model_"+str(testing_homes)+"test_train"+str(training_homes)+"_trial2.pth")
