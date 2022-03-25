@@ -71,6 +71,7 @@ def load_all_houses_with_device(path, appliance):
         cap = 800
     if appliance == 'refrigerator1':
         cap = 2000
+        remove = [984]
 
         #removing top 20 in terms of power ratio
         #remove = [145, 183, 335, 387, 526, 1417, 2358, 3383, 4628, 6240, 6526, 6672, 7021, 7069, 7365, 9004, 10554, 10811, 10983, 11878]
