@@ -76,7 +76,7 @@ def make_test_val_data(config, test_data, appliance, window_length, test_buildin
     #validation_dataset = random.sample(list(test_validation_dataset), num_examples)
     #test_dataset = random.sample(list(test_validation_dataset), num_examples)
 
-    validation_dataset = test_validation_dataset[round(0.8*len(test_validation_dataset)):0.9*len(test_validation_dataset)]
+    validation_dataset = test_validation_dataset[round(0.8*len(test_validation_dataset)):round(0.9*len(test_validation_dataset))]
     validation_dataset = PecanSlice(validation_dataset[0], validation_dataset[1])
     #validation_dataset = np.array([(validation_dataset[0][i], validation_dataset[1][i]) for i in range(len(validation_dataset[0]))])
     test_dataset = test_validation_dataset[round(0.9*len(test_validation_dataset)):]
