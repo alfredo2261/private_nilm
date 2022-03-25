@@ -347,5 +347,6 @@ def create_activations(path, appliance, window_length, buildings):
 
     x_data = [item for subitem in shuffled_x for item in subitem]
     y_data = [item for subitem in shuffled_y for item in subitem]
+    y_data = np.reshape(y_data, (-1,1))
 
     return np.array(x_data, dtype=np.float32), np.array(y_data, dtype=np.float32), np.array(std, dtype=np.float32), np.array(y_mean, dtype=np.float32)
