@@ -52,9 +52,12 @@ def make_train_data(config, train_data, appliance, window_length, train_building
     train_seq_std = train_dataset.y_std
     train_seq_mean = train_dataset.y_mean
 
+    train_dataset = train_dataset[0:round(0.8*len(train_dataset))]
+    train_dataset = PecanSlice(train_dataset[0], train_dataset[1])
+
     train_loader = DataLoader(dataset=train_dataset,
                               batch_size=config.batch_size,
-                              shuffle=True,
+                              shuffle=False,
                               num_workers=0)
 
     return train_loader, train_seq_std, train_seq_mean
@@ -73,10 +76,10 @@ def make_test_val_data(config, test_data, appliance, window_length, test_buildin
     #validation_dataset = random.sample(list(test_validation_dataset), num_examples)
     #test_dataset = random.sample(list(test_validation_dataset), num_examples)
 
-    validation_dataset = test_validation_dataset[0:round(0.5*len(test_validation_dataset))]
+    validation_dataset = test_validation_dataset[round(0.8*len(test_validation_dataset)):0.9*len(test_validation_dataset)]
     validation_dataset = PecanSlice(validation_dataset[0], validation_dataset[1])
     #validation_dataset = np.array([(validation_dataset[0][i], validation_dataset[1][i]) for i in range(len(validation_dataset[0]))])
-    test_dataset = test_validation_dataset[round(0.5*len(test_validation_dataset)):]
+    test_dataset = test_validation_dataset[round(0.9*len(test_validation_dataset)):]
     #test_dataset = np.array([(test_dataset[0][i], test_dataset[1][i]) for i in range(len(test_dataset[0]))])
     test_dataset = PecanSlice(test_dataset[0], test_dataset[1])
     validation_loader = DataLoader(dataset=validation_dataset,
