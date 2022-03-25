@@ -3,6 +3,7 @@ import pandas as pd
 import random
 import time
 from scipy import stats
+from datetime import timedelta
 
 
 def floor_outliers(df, cap):
@@ -11,12 +12,14 @@ def floor_outliers(df, cap):
 
 
 def load_all_houses_with_device(path, appliance):
-    df = pd.read_csv(path, usecols=['dataid', 'grid', 'solar', 'solar2', str(appliance)])
+    df = pd.read_csv(path, usecols=['dataid', 'localminute', 'grid', 'solar', 'solar2', str(appliance)])
+    df['localminute'] = pd.to_datetime(df['localminute'])
     df = df.fillna(0)
+    df = df.set_index(['localminute'])
     grouped = df[['dataid', str(appliance)]].groupby(df.dataid).sum()
     house_ids = grouped[grouped[str(appliance)] > 0].dataid.index.unique()
     df = df[df.dataid.isin(house_ids)]
-    df = df.reset_index(drop=True)
+    #df = df.reset_index(drop=True)
 
     df['net_power'] = df.grid + df.solar + df.solar2
     df['net_power'] = np.clip(df['net_power']*1000, a_min=0, a_max=None)
@@ -189,6 +192,17 @@ def normalize_y(y_sequence):
     return (y_sequence-y_mean)/std, std, y_mean
 
 
+# def normalize_y(y_sequence):
+#     temp_y = [item for subitem in y_sequence for item in subitem]
+#     std = np.std(temp_y)
+#     y_mean = np.mean(temp_y)
+#     # y_sequence = np.log(np.add(y_sequence, 1))
+#     # sequence_min = np.min(y_sequence)
+#     # sequence_max = np.max(y_sequence)
+#     # output = (y_sequence - sequence_min) / (sequence_max - sequence_min)
+#     return [item for subitem in (y_sequence-y_mean)/std for item in subitem], std, y_mean
+
+
 def add_padding(data, window_length):
     padding = np.zeros(int(window_length/2))
     data = np.append(data, padding)
@@ -202,7 +216,7 @@ def split_data(data, window_length):
     data_splits = []
     for i in range(steps+1):
         data_splits.append(data[i:window_length+i])
-    return data_splits
+    return list(data_splits)
 
 
 def synthetic_data(data, ratio, threshold):
@@ -300,29 +314,37 @@ def create_activations(path, appliance, window_length, buildings):
     x_sets = []
     y_sets = []
     for i in data:
-        x_sets.append(split_data(normalize_x(i['net_power'].values), window_length))
-        y_sets.append(i['appliance_power'].values)
+        i = i.loc[~i.index.duplicated(), :]
+        unique_days = i.index.map(lambda t: t.date()).unique()
+        i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+        for j in unique_days[0:-1]:
+            start_date = j.strftime("%Y-%m-%d")
+            end_date = (j + timedelta(days = 1)).strftime("%Y-%m-%d")
+            day_data = i.loc[(i.index >= start_date) & (i.index < end_date)]
+            X_padded = []
+            for sequence in day_data.net_power:
+                X_padded.append(list(sequence))
+            if len(X_padded) == 1440:
+                x_sets.append(X_padded)
+                y_sets.append(day_data.appliance_power)
 
-    x_data = [i for subset in x_sets for i in subset]
     y_data = [i for subset in y_sets for i in subset]
 
-    #data = pd.concat(data)
-    # x_data = []
-    # y_data = []
-    # for home in buildings:
-    #     all_data = (synthetic_data(data.loc[data.dataid==home], 0.5, 25))
-    #     x_data.append(all_data[0])
-    #     y_data.append(all_data[1])
-    #
-    # x_data = [i for subitem in x_data for i in subitem]
-    # y_data = [i for subitem in y_data for i in subitem]
+    y_data, std, y_mean = normalize_y(y_sets)
+    y_data = np.reshape(y_data, (-1,1440))
+    x_data = np.array(x_sets, dtype=np.float32)
+    y_data = np.array(y_data, dtype=np.float32)
 
-    #y_data = data['appliance_power'].values
-    y_data, std, y_mean = normalize_y(y_data)
-    y_data = np.reshape(y_data, (-1,1))
+    examples = list(zip(x_data, y_data))
+    random.shuffle(examples)
 
-    #x_data = data['net_power'].values
-    #x_data = normalize_x(x_data)
-    #x_data = split_data(x_data, window_length)
+    shuffled_x = []
+    shuffled_y = []
+    for i in examples:
+        shuffled_x.append(i[0])
+        shuffled_y.append(i[1])
+
+    x_data = [item for subitem in shuffled_x for item in subitem]
+    y_data = [item for subitem in shuffled_y for item in subitem]
 
     return np.array(x_data, dtype=np.float32), np.array(y_data, dtype=np.float32), np.array(std, dtype=np.float32), np.array(y_mean, dtype=np.float32)
