@@ -36,7 +36,7 @@ homes = load_all_houses_with_device(config_file.path, config_['appliance'])
 
 def model_pipeline(hyperparameters, train_months, test_month, appliance, window_length, train_buildings,
                    test_buildings, patience):
-    with wandb.init(project="global_models_feb10", config=hyperparameters):
+    with wandb.init(project="global_models_march25", config=hyperparameters):
         wandb.run.name = str(config_['appliance']) + "_Test:" + str(test_buildings) + "_Train:" + str(train_buildings)
 
         config = wandb.config
