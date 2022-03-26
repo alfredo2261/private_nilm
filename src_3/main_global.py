@@ -112,7 +112,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
 home_ids = homes.dataid.unique()
 
-#home_ids_train = [x for x in home_ids if x!=3383]
+home_ids_train = [x for x in home_ids if x!=3383]
 
 PATH = "/home/Alfredo/private_nilm/models_power_ratio_filter_global"
 
@@ -123,17 +123,14 @@ train_homes = []
 best_models = []
 max_patience = 200
 min_patience = 50
-#training_homes = [10811]
+training_homes = [3383]
 #
-for i in home_ids:
+for i in home_ids_train:
     gc.collect()
     torch.cuda.empty_cache()
-    #training_homes=[3383]
-    #training_homes.append(i)
+    training_homes.append(i)
     #training_homes = train_homes_from_fl[-1]
-    training_homes = [i]
-    testing_homes = [i]
-    #testing_homes = [test_homes_from_fl[-1]]
+    testing_homes = [3383]
     #patience = int((max_patience-min_patience)/(1-random_select[-1])*len(training_homes)+max_patience+(max_patience-min_patience)/(1-random_select[-1]))
     patience = 50
     print("patience: ", patience)
