@@ -139,8 +139,8 @@ for i in range(1):
     print("test_home: ", testing_homes)
     model, train_results, test_results, best_model = model_pipeline(
     config_,
-    'sept_oct_nov_dec',
-    'sept_oct_nov_dec',
+    'sept_oct_nov',
+    'sept_oct_nov',
     config_['appliance'],
     config_['window_size'],
     training_homes,
