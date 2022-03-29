@@ -1,4 +1,4 @@
-path = "/home/Alfredo/input/1min_real_sept_oct_nov2019.csv"
+path = "/home/Alfredo/input/1min_real_sept_oct_nov_dec2019.csv"
 
 def load_hyperparameters(appliance):
 
