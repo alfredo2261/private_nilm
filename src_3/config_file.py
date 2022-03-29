@@ -18,7 +18,7 @@ def load_hyperparameters(appliance):
             weight_decay=0,
             #weight_decay=0.08044407443013193,
             #window_size=136
-            window_size=499
+            window_size=250
         )
 
     if str(appliance) == "drye1":
