@@ -1,12 +1,13 @@
 path = "/home/Alfredo/input/1min_real_sept_oct_nov_dec2019.csv"
+#path_2 = "/Users/alfredorodriguez/Desktop/input/1min_real_sept_oct_nov2019.csv"
 
 def load_hyperparameters(appliance):
 
     if str(appliance) == "refrigerator1":
         config = dict(
             appliance=str(appliance),
-            epochs=2000,
-            batch_size=2500,
+            epochs=2,
+            batch_size=128,
             learning_rate=3.3180899699083407e-04,#e-06,
             in_channels=1,
             out_channels=16,
