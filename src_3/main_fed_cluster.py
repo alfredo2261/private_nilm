@@ -36,7 +36,7 @@ config_ = config_file.load_hyperparameters("refrigerator1")
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-homes = load_all_houses_with_device(config_file.path_2, config_['appliance'])
+homes = load_all_houses_with_device(config_file.path, config_['appliance'])
 
 def client_update(client_model, optimizer, train_loader, epoch=config_['epochs']):
     model.train()
