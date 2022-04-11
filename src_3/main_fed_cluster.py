@@ -177,7 +177,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
     return train_results, test_results, global_model
 
-home_ids = homes.dataid.unique()
+home_ids = homes.dataid.unique()[0:4]
 
 home_ids_train = [x for x in home_ids if x!=3383]
 
