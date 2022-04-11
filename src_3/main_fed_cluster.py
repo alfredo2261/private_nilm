@@ -34,7 +34,7 @@ print(torch.__version__)
 
 config_ = config_file.load_hyperparameters("refrigerator1")
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 homes = load_all_houses_with_device(config_file.path, config_['appliance'])
 
