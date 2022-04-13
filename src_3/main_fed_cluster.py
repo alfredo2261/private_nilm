@@ -21,6 +21,7 @@ from scipy import stats
 from matplotlib.lines import Line2D
 import matplotlib.transforms
 import copy
+from sklearn.cluster import AgglomerativeClustering
 
 wandb.login()
 
@@ -38,6 +39,16 @@ device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 homes = load_all_houses_with_device(config_file.path, config_['appliance'])
 
+
+class ExperimentLogger:
+    def log(self, values):
+        for k, v in values.items():
+            if k not in self.__dict__:
+                self.__dict__[k] = [v]
+            else:
+                self.__dict__[k] += [v]
+
+
 def client_update(client_model, optimizer, train_loader, epoch=config_['epochs']):
     model.train()
     for e in range(epoch):
@@ -50,6 +61,7 @@ def client_update(client_model, optimizer, train_loader, epoch=config_['epochs']
             optimizer.step()
     return float(loss.item())
 
+
 def server_aggregate(global_model, client_models):
     global_dict = global_model.state_dict()
     for k in global_dict.keys():
@@ -57,6 +69,30 @@ def server_aggregate(global_model, client_models):
     global_model.load_state_dict(global_dict)
     for model in client_models:
         model.load_state_dict(global_model.state_dict())
+
+
+def aggregate_clusterwise(global_model, client_clusters):
+    for i in range(len(client_clusters)):
+        server_aggregate(global_model, client_clusters[i])
+
+
+def cluster_clients(S):
+    clustering = AgglomerativeClustering(affinity="precomputed", linkage="complete").fit(-S)
+
+    c1 = np.argwhere(clustering.labels_ == 0).flatten() 
+    c2 = np.argwhere(clustering.labels_ == 1).flatten() 
+    return c1, c2
+
+
+def pairwise_angles(sources):
+    angles = torch.zeros([len(sources), len(sources)])
+    for i, source1 in enumerate(sources):
+        for j, source2 in enumerate(sources):
+            s1 = flatten(source1)
+            s2 = flatten(source2)
+            angles[i,j] = torch.sum(s1*s2)/(torch.norm(s1)*torch.norm(s2)+1e-12)
+
+    return angles.numpy()
 
 
 def model_pipeline(hyperparameters, train_months, test_month, appliance, window_length, train_buildings,
@@ -84,8 +120,6 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         for model in client_models:
             model.load_state_dict(global_model.state_dict())
 
-        initial_weights = [copy.deepcopy(model.state_dict()) for model in client_models]
-
         optimizers = [torch.optim.AdamW(
             model.parameters(),
             lr=config.learning_rate,
@@ -110,10 +144,20 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         example_ct = 0
         batch_ct = 0
         all_epochs = 0
+        EPS_1 = 0.4
+        EPS_2 = 1.6
+
+        cfl_stats = ExperimentLogger()
+
+        cluster_indices = [np.arange(len(train_buildings)).astype("int")]
+        client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
+        model_cache = []
+
         for r in range(20):
             client_losses = 0.0
             gc.collect()
             torch.cuda.empty_cache()
+            initial_weights = [copy.deepcopy(model.state_dict()) for model in client_models]
             for i in range(len(train_buildings)):
                 # wandb.watch(client_models[i], criterion, log="all", log_freq=10)
                 time_log = time.time()
@@ -161,12 +205,49 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
                 print("Time to train on one home: ", time.time() - time_log)
 
-
             new_weights = [copy.deepcopy(model.state_dict()) for model in client_models]
-            print('weight_deltas: ', [torch.sub(new_weights[i].items(), initial_weights[i].items()) for i in range(len(new_weights))])
+
+            weight_deltas = [{key: new_weights[i][key] - initial_weights[i].get(key, 0)
+                       for key in new_weights[i].keys()} for i in range(len(new_weights))]
+
+            #weight_deltas = [new_weights[i] - initial_weights[i] for i in range(len(new_weights))]
 
             client_losses = client_losses / len(train_buildings)
-            server_aggregate(global_model, client_models)
+
+            similarities = pairwise_angles([weight_deltas[i] for i in range(len(weight_deltas))])
+
+            cluster_indices_new = []
+            for idc in cluster_indices:
+
+                max_norm = np.max([np.linalg.norm(flatten(weight_deltas[i])) for i in idc])
+                mean_norm = np.linalg.norm(np.mean([item for subitem in [flatten(weight_deltas[i]) for i in idc] for item in subitem]))
+
+                if mean_norm<EPS_1 and max_norm>EPS_2 and len(idc)>2 and r>2:
+
+                    model_cache += [(idc, 
+                            dict(initial_weights[0]))]
+                            # [accuracies[i] for i in range(len(idc))])]
+                    
+                    c1, c2 = cluster_clients(similarities[idc][:,idc]) 
+                    cluster_indices_new += [c1, c2]
+
+                    cfl_stats.log({"split" : r})
+
+                else:
+                    cluster_indices_new += [idc]
+                    global_indices_new += 
+
+            cluster_indices = cluster_indices_new
+            client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
+
+            aggregate_clusterwise(global_model, client_clusters)
+
+
+            cfl_stats.log({"mean_norm" : mean_norm, "max_norm" : max_norm,
+              "rounds" : r, "clusters" : cluster_indices})
+
+            print(cfl_stats)
+
             test_results.append(test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
             train_results.append(client_losses)
 
@@ -175,7 +256,11 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             print("Round_" + str(r) + "_results: ",
                   test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
 
-    return train_results, test_results, global_model
+
+        for idc in cluster_indices:
+            model_cache += [(idc, dict(initial_weights[0]))]
+
+    return train_results, test_results, global_model, model_cache
 
 home_ids = homes.dataid.unique()[0:4]
 
