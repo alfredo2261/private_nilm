@@ -209,7 +209,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
                 print("Time to train on one home: ", time.time() - time_log)
 
-            new_weights = [copy.deepcopy(model.cpu()state_dict()) for model in client_models]
+            new_weights = [copy.deepcopy(model.cpu().state_dict()) for model in client_models]
 
             weight_deltas = [{key: new_weights[i][key] - initial_weights[i].get(key, 0)
                        for key in new_weights[i].keys()} for i in range(len(new_weights))]
