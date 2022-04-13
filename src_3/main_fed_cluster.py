@@ -161,7 +161,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             client_losses = 0.0
             gc.collect()
             torch.cuda.empty_cache()
-            initial_weights = [copy.deepcopy(model.state_dict()) for model in client_models]
+            initial_weights = [copy.deepcopy(model.cpu().state_dict()) for model in client_models]
             for i in range(len(train_buildings)):
                 # wandb.watch(client_models[i], criterion, log="all", log_freq=10)
                 time_log = time.time()
@@ -209,7 +209,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
                 print("Time to train on one home: ", time.time() - time_log)
 
-            new_weights = [copy.deepcopy(model.state_dict()) for model in client_models]
+            new_weights = [copy.deepcopy(model.cpu()state_dict()) for model in client_models]
 
             weight_deltas = [{key: new_weights[i][key] - initial_weights[i].get(key, 0)
                        for key in new_weights[i].keys()} for i in range(len(new_weights))]
