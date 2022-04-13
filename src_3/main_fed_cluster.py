@@ -223,8 +223,8 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             cluster_indices_new = []
             for idc in cluster_indices:
 
-                max_norm = np.max([np.linalg.norm(flatten(weight_deltas[i].cpu())) for i in idc])
-                mean_norm = np.linalg.norm(np.mean([item for subitem in [flatten(weight_deltas[i].cpu()) for i in idc] for item in subitem]))
+                max_norm = np.max([np.linalg.norm(flatten(weight_deltas[i])) for i in idc])
+                mean_norm = np.linalg.norm(np.mean([item for subitem in [flatten(weight_deltas[i]) for i in idc] for item in subitem]))
 
                 if mean_norm<EPS_1 and max_norm>EPS_2 and len(idc)>2 and r>2:
 
