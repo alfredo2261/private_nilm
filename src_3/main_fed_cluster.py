@@ -76,6 +76,10 @@ def aggregate_clusterwise(global_model, client_clusters):
         server_aggregate(global_model, client_clusters[i])
 
 
+def flatten(source):
+    return torch.cat([value.flatten() for value in source.values()])
+
+
 def cluster_clients(S):
     clustering = AgglomerativeClustering(affinity="precomputed", linkage="complete").fit(-S)
 
