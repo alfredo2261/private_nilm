@@ -157,7 +157,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
         model_cache = []
 
-        for r in range(20):
+        for r in range(10):
             client_losses = 0.0
             gc.collect()
             torch.cuda.empty_cache()
@@ -287,7 +287,7 @@ for i in range(1):
     print("patience: ", patience)
     print("training_home: ", training_homes)
     print("test_home: ", testing_homes)
-    train_results, test_results, global_model = model_pipeline(
+    train_results, test_results, global_model, model_cache = model_pipeline(
         config_,
         'sept_oct_nov',
         'dec',
@@ -302,3 +302,5 @@ for i in range(1):
     print(final_results)
     global_model.cpu()
     torch.save(global_model.state_dict(), PATH + "/seq2point_fl_refrigerator_model_3383test_train" + str(len(training_homes)) + "_homes_trial1.pth")
+
+print(model_cache)
