@@ -235,7 +235,6 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
                 else:
                     cluster_indices_new += [idc]
-                    global_indices_new += 
 
             cluster_indices = cluster_indices_new
             client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
