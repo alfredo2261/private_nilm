@@ -145,13 +145,14 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
         test_results = []
         train_results = []
+        average_updates = []
+        max_updates = []
         example_ct = 0
         batch_ct = 0
         all_epochs = 0
         EPS_1 = 0.4
         EPS_2 = 1.6
 
-        cfl_stats = ExperimentLogger()
 
         cluster_indices = [np.arange(len(train_buildings)).astype("int")]
         client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
@@ -235,7 +236,6 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
                     c1, c2 = cluster_clients(similarities[idc][:,idc]) 
                     cluster_indices_new += [c1, c2]
 
-                    cfl_stats.log({"split" : r})
 
                 else:
                     cluster_indices_new += [idc]
@@ -246,18 +246,22 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             aggregate_clusterwise(global_model, client_clusters)
 
 
-            cfl_stats.log({"mean_norm" : mean_norm, "max_norm" : max_norm,
-              "rounds" : r, "clusters" : cluster_indices})
+            acc_clients = [test(client, test_loader, criterion, test_val_seq_std, test_val_seq_mean) for client in client_models]
 
-            print(cfl_stats)
 
-            test_results.append(test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
+            #test_results.append(test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
+            test_results.append(np.mean(acc_clients, axis=0))
             train_results.append(client_losses)
+            average_updates.append(mean_norm)
+            max_updates.append(max_norm)
 
             print("train_results: ", train_results)
-            print("test_results: ", test_results)
-            print("Round_" + str(r) + "_results: ",
-                  test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
+            print("Round_" + str(r) + "_average_test_results: ", test_results)
+            print("average_updates: ", average_updates)
+            print("max_updates: ", max_updates)
+            # print("Round_" + str(r) + "_results: ",
+            #       test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
+
 
 
         for idc in cluster_indices:
@@ -281,7 +285,7 @@ for i in range(1):
     gc.collect()
     torch.cuda.empty_cache()
     #training_homes.append(i)
-    testing_homes = [3383]
+    testing_homes = training_homes
 
     patience = 20
     print("patience: ", patience)
