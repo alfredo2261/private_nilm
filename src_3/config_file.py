@@ -6,7 +6,7 @@ def load_hyperparameters(appliance):
     if str(appliance) == "refrigerator1":
         config = dict(
             appliance=str(appliance),
-            epochs=2,
+            epochs=1,
             batch_size=128,
             learning_rate=3.3180899699083407e-04,#e-06,
             in_channels=1,

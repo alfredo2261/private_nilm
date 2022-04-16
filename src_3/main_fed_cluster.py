@@ -150,15 +150,15 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
         example_ct = 0
         batch_ct = 0
         all_epochs = 0
-        EPS_1 = 0.4
-        EPS_2 = 1.6
+        EPS_1 = 3.7
+        EPS_2 = 5*3.7
 
 
         cluster_indices = [np.arange(len(train_buildings)).astype("int")]
         client_clusters = [[client_models[i] for i in idcs] for idcs in cluster_indices]
         model_cache = []
 
-        for r in range(10):
+        for r in range(100):
             client_losses = 0.0
             gc.collect()
             torch.cuda.empty_cache()
