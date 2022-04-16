@@ -269,9 +269,9 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
     return train_results, test_results, global_model, model_cache
 
-home_ids = homes.dataid.unique()[0:4]
+home_ids = homes.dataid.unique()
 
-home_ids_train = [x for x in home_ids if x!=3383]
+#home_ids_train = [x for x in home_ids if x!=3383]
 
 PATH = "/home/Alfredo/private_nilm/models_power_ratio_filter_with_fl"
 
@@ -293,8 +293,8 @@ for i in range(1):
     print("test_home: ", testing_homes)
     train_results, test_results, global_model, model_cache = model_pipeline(
         config_,
-        'sept_oct_nov',
-        'dec',
+        'sept_oct_nov_dec',
+        'sept_oct_nov_dec',
         config_['appliance'],
         config_['window_size'],
         training_homes,
