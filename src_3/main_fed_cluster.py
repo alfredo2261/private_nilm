@@ -246,7 +246,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
             aggregate_clusterwise(global_model, client_clusters)
 
 
-            acc_clients = [test(client, test_loader, criterion, test_val_seq_std, test_val_seq_mean) for client in client_models]
+            acc_clients = [test(client.cpu(), test_loader, criterion, test_val_seq_std, test_val_seq_mean) for client in client_models]
 
 
             #test_results.append(test(global_model, test_loader, criterion, test_val_seq_std, test_val_seq_mean))
