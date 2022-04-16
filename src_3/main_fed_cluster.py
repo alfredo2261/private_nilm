@@ -271,7 +271,7 @@ def model_pipeline(hyperparameters, train_months, test_month, appliance, window_
 
 home_ids = homes.dataid.unique()
 
-#home_ids_train = [x for x in home_ids if x!=3383]
+home_ids_train = [x for x in home_ids if x!=3383]
 
 PATH = "/home/Alfredo/private_nilm/models_power_ratio_filter_with_fl"
 
@@ -279,13 +279,13 @@ final_results = {}
 random.seed(3)
 global_models = []
 best_models = []
-training_homes = list(home_ids)
+training_homes = home_ids_train
 
 for i in range(1):
     gc.collect()
     torch.cuda.empty_cache()
     #training_homes.append(i)
-    testing_homes = training_homes
+    testing_homes = [3383]
 
     patience = 20
     print("patience: ", patience)
