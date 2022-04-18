@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import wandb
 from data_loaders import make_train_data, make_test_val_data, make_model
 from train_fed_cluster import train, test, precision, recall, f1_score
