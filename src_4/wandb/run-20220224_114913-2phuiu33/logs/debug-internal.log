@@ -1,5 +1,0 @@
-2022-02-24 11:49:15,651 INFO    MainThread:1735832 [internal.py:wandb_internal():87] W&B internal server running at pid: 1735832, started at: 2022-02-24 11:49:15.650105
-2022-02-24 11:49:15,654 INFO    WriterThread:1735832 [datastore.py:open_for_write():77] open: C:\Users\aar245\Desktop\privacy_preserving_nn\src_3\wandb\run-20220224_114913-2phuiu33\run-2phuiu33.wandb
-2022-02-24 11:49:15,654 DEBUG   HandlerThread:1735832 [handler.py:handle_request():130] handle_request: check_version
-2022-02-24 11:49:15,658 DEBUG   SenderThread:1735832 [sender.py:send():234] send: header
-2022-02-24 11:49:15,658 DEBUG   SenderThread:1735832 [sender.py:send_request():248] send_request: check_version
