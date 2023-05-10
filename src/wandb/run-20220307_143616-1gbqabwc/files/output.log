@@ -1,0 +1,122 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=23500, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  499
+trigger times: 0
+Loss after 131100 batches: 0.5254
+trigger times: 0
+Loss after 262200 batches: 0.2296
+trigger times: 1
+Loss after 393300 batches: 0.1673
+trigger times: 0
+Loss after 524400 batches: 0.1289
+trigger times: 0
+Loss after 655500 batches: 0.1037
+trigger times: 1
+Loss after 786600 batches: 0.0859
+trigger times: 0
+Loss after 917700 batches: 0.0730
+trigger times: 0
+Loss after 1048800 batches: 0.0637
+trigger times: 1
+Loss after 1179900 batches: 0.0552
+trigger times: 2
+Loss after 1311000 batches: 0.0489
+trigger times: 3
+Loss after 1442100 batches: 0.0437
+trigger times: 0
+Loss after 1573200 batches: 0.0399
+trigger times: 1
+Loss after 1704300 batches: 0.0382
+trigger times: 2
+Loss after 1835400 batches: 0.0344
+trigger times: 3
+Loss after 1966500 batches: 0.0325
+trigger times: 4
+Loss after 2097600 batches: 0.0305
+trigger times: 5
+Loss after 2228700 batches: 0.0292
+trigger times: 0
+Loss after 2359800 batches: 0.0275
+trigger times: 0
+Loss after 2490900 batches: 0.0271
+trigger times: 1
+Loss after 2622000 batches: 0.0263
+trigger times: 2
+Loss after 2753100 batches: 0.0254
+trigger times: 3
+Loss after 2884200 batches: 0.0245
+trigger times: 4
+Loss after 3015300 batches: 0.0237
+trigger times: 5
+Loss after 3146400 batches: 0.0226
+trigger times: 6
+Loss after 3277500 batches: 0.0222
+trigger times: 7
+Loss after 3408600 batches: 0.0211
+trigger times: 8
+Loss after 3539700 batches: 0.0207
+trigger times: 9
+Loss after 3670800 batches: 0.0199
+trigger times: 10
+Loss after 3801900 batches: 0.0192
+trigger times: 11
+Loss after 3933000 batches: 0.0191
+trigger times: 12
+Loss after 4064100 batches: 0.0182
+trigger times: 13
+Loss after 4195200 batches: 0.0183
+trigger times: 14
+Loss after 4326300 batches: 0.0178
+trigger times: 15
+Loss after 4457400 batches: 0.0176
+trigger times: 16
+Loss after 4588500 batches: 0.0171
+trigger times: 17
+Loss after 4719600 batches: 0.0168
+trigger times: 18
+Loss after 4850700 batches: 0.0169
+trigger times: 19
+Loss after 4981800 batches: 0.0160
+trigger times: 20
+Early stopping!
+Start to test process.
+Loss after 5112900 batches: 0.0154
+Time to train on one home:  323.3433392047882
+trigger times: 0
+Loss after 5215500 batches: 0.8420
+trigger times: 0
+Loss after 5318100 batches: 0.5909
+trigger times: 1
+Loss after 5420700 batches: 0.4915
+trigger times: 2
+Loss after 5523300 batches: 0.4151
+trigger times: 3
+Loss after 5625900 batches: 0.3362
+trigger times: 4
+Loss after 5728500 batches: 0.2779
+trigger times: 5
+Loss after 5831100 batches: 0.2292
+trigger times: 6
+Loss after 5933700 batches: 0.1970
+trigger times: 7
+Loss after 6036300 batches: 0.1685
+trigger times: 8
+Loss after 6138900 batches: 0.1482
+trigger times: 9
+Loss after 6241500 batches: 0.1383
+trigger times: 10
+Loss after 6344100 batches: 0.1194
+trigger times: 11
+Loss after 6446700 batches: 0.1094
+trigger times: 12
+Loss after 6549300 batches: 0.1011

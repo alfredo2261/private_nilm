@@ -1,0 +1,1366 @@
+2022-04-17 15:00:34,233 INFO    MainThread:126274 [internal.py:wandb_internal():92] W&B internal server running at pid: 126274, started at: 2022-04-17 15:00:34.233016
+2022-04-17 15:00:34,237 INFO    WriterThread:126274 [datastore.py:open_for_write():77] open: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/run-12sn3c7s.wandb
+2022-04-17 15:00:34,239 DEBUG   SenderThread:126274 [sender.py:send():235] send: header
+2022-04-17 15:00:34,239 DEBUG   SenderThread:126274 [sender.py:send():235] send: run
+2022-04-17 15:00:34,394 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: check_version
+2022-04-17 15:00:34,400 INFO    SenderThread:126274 [dir_watcher.py:__init__():169] watching files in: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files
+2022-04-17 15:00:34,401 INFO    SenderThread:126274 [sender.py:_start_run_threads():812] run started: 12sn3c7s with start time 1650222033
+2022-04-17 15:00:34,401 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:00:34,401 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:00:34,401 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: check_version
+2022-04-17 15:00:34,472 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: run_start
+2022-04-17 15:00:34,480 DEBUG   HandlerThread:126274 [meta.py:__init__():37] meta init
+2022-04-17 15:00:34,480 DEBUG   HandlerThread:126274 [meta.py:__init__():51] meta init done
+2022-04-17 15:00:34,480 DEBUG   HandlerThread:126274 [meta.py:probe():211] probe
+2022-04-17 15:00:34,487 DEBUG   HandlerThread:126274 [meta.py:_setup_git():201] setup git
+2022-04-17 15:00:34,503 DEBUG   HandlerThread:126274 [meta.py:_setup_git():208] setup git done
+2022-04-17 15:00:34,503 DEBUG   HandlerThread:126274 [meta.py:_save_code():89] save code
+2022-04-17 15:00:34,522 DEBUG   HandlerThread:126274 [meta.py:_save_code():110] save code done
+2022-04-17 15:00:34,523 DEBUG   HandlerThread:126274 [meta.py:_save_patches():127] save patches
+2022-04-17 15:00:35,402 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:00:35,402 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/upstream_diff_a8a3d5e806af30909c800519e376c531b5ef039d.patch
+2022-04-17 15:00:35,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/diff.patch
+2022-04-17 15:00:35,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/code/src_3/main_fed_cluster.py
+2022-04-17 15:00:35,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/code
+2022-04-17 15:00:35,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/code/src_3
+2022-04-17 15:00:36,348 DEBUG   HandlerThread:126274 [meta.py:_save_patches():169] save patches done
+2022-04-17 15:00:36,348 DEBUG   HandlerThread:126274 [meta.py:_save_pip():55] save pip
+2022-04-17 15:00:36,348 DEBUG   HandlerThread:126274 [meta.py:_save_pip():69] save pip done
+2022-04-17 15:00:36,348 DEBUG   HandlerThread:126274 [meta.py:_save_conda():76] save conda
+2022-04-17 15:00:36,401 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/upstream_diff_a8a3d5e806af30909c800519e376c531b5ef039d.patch
+2022-04-17 15:00:36,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/requirements.txt
+2022-04-17 15:00:36,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/conda-environment.yaml
+2022-04-17 15:00:40,402 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/conda-environment.yaml
+2022-04-17 15:00:40,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:00:40,425 DEBUG   HandlerThread:126274 [meta.py:_save_conda():86] save conda done
+2022-04-17 15:00:40,425 DEBUG   HandlerThread:126274 [meta.py:probe():249] probe done
+2022-04-17 15:00:40,430 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:00:40,430 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:00:40,521 DEBUG   SenderThread:126274 [sender.py:send():235] send: telemetry
+2022-04-17 15:00:40,521 DEBUG   SenderThread:126274 [sender.py:send():235] send: telemetry
+2022-04-17 15:00:40,521 DEBUG   SenderThread:126274 [sender.py:send():235] send: run
+2022-04-17 15:00:40,647 INFO    SenderThread:126274 [sender.py:send_run():710] updated run: 12sn3c7s
+2022-04-17 15:00:40,647 DEBUG   SenderThread:126274 [sender.py:send():235] send: files
+2022-04-17 15:00:40,647 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-17 15:00:40,647 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file code/src_3/main_fed_cluster.py with policy now
+2022-04-17 15:00:40,649 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file diff.patch with policy now
+2022-04-17 15:00:40,652 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file upstream_diff_a8a3d5e806af30909c800519e376c531b5ef039d.patch with policy now
+2022-04-17 15:00:41,043 INFO    Thread-11 :126274 [upload_job.py:push():137] Uploaded file /tmp/tmpoinmdd17wandb/tm044jf3-wandb-metadata.json
+2022-04-17 15:00:41,080 INFO    Thread-12 :126274 [upload_job.py:push():137] Uploaded file /tmp/tmpoinmdd17wandb/3bie39lz-code/src_3/main_fed_cluster.py
+2022-04-17 15:00:41,134 INFO    Thread-13 :126274 [upload_job.py:push():137] Uploaded file /tmp/tmpoinmdd17wandb/1vztp8zx-diff.patch
+2022-04-17 15:00:41,403 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/config.yaml
+2022-04-17 15:00:41,405 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_created():217] file/dir created: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-metadata.json
+2022-04-17 15:00:41,912 INFO    Thread-14 :126274 [upload_job.py:push():137] Uploaded file /tmp/tmpoinmdd17wandb/412bxs8f-upstream_diff_a8a3d5e806af30909c800519e376c531b5ef039d.patch
+2022-04-17 15:00:45,860 DEBUG   SenderThread:126274 [sender.py:send():235] send: telemetry
+2022-04-17 15:00:48,406 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:00:55,523 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:00:55,523 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:01:05,203 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:01:05,412 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/config.yaml
+2022-04-17 15:01:12,690 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:01:12,690 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:01:30,469 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:01:30,469 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:01:37,946 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:01:48,350 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:01:48,351 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:01:53,428 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:02:03,443 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:02:03,444 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:02:10,418 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:02:18,541 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:02:18,541 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:02:43,138 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:02:46,658 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:02:46,658 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:03:04,450 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:03:04,451 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:03:09,455 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:03:15,967 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:03:19,542 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:03:19,543 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:03:32,798 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:03:33,465 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:03:34,635 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:03:34,635 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:03:48,433 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:03:49,727 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:03:49,727 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:04:17,201 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:04:17,201 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:04:21,300 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:04:35,073 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:04:35,073 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:04:38,487 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:04:50,173 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:04:50,173 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:04:53,890 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:04:53,898 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:04:53,900 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:04:53,900 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:04:53,901 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:04:54,493 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:04:56,493 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:05:05,279 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:05:05,279 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:05:20,456 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:05:20,457 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:05:26,360 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:05:38,078 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:05:38,079 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:05:56,104 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:05:56,104 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:05:58,712 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:06:01,512 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:06:11,204 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:06:11,204 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:06:21,392 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:06:21,393 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:06:21,393 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:06:21,394 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:06:21,518 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:06:22,518 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:06:26,295 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:06:26,296 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:06:31,259 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:06:41,527 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:06:41,527 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:07:03,764 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:07:05,562 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:07:05,563 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:07:23,368 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:07:23,368 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:07:28,537 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:07:36,251 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:07:38,457 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:07:38,458 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:07:50,458 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:07:50,459 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:07:50,460 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:07:50,460 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:07:50,544 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:07:51,544 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:07:53,549 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:07:53,549 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:08:08,649 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:08:08,649 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:08:09,196 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:08:34,768 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:08:34,768 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:08:41,476 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:08:52,567 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:08:52,567 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:08:57,566 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:09:07,762 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:09:07,762 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:09:14,007 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:09:16,838 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:09:16,838 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:09:16,839 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:09:16,839 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:09:17,572 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:09:17,572 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:09:22,853 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:09:22,854 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:09:37,953 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:09:37,953 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:09:46,416 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:10:01,096 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:10:01,096 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:10:18,897 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:10:18,898 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:10:19,004 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:10:23,593 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:10:34,142 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:10:34,142 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:10:44,667 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:10:44,668 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:10:44,668 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:10:44,669 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:10:45,600 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:10:45,600 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:10:49,232 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:10:49,232 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:10:51,429 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:11:04,321 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:11:04,321 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:11:24,043 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:11:29,379 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:11:29,379 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:11:58,483 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:11:58,804 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:11:58,804 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:12:05,629 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:12:15,247 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:12:15,247 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:12:30,338 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:12:30,339 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:12:36,602 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:12:45,457 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:12:45,457 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:12:54,755 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:12:54,756 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:12:54,756 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:12:54,756 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:12:55,656 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:12:56,657 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:13:00,575 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:13:00,575 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:13:10,862 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:13:15,676 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:13:15,676 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:13:30,772 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:13:30,772 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:13:45,875 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:13:45,875 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:13:46,056 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:14:09,426 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:14:09,426 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:14:22,152 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:14:55,823 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:15:30,829 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:15:31,732 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:15:31,733 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:16:04,202 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:16:25,243 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:16:25,243 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:16:39,038 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:16:41,137 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:16:41,137 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:16:49,784 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:16:56,250 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:16:56,250 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:17:14,073 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:17:18,062 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:17:18,062 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:17:33,171 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:17:33,172 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:17:48,278 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:17:48,278 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:17:49,760 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:17:52,506 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:17:52,507 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:17:52,508 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:17:52,508 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:17:52,813 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:17:54,814 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:18:03,375 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:18:03,376 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:18:18,479 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:18:18,480 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:18:24,821 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:18:33,575 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:18:33,575 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:18:48,681 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:18:48,682 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:19:00,999 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:19:03,781 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:19:03,781 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:19:31,323 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:19:31,324 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:19:36,410 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:20:11,843 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:20:29,427 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:20:29,428 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:20:47,910 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:21:22,809 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:21:23,410 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:21:23,411 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:21:46,835 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:21:46,835 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:21:51,942 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:21:57,289 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:22:16,707 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:22:16,708 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:22:31,819 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:22:31,820 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:22:33,759 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:22:46,928 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:22:46,928 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:22:52,825 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:22:52,827 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:22:52,827 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:22:52,828 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:22:52,977 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:22:54,978 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:23:02,032 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:23:02,033 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:23:09,116 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:23:17,133 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:23:17,134 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:23:32,245 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:23:32,245 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:23:44,984 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:23:47,339 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:23:47,341 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:24:02,491 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:24:02,492 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:24:21,179 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:24:24,922 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:24:24,923 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:24:56,195 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:25:25,932 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:25:25,932 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:25:29,839 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:26:07,057 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:26:15,667 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:26:15,667 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:26:36,898 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:26:36,899 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:26:38,119 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:26:41,688 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:27:14,914 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:27:23,527 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:27:23,527 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:27:38,626 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:27:38,626 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:27:51,188 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:27:53,768 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:27:53,768 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:27:59,505 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:27:59,506 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:27:59,506 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:27:59,507 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:28:00,161 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:28:02,162 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:28:08,891 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:28:08,891 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:28:23,996 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:28:23,997 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:28:28,452 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:28:39,098 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:28:39,099 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:28:54,194 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:28:54,195 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:29:04,039 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:29:09,296 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:29:09,296 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:29:24,398 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:29:24,398 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:29:40,551 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:30:16,050 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:30:36,712 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:30:36,712 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:30:50,589 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:31:24,218 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:31:29,480 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:31:29,481 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:31:45,594 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:31:45,594 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:31:56,318 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:31:59,219 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:32:00,886 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:32:00,886 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:32:22,942 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:32:22,943 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:32:35,410 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:32:38,056 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:32:38,056 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:32:53,171 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:32:53,171 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:32:59,531 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:32:59,532 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:32:59,532 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:32:59,535 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:33:00,350 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:33:00,350 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:33:08,273 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:33:08,273 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:33:10,977 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:33:23,381 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:33:23,381 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:33:38,479 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:33:38,479 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:33:48,056 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:33:53,573 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:33:53,573 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:34:08,684 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:34:08,685 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:34:23,576 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:34:33,585 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:34:33,585 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:34:58,934 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:35:33,914 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:35:39,930 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:35:39,931 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:36:07,935 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:36:34,507 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:36:34,507 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:36:43,243 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:36:49,553 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:36:49,554 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:36:52,473 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:37:18,126 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:37:18,288 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:37:18,289 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:37:33,405 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:37:33,405 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:37:48,521 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:37:48,521 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:37:53,981 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:37:53,982 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:37:53,983 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:37:53,985 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:37:54,511 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:37:55,497 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:37:55,511 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:38:03,631 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:38:03,632 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:38:18,731 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:38:18,732 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:38:31,642 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:38:33,831 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:38:33,831 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:38:48,942 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:38:48,943 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:39:04,085 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:39:04,085 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:39:06,290 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:39:19,199 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:39:19,200 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:39:38,267 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:39:38,268 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:39:40,560 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:40:16,805 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:40:40,983 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:40:40,983 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:40:53,306 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:41:27,774 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:41:27,864 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:41:27,864 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:41:56,382 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:41:56,383 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:42:00,648 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:42:02,206 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:42:26,650 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:42:26,650 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:42:39,038 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:42:41,751 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:42:41,752 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:42:56,862 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:42:56,863 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:43:01,807 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:43:01,808 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:43:01,808 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:43:01,809 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:43:02,015 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:43:03,015 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:43:11,995 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:43:11,995 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:43:15,004 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:43:27,107 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:43:27,107 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:43:42,402 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:43:42,402 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:43:48,984 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:43:57,495 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:43:57,496 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:44:12,598 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:44:12,598 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:44:26,174 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:44:27,877 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:44:27,877 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:45:00,352 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:45:33,975 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:45:42,155 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:45:42,156 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:46:07,470 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:46:28,738 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:46:28,738 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:46:41,241 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:46:42,887 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:46:44,781 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:46:44,782 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:46:53,772 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:46:53,773 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:46:53,773 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:46:53,774 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:46:54,245 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:46:55,245 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:46:59,975 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:46:59,975 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:47:13,705 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:47:22,157 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:47:22,157 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:47:39,008 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:47:39,009 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:47:44,451 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:47:45,274 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:47:45,275 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:47:45,275 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:47:45,276 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:47:46,262 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:47:47,262 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:47:54,300 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:47:54,301 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:48:13,748 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:48:13,748 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:48:15,038 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:48:28,274 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:48:32,558 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:48:32,558 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:48:42,176 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:48:42,177 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:48:42,177 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:48:42,178 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:48:42,278 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:48:45,279 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:48:45,672 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:48:48,034 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:48:48,034 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:49:10,445 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:49:10,445 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:49:16,492 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:49:30,194 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:49:30,194 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:49:34,295 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:49:46,785 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:49:46,785 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:49:51,013 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:50:01,926 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:50:01,926 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:50:07,488 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:50:07,489 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:50:07,490 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:50:07,490 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:50:08,330 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:50:09,330 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:50:17,041 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:50:17,042 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:50:22,723 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:50:32,139 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:50:32,139 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:50:47,232 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:50:47,233 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:50:54,512 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:51:02,327 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:51:02,328 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:51:17,646 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:51:17,649 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:51:26,782 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:51:59,334 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:52:31,485 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:52:31,486 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:52:31,667 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:53:04,262 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:53:14,652 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:53:14,654 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:53:30,746 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:53:30,746 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:53:33,519 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:53:36,654 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:53:59,347 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:53:59,348 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:54:09,145 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:54:14,485 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:54:14,486 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:54:29,608 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:54:29,608 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:54:34,211 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:54:34,213 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:54:34,215 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:54:34,215 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:54:34,597 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:54:36,603 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:54:41,527 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:54:44,745 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:54:44,745 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:54:59,844 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:54:59,846 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:55:14,069 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:55:14,953 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:55:14,953 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:55:30,069 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:55:30,070 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:55:45,176 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:55:45,177 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:55:46,451 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:56:09,078 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:56:09,078 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:56:18,783 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:56:51,215 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:57:13,086 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:57:13,087 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:57:23,531 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:57:55,834 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:57:58,463 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:57:58,464 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:58:15,845 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:58:19,371 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:58:19,373 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:58:27,968 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:58:40,890 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:58:40,890 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:58:55,998 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:58:55,999 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:59:00,263 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:59:11,167 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:59:11,168 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:59:14,194 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 15:59:14,201 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 15:59:14,203 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 15:59:14,206 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 15:59:14,913 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 15:59:15,913 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 15:59:26,286 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:59:26,287 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:59:32,650 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 15:59:41,405 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:59:41,406 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 15:59:56,530 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 15:59:56,532 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:00:04,820 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:00:11,654 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:00:11,655 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:00:26,791 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:00:26,792 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:00:37,193 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:00:48,718 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:00:48,719 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:01:09,505 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:01:41,891 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:01:53,516 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:01:53,516 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:02:14,465 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:02:36,835 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:02:36,836 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:02:46,688 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:02:56,144 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:02:58,807 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:02:58,808 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:03:19,051 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:03:21,756 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:03:21,756 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:03:36,900 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:03:36,902 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:03:51,503 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:03:52,012 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:03:52,012 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:03:57,239 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:03:57,240 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:03:57,241 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:03:57,242 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:03:58,223 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:03:58,224 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:04:07,113 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:04:07,113 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:04:22,236 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:04:22,238 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:04:24,266 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:04:56,779 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:04:57,156 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:04:57,157 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:05:12,382 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:05:12,383 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:05:29,405 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:05:45,244 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:05:45,245 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:06:00,579 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:06:00,579 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:06:01,811 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:06:34,551 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:06:36,517 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:06:36,518 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:06:51,642 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:06:51,643 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:07:07,141 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:07:22,373 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:07:22,374 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:07:37,482 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:07:37,483 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:07:39,846 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:08:12,387 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:08:12,387 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:08:12,489 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:08:27,502 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:08:27,504 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:08:44,913 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:09:07,349 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:09:07,350 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:09:17,439 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:09:22,468 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:09:22,469 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:09:49,786 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:10:08,572 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:10:08,573 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:10:22,266 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:10:23,682 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:10:23,682 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:10:38,779 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:10:38,780 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:10:53,927 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:10:53,927 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:10:54,588 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:11:27,203 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:11:46,679 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:11:46,680 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:11:59,717 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:12:01,835 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:12:01,836 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:12:16,946 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:12:16,946 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:12:32,034 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:12:32,066 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:12:32,066 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:13:04,584 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:13:36,083 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:13:36,084 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:13:37,054 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:13:51,200 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:13:51,200 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:14:06,297 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:14:06,297 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:14:09,259 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:14:21,388 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:14:21,388 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:14:41,781 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:15:10,818 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:15:10,818 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:15:13,382 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:15:25,932 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:15:25,933 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:15:43,980 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:15:44,572 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:15:44,573 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:15:59,712 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:15:59,712 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:16:14,701 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:16:28,266 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:16:28,266 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:16:43,392 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:16:43,392 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:16:45,444 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:16:58,556 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:16:58,557 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:17:13,705 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:17:13,705 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:17:15,999 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:17:28,834 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:17:28,835 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:17:44,009 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:17:44,009 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:17:46,483 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:17:59,162 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:17:59,162 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:18:14,297 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:18:14,297 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:18:16,992 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:18:29,426 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:18:29,426 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:18:44,570 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:18:44,570 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:18:47,607 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:18:59,700 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:18:59,700 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:19:14,845 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:19:14,845 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:19:18,132 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:19:30,000 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:19:30,001 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:19:45,145 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:19:45,145 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:19:48,660 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:20:00,280 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:20:00,280 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:20:15,421 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:20:15,421 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:20:19,226 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:20:30,558 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:20:30,559 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:20:45,683 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:20:45,684 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:20:49,757 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:21:00,801 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:21:00,801 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:21:15,893 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:21:15,893 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:21:20,273 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:21:30,989 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:21:30,989 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:21:46,078 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:21:46,079 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:21:50,887 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:22:01,274 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:22:01,275 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:22:16,372 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:22:16,372 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:22:21,449 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:22:31,462 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:22:31,462 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:22:46,554 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:22:46,554 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:22:52,131 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:23:01,649 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:23:01,649 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:23:22,722 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:23:27,167 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:23:27,167 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:23:27,919 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:27,920 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:27,921 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:27,921 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:28,166 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:28,423 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:28,424 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:28,424 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:28,425 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:28,925 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:28,926 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:28,926 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:28,926 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:29,166 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:29,429 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:29,430 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:29,430 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:29,430 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:29,934 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:29,935 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:29,935 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:29,935 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:30,166 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:30,440 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:30,441 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:30,441 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:30,441 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:30,942 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:30,943 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:30,943 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:30,943 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:31,167 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:31,446 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:31,447 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:31,447 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:31,447 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:31,950 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:31,951 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:31,951 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:31,951 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:32,167 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:32,454 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:32,455 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:32,456 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:32,456 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:32,958 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:32,959 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:32,959 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:32,960 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:33,168 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:33,461 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:33,462 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:33,462 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:33,463 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:33,964 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:33,965 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:33,965 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:33,965 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:34,168 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:34,467 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:34,468 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:34,469 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:34,469 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:34,969 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:34,970 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:34,970 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:34,971 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:35,168 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:35,474 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:35,475 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:35,475 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:35,475 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:35,978 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:35,979 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:35,979 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:35,980 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:36,169 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:36,481 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:36,482 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:36,482 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:36,483 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:36,984 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:36,985 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:36,986 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:36,986 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:37,169 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:37,487 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:23:37,488 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:23:37,488 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:23:37,488 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:23:38,169 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:23:40,170 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:23:42,263 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:23:42,263 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:23:53,271 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:24:06,126 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:24:06,126 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:24:20,184 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:24:23,795 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:24:24,558 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:24:24,558 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:24:33,483 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:24:33,484 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 21 < 40. Dropping entry: {'Training_Loss': 0.9562256640392887, 'Validation_Loss': 0.902946910936467, 'Training_R2': 0.03868766422817682, 'Validation_R2': 0.022740627405056113, 'Training_F1': 0.47513810179510696, 'Validation_F1': 0.4375010895982052, 'Training_NEP': 1.0566442997309544, 'Validation_NEP': 1.1443792163374897, 'Training_NDE': 0.6106062757459377, 'Validation_NDE': 0.6436067934238182, 'Training_MAE': 53.6706504839292, 'Validation_MAE': 53.24266338742469, 'Training_MSE': 4318.158203125, 'Validation_MSE': 4080.520751953125, '_timestamp': 1650227073, '_runtime': 5040}.
+2022-04-17 16:24:35,189 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:24:40,507 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:24:40,508 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:24:54,330 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:25:01,611 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:25:01,612 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:25:16,203 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:25:18,513 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:25:18,513 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:25:24,962 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:25:25,414 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:25:25,414 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 22 < 40. Dropping entry: {'Training_Loss': 0.982079282857354, 'Validation_Loss': 0.8498238747137307, 'Training_R2': 0.049489624160449996, 'Validation_R2': 0.07635117010214343, 'Training_F1': 0.5279804810313783, 'Validation_F1': 0.482854944615145, 'Training_NEP': 0.9432640983415786, 'Validation_NEP': 1.0801252987710352, 'Training_NDE': 0.6571964553818843, 'Validation_NDE': 0.6082997803149408, 'Training_MAE': 59.77334002615696, 'Validation_MAE': 50.25322627123613, 'Training_MSE': 8552.0029296875, 'Validation_MSE': 3856.671142578125, '_timestamp': 1650227125, '_runtime': 5092}.
+2022-04-17 16:25:27,206 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:25:33,850 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:25:33,851 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:25:53,818 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:25:53,819 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:25:55,652 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:26:12,420 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:26:12,420 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:26:13,218 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:26:23,259 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:26:23,260 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 23 < 40. Dropping entry: {'Training_Loss': 0.6729823855753335, 'Validation_Loss': 0.8708037004201081, 'Training_R2': 0.3273557624874086, 'Validation_R2': 0.05299442529534626, 'Training_F1': 0.6882443761135927, 'Validation_F1': 0.5063195981311694, 'Training_NEP': 0.6205537051281933, 'Validation_NEP': 1.0650739156995404, 'Training_NDE': 0.34709119089898666, 'Validation_NDE': 0.6236821445587389, 'Training_MAE': 44.63549952500451, 'Validation_MAE': 49.552955145240375, 'Training_MSE': 3710.30224609375, 'Validation_MSE': 3954.196533203125, '_timestamp': 1650227183, '_runtime': 5150}.
+2022-04-17 16:26:25,222 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:26:26,199 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:26:27,512 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:26:27,512 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:26:51,422 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:26:51,423 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:26:56,885 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:27:06,235 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:27:09,918 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:27:09,919 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:27:19,059 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:27:19,060 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 24 < 40. Dropping entry: {'Training_Loss': 0.969218067147515, 'Validation_Loss': 0.9020108147694247, 'Training_R2': 0.03281872229030469, 'Validation_R2': 0.0199559684714542, 'Training_F1': 0.5773832781780837, 'Validation_F1': 0.5420047235944645, 'Training_NEP': 0.8462817803179982, 'Validation_NEP': 1.0996720981077588, 'Training_NDE': 0.49500057010425974, 'Validation_NDE': 0.6454407235525984, 'Training_MAE': 57.08698562723546, 'Validation_MAE': 51.16264829020417, 'Training_MSE': 4613.70263671875, 'Validation_MSE': 4092.14794921875, '_timestamp': 1650227239, '_runtime': 5206}.
+2022-04-17 16:27:20,239 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:27:25,379 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:27:25,380 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:27:27,588 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:27:47,256 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:27:47,256 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:27:58,176 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:28:02,252 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:28:05,718 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:28:05,718 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:28:14,792 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:28:14,792 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 25 < 40. Dropping entry: {'Training_Loss': 0.7258736921330518, 'Validation_Loss': 1.6461507408288274, 'Training_R2': 0.28176082990334417, 'Validation_R2': -0.7902277810920142, 'Training_F1': 0.5501535300537356, 'Validation_F1': 0.44700286123032906, 'Training_NEP': 0.8918090757257289, 'Validation_NEP': 1.4765566843043028, 'Training_NDE': 0.4707074811136895, 'Validation_NDE': 1.1790142862763162, 'Training_MAE': 38.14247919052222, 'Validation_MAE': 68.69734209825185, 'Training_MSE': 2498.408447265625, 'Validation_MSE': 7475.04931640625, '_timestamp': 1650227294, '_runtime': 5261}.
+2022-04-17 16:28:16,256 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:28:21,172 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:28:21,172 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:28:28,849 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:28:42,892 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:28:42,893 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:28:57,268 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:28:59,442 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:29:01,471 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:29:01,471 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:29:10,949 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:29:10,949 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 26 < 40. Dropping entry: {'Training_Loss': 0.974971085588411, 'Validation_Loss': 0.9196978911866237, 'Training_R2': 0.020295864502704375, 'Validation_R2': 0.0032313590761333666, 'Training_F1': 0.7032741678573045, 'Validation_F1': 0.441091631751872, 'Training_NEP': 0.5927905740720016, 'Validation_NEP': 1.1833743214712775, 'Training_NDE': 0.3738655021417786, 'Validation_NDE': 0.6564552735544121, 'Training_MAE': 54.23246630202531, 'Validation_MAE': 55.056924977250006, 'Training_MSE': 5060.22216796875, 'Validation_MSE': 4161.98095703125, '_timestamp': 1650227350, '_runtime': 5317}.
+2022-04-17 16:29:12,272 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:29:16,565 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:29:16,565 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:29:29,927 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:29:39,227 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:29:39,227 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:29:53,286 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:29:57,131 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:29:57,131 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:30:00,426 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:30:06,563 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:30:06,563 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 27 < 40. Dropping entry: {'Training_Loss': 0.9985202650759433, 'Validation_Loss': 0.9274330343643244, 'Training_R2': 0.001930429822679769, 'Validation_R2': -0.004891325621120046, 'Training_F1': 0.41505418166447466, 'Validation_F1': 0.4341743445967323, 'Training_NEP': 1.1636153110991294, 'Validation_NEP': 1.1890131553751397, 'Training_NDE': 0.6549498004297359, 'Validation_NDE': 0.6618047388024255, 'Training_MAE': 54.59319376322903, 'Validation_MAE': 55.31927379585385, 'Training_MSE': 4193.54345703125, 'Validation_MSE': 4195.89697265625, '_timestamp': 1650227406, '_runtime': 5373}.
+2022-04-17 16:30:07,291 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:30:12,633 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:30:12,634 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:30:30,930 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:30:34,812 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:30:34,812 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:30:49,304 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:30:53,322 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:30:53,322 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:31:01,446 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:31:02,917 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:31:02,917 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 28 < 40. Dropping entry: {'Training_Loss': 0.9909591011983523, 'Validation_Loss': 0.9205182390491458, 'Training_R2': -0.0005194388148173079, 'Validation_R2': 0.0025818373388809546, 'Training_F1': 0.5280485969944796, 'Validation_F1': 0.4323858206802408, 'Training_NEP': 0.941772800926844, 'Validation_NEP': 1.1784494480849987, 'Training_NDE': 0.5355085449276574, 'Validation_NDE': 0.6568830377839453, 'Training_MAE': 68.77623706648282, 'Validation_MAE': 54.827793433974925, 'Training_MSE': 6144.87939453125, 'Validation_MSE': 4164.693359375, '_timestamp': 1650227462, '_runtime': 5429}.
+2022-04-17 16:31:06,310 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:31:08,412 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:31:08,412 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:31:31,093 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:31:31,094 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:31:31,994 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:31:44,324 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:31:48,447 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:31:48,448 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:31:57,851 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:31:57,851 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 29 < 40. Dropping entry: {'Training_Loss': 1.0030154104731956, 'Validation_Loss': 0.9285334309522253, 'Training_R2': -0.0008696913447467924, 'Validation_R2': -0.006024326568200955, 'Training_F1': 0.505196454433869, 'Validation_F1': 0.43357469957806344, 'Training_NEP': 0.9830757934150948, 'Validation_NEP': 1.1896342011933505, 'Training_NDE': 0.5888166793854798, 'Validation_NDE': 0.6625509144104021, 'Training_MAE': 47.62723359279506, 'Validation_MAE': 55.34816818066537, 'Training_MSE': 3356.921630859375, 'Validation_MSE': 4200.62744140625, '_timestamp': 1650227517, '_runtime': 5484}.
+2022-04-17 16:31:59,330 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:32:02,573 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:32:03,539 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:32:03,540 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:32:26,146 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:32:26,146 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:32:33,081 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:32:40,344 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:32:44,673 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:32:44,673 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:32:54,209 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:32:54,210 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 30 < 40. Dropping entry: {'Training_Loss': 1.021643701773154, 'Validation_Loss': 0.9172745856055378, 'Training_R2': -0.0026039649791416153, 'Validation_R2': 0.006247773683379809, 'Training_F1': 0.49237740661869167, 'Validation_F1': 0.42522734739921697, 'Training_NEP': 1.009735514196003, 'Validation_NEP': 1.153970147668569, 'Training_NDE': 0.5823888497820376, 'Validation_NDE': 0.6544687129877412, 'Training_MAE': 66.28580580707862, 'Validation_MAE': 53.68888499049335, 'Training_MSE': 5988.2041015625, 'Validation_MSE': 4149.38623046875, '_timestamp': 1650227574, '_runtime': 5541}.
+2022-04-17 16:32:57,350 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:33:00,138 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:33:00,139 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:33:03,647 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:33:22,336 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:33:22,336 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:33:34,196 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:33:36,363 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:33:40,008 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:33:40,008 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:33:50,685 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:33:50,685 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 31 < 40. Dropping entry: {'Training_Loss': 0.9281286117240198, 'Validation_Loss': 0.8353233921484355, 'Training_R2': 0.05515438153076413, 'Validation_R2': 0.0950931089166388, 'Training_F1': 0.4461188385959392, 'Validation_F1': 0.4622243962260266, 'Training_NEP': 1.1061632113253084, 'Validation_NEP': 1.028474313114942, 'Training_NDE': 0.6890967690350018, 'Validation_NDE': 0.5959566506594911, 'Training_MAE': 48.406409004858816, 'Validation_MAE': 47.85014519141944, 'Training_MSE': 4875.224609375, 'Validation_MSE': 3778.4150390625, '_timestamp': 1650227630, '_runtime': 5597}.
+2022-04-17 16:33:52,369 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:33:55,098 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:33:55,099 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:34:04,700 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:34:18,835 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:34:18,836 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:34:33,383 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:34:35,239 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:34:37,438 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:34:37,438 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:34:46,844 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:34:46,844 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 32 < 40. Dropping entry: {'Training_Loss': 1.0081954496006993, 'Validation_Loss': 0.9287862072895913, 'Training_R2': -0.018801310383624426, 'Validation_R2': -0.006155758025859548, 'Training_F1': 0.5187171652870151, 'Validation_F1': 0.4207961963410886, 'Training_NEP': 0.9602566761650457, 'Validation_NEP': 1.1707250360020642, 'Training_NDE': 0.6313869084554642, 'Validation_NDE': 0.6626374729857311, 'Training_MAE': 34.915338286505694, 'Validation_MAE': 54.468412324526206, 'Training_MSE': 2195.1650390625, 'Validation_MSE': 4201.17626953125, '_timestamp': 1650227686, '_runtime': 5653}.
+2022-04-17 16:34:48,388 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:34:52,905 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:34:52,906 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:35:05,751 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:35:15,264 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:35:15,264 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:35:29,402 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:35:33,592 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:35:33,592 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:35:36,452 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:35:42,975 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:35:42,975 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 33 < 40. Dropping entry: {'Training_Loss': 0.639273799755726, 'Validation_Loss': 2.5305780270238865, 'Training_R2': 0.3589353305091303, 'Validation_R2': -1.7524814222178438, 'Training_F1': 0.5349179917304345, 'Validation_F1': -0.32235306672284186, 'Training_NEP': 0.9427997922777599, 'Validation_NEP': 1.8122120313641277, 'Training_NDE': 0.46994318586582856, 'Validation_NDE': 1.8127385541550782, 'Training_MAE': 37.14246475925076, 'Validation_MAE': 84.31383041135754, 'Training_MSE': 2732.405517578125, 'Validation_MSE': 11492.9140625, '_timestamp': 1650227742, '_runtime': 5709}.
+2022-04-17 16:35:44,407 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:35:48,677 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:35:48,678 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:36:07,223 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:36:11,155 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:36:11,155 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:36:25,419 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:36:29,694 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:36:29,695 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:36:37,833 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:36:39,561 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:36:39,562 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 34 < 40. Dropping entry: {'Training_Loss': 0.966125548132195, 'Validation_Loss': 0.9403541834249983, 'Training_R2': 0.0073466533364663356, 'Validation_R2': -0.01794129294682678, 'Training_F1': 0.40682241932213364, 'Validation_F1': 0.4371240235576886, 'Training_NEP': 1.1826169177976886, 'Validation_NEP': 1.1870837183739966, 'Training_NDE': 0.7887888092035578, 'Validation_NDE': 0.6703992305620508, 'Training_MAE': 67.36103396514504, 'Validation_MAE': 55.229506030665064, 'Training_MSE': 12460.8037109375, 'Validation_MSE': 4250.38720703125, '_timestamp': 1650227799, '_runtime': 5766}.
+2022-04-17 16:36:42,424 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:36:44,790 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:36:44,790 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:37:07,800 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:37:07,800 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:37:08,335 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:37:24,686 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:37:24,686 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:37:30,690 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:37:30,690 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 35 < 40. Dropping entry: {'Training_Loss': 1.00547524295246, 'Validation_Loss': 0.927024029902298, 'Training_R2': 7.606419030292688e-05, 'Validation_R2': -0.004405805476173752, 'Training_F1': 0.7846218649537225, 'Validation_F1': 0.4342665685743209, 'Training_NEP': 0.4286764296774212, 'Validation_NEP': 1.1885741066168145, 'Training_NDE': 0.5563763136319991, 'Validation_NDE': 0.6614849832980072, 'Training_MAE': 24.192681767057202, 'Validation_MAE': 55.2988468911037, 'Training_MSE': 3994.8837890625, 'Validation_MSE': 4193.8701171875, '_timestamp': 1650227850, '_runtime': 5817}.
+2022-04-17 16:37:32,441 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:37:38,829 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:37:39,780 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:37:39,780 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:37:59,116 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:37:59,116 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:38:09,318 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:38:13,453 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:38:17,651 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:38:17,651 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:38:27,169 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:38:27,169 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 36 < 40. Dropping entry: {'Training_Loss': 0.5644720523790059, 'Validation_Loss': 0.9516761170251526, 'Training_R2': 0.43506369217468255, 'Validation_R2': -0.03360263182638823, 'Training_F1': 0.5549586277129989, 'Validation_F1': 0.512921951678218, 'Training_NEP': 0.8864079549044288, 'Validation_NEP': 1.0348580400849139, 'Training_NDE': 0.43341401438945953, 'Validation_NDE': 0.6807135282599416, 'Training_MAE': 27.527142324217206, 'Validation_MAE': 48.147150433534215, 'Training_MSE': 1795.3870849609375, 'Validation_MSE': 4315.78076171875, '_timestamp': 1650227907, '_runtime': 5874}.
+2022-04-17 16:38:28,459 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:38:32,742 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:38:32,743 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:38:39,821 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:38:55,602 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:38:55,602 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:39:10,326 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:39:10,473 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:39:14,053 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:39:14,053 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:39:23,519 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:39:23,519 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 37 < 40. Dropping entry: {'Training_Loss': 0.9986405478802375, 'Validation_Loss': 0.9234284871686114, 'Training_R2': -0.000470520285829501, 'Validation_R2': -0.0007054989097887709, 'Training_F1': 0.6004706655903908, 'Validation_F1': 0.4401610833646426, 'Training_NEP': 0.8001363843262903, 'Validation_NEP': 1.1891257512053173, 'Training_NDE': 0.47482081521249303, 'Validation_NDE': 0.6590480228444561, 'Training_MAE': 38.51884750229596, 'Validation_MAE': 55.32451235821096, 'Training_MSE': 2094.38330078125, 'Validation_MSE': 4178.41943359375, '_timestamp': 1650227963, '_runtime': 5930}.
+2022-04-17 16:39:24,478 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:39:29,147 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:39:29,147 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:39:40,818 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:39:51,794 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:39:51,795 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:40:06,492 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:40:10,438 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:40:10,438 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:40:11,304 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:40:19,425 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:40:19,426 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 38 < 40. Dropping entry: {'Training_Loss': 0.9641826070610586, 'Validation_Loss': 0.9752720914182872, 'Training_R2': 0.02883443862528745, 'Validation_R2': -0.056882234084226546, 'Training_F1': 0.8028294850529047, 'Validation_F1': 0.43313674861679585, 'Training_NEP': 0.3951816185778283, 'Validation_NEP': 1.1857238743172036, 'Training_NDE': 0.5816205872818666, 'Validation_NDE': 0.6960450877021035, 'Training_MAE': 17.977971128907303, 'Validation_MAE': 55.16623878643204, 'Training_MSE': 3000.9814453125, 'Validation_MSE': 4412.98388671875, '_timestamp': 1650228019, '_runtime': 5986}.
+2022-04-17 16:40:20,497 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:40:25,531 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:40:25,532 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:40:41,821 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:40:47,594 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:40:47,595 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:41:02,509 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:41:05,861 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:41:05,861 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:41:12,363 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:41:14,896 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:41:14,896 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 39 < 40. Dropping entry: {'Training_Loss': 0.9955732486098285, 'Validation_Loss': 0.9237876060235239, 'Training_R2': -0.016963739751362006, 'Validation_R2': -0.00048786393656108373, 'Training_F1': 0.4124628611643386, 'Validation_F1': 0.419069665868705, 'Training_NEP': 1.1757234917338206, 'Validation_NEP': 1.1709727782205175, 'Training_NDE': 0.672128161561183, 'Validation_NDE': 0.6589046920653568, 'Training_MAE': 54.266162074634416, 'Validation_MAE': 54.479938622239096, 'Training_MSE': 4222.7294921875, 'Validation_MSE': 4177.51123046875, '_timestamp': 1650228074, '_runtime': 6041}.
+2022-04-17 16:41:16,514 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:41:21,300 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:41:21,300 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:41:42,889 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:41:43,176 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:41:43,176 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:41:57,529 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:42:01,776 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:42:01,777 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:42:11,227 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:42:12,534 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:42:13,584 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:42:20,032 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:42:20,032 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:42:37,960 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:42:37,960 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:42:44,127 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:42:54,793 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:42:54,793 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:43:14,705 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:43:16,153 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:43:16,153 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:43:33,704 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:43:33,704 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:43:45,255 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:43:53,481 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:43:53,481 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:44:15,832 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:44:16,028 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:44:16,028 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:44:46,355 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:44:46,577 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:44:46,577 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:45:01,683 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:45:01,683 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:45:16,872 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:45:26,555 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:45:26,556 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:45:41,694 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:45:41,694 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:45:47,366 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:45:56,836 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:45:56,837 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:46:11,971 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:46:11,971 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:46:17,891 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:46:27,115 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:46:27,116 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:46:42,232 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:46:42,233 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:46:48,364 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:46:57,360 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:46:57,361 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:47:12,485 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:47:12,485 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:47:18,847 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:47:27,637 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:47:27,637 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:47:42,899 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:47:42,899 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:47:49,322 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:47:58,022 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:47:58,022 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:48:13,136 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:48:13,136 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:48:19,863 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:48:28,260 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:48:28,260 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:48:43,400 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:48:43,400 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:48:50,435 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:48:58,540 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:48:58,540 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:49:13,666 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:49:13,666 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:49:20,933 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:49:28,816 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:49:28,816 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:49:44,001 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:49:44,002 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:49:51,668 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:49:59,146 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:49:59,146 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:50:14,253 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:50:14,253 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:50:22,447 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:50:29,352 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:50:29,352 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:50:44,440 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:50:44,440 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:50:53,135 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:50:59,528 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:50:59,528 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:51:14,619 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:51:14,619 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:51:23,862 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:51:29,720 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:51:29,720 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:51:44,812 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:51:44,812 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:51:54,602 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:51:59,914 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:51:59,914 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:52:25,362 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:52:27,675 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:52:27,675 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:52:28,400 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:28,401 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:28,402 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:28,402 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:28,749 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:28,906 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:28,906 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:28,906 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:28,907 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:29,410 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:29,411 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:29,411 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:29,412 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:29,749 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:29,915 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:29,916 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:29,916 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:29,916 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:30,418 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:30,418 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:30,418 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:30,419 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:30,750 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:30,922 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:30,922 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:30,923 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:30,923 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:31,426 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:31,426 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:31,427 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:31,427 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:31,750 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:31,931 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:31,931 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:31,932 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:31,932 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:32,434 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:32,435 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:32,435 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:32,436 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:32,750 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:32,938 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:32,939 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:32,939 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:32,940 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:33,442 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:33,443 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:33,443 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:33,444 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:33,751 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:33,949 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:33,949 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:33,950 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:33,950 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:34,456 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:34,456 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:34,456 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:34,457 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:34,751 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:34,962 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:34,963 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:34,963 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:34,964 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:35,468 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:35,468 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:35,469 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:35,469 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:35,751 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:35,974 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:35,975 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:35,975 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:35,976 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:36,479 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:36,480 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:36,480 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:36,480 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:36,751 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:36,983 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:36,984 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:36,984 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:36,984 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:37,486 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:37,487 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:37,487 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:37,488 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:37,752 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:37,991 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:52:37,992 DEBUG   SenderThread:126274 [sender.py:send():235] send: history
+2022-04-17 16:52:37,992 DEBUG   SenderThread:126274 [sender.py:send():235] send: summary
+2022-04-17 16:52:37,993 INFO    SenderThread:126274 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-17 16:52:38,752 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/wandb-summary.json
+2022-04-17 16:52:39,752 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:52:42,780 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:52:42,780 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:52:55,907 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:53:06,776 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:53:06,776 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:53:21,765 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:53:25,241 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:53:25,241 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:53:26,390 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:53:34,681 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:53:34,681 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 41 < 60. Dropping entry: {'Training_Loss': 0.9256890816417334, 'Validation_Loss': 1.0160468706901926, 'Training_R2': 0.07749556631003474, 'Validation_R2': -0.10462498139076493, 'Training_F1': 0.49297989190877856, 'Validation_F1': 0.5712482372103531, 'Training_NEP': 1.0060843589671697, 'Validation_NEP': 1.1704130959985553, 'Training_NDE': 0.5842689839451175, 'Validation_NDE': 0.7274876682133682, 'Training_MAE': 51.52938723261746, 'Validation_MAE': 54.45389920128279, 'Training_MSE': 4180.2607421875, 'Validation_MSE': 4612.33251953125, '_timestamp': 1650228814, '_runtime': 6781}.
+2022-04-17 16:53:35,769 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:53:40,327 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:53:40,327 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:53:56,947 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:54:02,795 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:54:02,795 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:54:16,784 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:54:19,672 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:54:19,673 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:54:26,643 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:54:26,643 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 42 < 60. Dropping entry: {'Training_Loss': 0.8253533947156649, 'Validation_Loss': 0.8834186903316609, 'Training_R2': 0.17092757401000913, 'Validation_R2': 0.039704317155250135, 'Training_F1': 0.5921398026948224, 'Validation_F1': 0.4699998858942468, 'Training_NEP': 0.8155592100922918, 'Validation_NEP': 1.0777146951789478, 'Training_NDE': 0.5641691247990095, 'Validation_NDE': 0.6324347890706975, 'Training_MAE': 52.03300247473659, 'Validation_MAE': 50.1410720536641, 'Training_MSE': 7187.22412109375, 'Validation_MSE': 4009.689697265625, '_timestamp': 1650228866, '_runtime': 6833}.
+2022-04-17 16:54:27,512 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:54:27,788 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:54:35,013 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:54:35,014 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:54:54,983 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:54:54,983 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:54:58,015 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:55:09,803 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:55:13,588 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:55:13,589 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:55:22,999 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:55:22,999 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 43 < 60. Dropping entry: {'Training_Loss': 0.5856515469082568, 'Validation_Loss': 0.9393189995393266, 'Training_R2': 0.41360925076417876, 'Validation_R2': -0.02086971656553449, 'Training_F1': 0.7206845873156079, 'Validation_F1': 0.5295073841627791, 'Training_NEP': 0.5587063212784189, 'Validation_NEP': 1.0908616990290785, 'Training_NDE': 0.3027811430088856, 'Validation_NDE': 0.6723278417249382, 'Training_MAE': 40.124398379724326, 'Validation_MAE': 50.752741236879366, 'Training_MSE': 3228.828125, 'Validation_MSE': 4262.6142578125, '_timestamp': 1650228922, '_runtime': 6889}.
+2022-04-17 16:55:23,808 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:55:28,550 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:55:28,682 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:55:28,683 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:55:51,251 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:55:51,251 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:55:59,065 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:56:05,823 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:56:09,879 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:56:09,879 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:56:19,362 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-17 16:56:19,362 WARNING HandlerThread:126274 [handler.py:handle_request_partial_history():511] Step 44 < 60. Dropping entry: {'Training_Loss': 0.8271355226813817, 'Validation_Loss': 0.8251038324223817, 'Training_R2': 0.1658458739184424, 'Validation_R2': 0.10389345685719353, 'Training_F1': 0.6428429637096476, 'Validation_F1': 0.5075155801937802, 'Training_NEP': 0.7103224322544088, 'Validation_NEP': 1.0170150117023036, 'Training_NDE': 0.42579042351148516, 'Validation_NDE': 0.5901608876534075, 'Training_MAE': 47.79256847872988, 'Validation_MAE': 47.31699698402643, 'Training_MSE': 3937.356201171875, 'Validation_MSE': 3741.66943359375, '_timestamp': 1650228979, '_runtime': 6946}.
+2022-04-17 16:56:20,828 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:56:25,358 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:56:25,358 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:56:29,561 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:56:47,748 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:56:47,748 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status
+2022-04-17 16:57:00,065 DEBUG   SenderThread:126274 [sender.py:send():235] send: stats
+2022-04-17 16:57:02,843 INFO    Thread-7  :126274 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/Alfredo/private_nilm/src_3/wandb/run-20220417_150033-12sn3c7s/files/output.log
+2022-04-17 16:57:06,321 DEBUG   HandlerThread:126274 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-17 16:57:06,321 DEBUG   SenderThread:126274 [sender.py:send_request():249] send_request: stop_status

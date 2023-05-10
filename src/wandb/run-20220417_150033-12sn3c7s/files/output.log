@@ -1,0 +1,375 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=11000, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  249
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 139392 batches: 1.0001
+Time to train on one home:  90.77030158042908
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 239616 batches: 0.9739
+Time to train on one home:  81.0986180305481
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 379008 batches: 0.5962
+Time to train on one home:  87.49496483802795
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 518400 batches: 0.9522
+Time to train on one home:  89.06655669212341
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 654336 batches: 0.6134
+Time to train on one home:  86.3786461353302
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 793728 batches: 0.9396
+Time to train on one home:  87.8297472000122
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 933120 batches: 1.0040
+Time to train on one home:  130.08898973464966
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1072512 batches: 0.9939
+Time to train on one home:  297.74349546432495
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1211904 batches: 0.9929
+Time to train on one home:  300.31000781059265
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1351296 batches: 1.0280
+Time to train on one home:  306.67115092277527
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1490688 batches: 0.8995
+Time to train on one home:  300.02601766586304
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1630080 batches: 0.9809
+Time to train on one home:  294.44723749160767
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1769472 batches: 0.6265
+Time to train on one home:  307.8280613422394
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1908864 batches: 0.9741
+Time to train on one home:  231.9557454586029
+trigger times: 0
+Loss after 1997568 batches: 0.9859
+Time to train on one home:  51.501402139663696
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2136960 batches: 0.5148
+Time to train on one home:  56.90286993980408
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2276352 batches: 0.9892
+Time to train on one home:  85.32456159591675
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2415744 batches: 0.9859
+Time to train on one home:  266.7266082763672
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2548224 batches: 0.9985
+Time to train on one home:  279.99325037002563
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2687616 batches: 0.9639
+Time to train on one home:  283.0292456150055
+train_results:  [0.9006780812083643]
+Round_0_average_test_results:  [array([9.50687266e-01, 1.60094995e-05, 4.39417404e-01, 1.12912954e+00,
+       6.38055038e-01, 5.57788954e+01, 4.30209668e+03])]
+average_updates:  [0.0011616772]
+max_updates:  [30.503212]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2827008 batches: 0.9562
+Time to train on one home:  55.68090271949768
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2927232 batches: 0.9821
+Time to train on one home:  51.93011116981506
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3066624 batches: 0.6730
+Time to train on one home:  57.845688581466675
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3206016 batches: 0.9692
+Time to train on one home:  55.800129890441895
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3341952 batches: 0.7259
+Time to train on one home:  55.73222351074219
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3481344 batches: 0.9750
+Time to train on one home:  56.15740513801575
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3620736 batches: 0.9985
+Time to train on one home:  55.61379265785217
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3760128 batches: 0.9910
+Time to train on one home:  56.35392475128174
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3899520 batches: 1.0030
+Time to train on one home:  54.93375754356384
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4038912 batches: 1.0216
+Time to train on one home:  56.35858607292175
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4178304 batches: 0.9281
+Time to train on one home:  56.475234508514404
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4317696 batches: 1.0082
+Time to train on one home:  56.159573793411255
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4457088 batches: 0.6393
+Time to train on one home:  56.13028025627136
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4596480 batches: 0.9661
+Time to train on one home:  56.586700439453125
+trigger times: 0
+Loss after 4685184 batches: 1.0055
+Time to train on one home:  51.128042459487915
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4824576 batches: 0.5645
+Time to train on one home:  56.47979545593262
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4963968 batches: 0.9986
+Time to train on one home:  56.34947323799133
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5103360 batches: 0.9642
+Time to train on one home:  55.90662908554077
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5235840 batches: 0.9956
+Time to train on one home:  55.47066950798035
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5375232 batches: 0.9876
+Time to train on one home:  56.33077263832092
+train_results:  [0.9006780812083643, 0.9176568442112712]
+Round_1_average_test_results:  [array([9.50687266e-01, 1.60094995e-05, 4.39417404e-01, 1.12912954e+00,
+       6.38055038e-01, 5.57788954e+01, 4.30209668e+03]), array([9.45834808e-01, 5.04764819e-03, 4.43017032e-01, 1.12805233e+00,
+       6.34844524e-01, 5.57256814e+01, 4.28045020e+03])]
+average_updates:  [0.0011616772, 0.00033558873]
+max_updates:  [30.503212, 29.89363]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5514624 batches: 0.9257
+Time to train on one home:  56.406399965286255
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5614848 batches: 0.8254
+Time to train on one home:  51.96130728721619
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5754240 batches: 0.5857
+Time to train on one home:  56.35653495788574
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5893632 batches: 0.8271
+Time to train on one home:  56.36321973800659
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy

@@ -1,0 +1,2347 @@
+wandb: Currently logged in as: nilm (use `wandb login --relogin` to force relogin)
+True
+1.10.2
+patience:  20
+training_home:  [142, 145, 183, 335]
+test_home:  [142, 145, 183, 335]
+wandb: wandb version 0.12.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.11
+wandb: Run data is saved locally in /home/Alfredo/private_nilm/src_3/wandb/run-20220415_212021-2xixfbfu
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run decent-voice-38
+wandb: ⭐️ View project at https://wandb.ai/nilm/march7_FL_trials
+wandb: 🚀 View run at https://wandb.ai/nilm/march7_FL_trials/runs/2xixfbfu
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 9 < 12; dropping {'Training_Loss': 0.8138394421173467, 'Validation_Loss': 0.771533983120741, 'Training_R2': 0.18360844339785354, 'Validation_R2': 0.19328207719923363, 'Training_F1': 0.5545113236563286, 'Validation_F1': 0.6248018928845912, 'Training_NEP': 0.8886043382130503, 'Validation_NEP': 0.6929789501793636, 'Training_NDE': 0.5164595227798691, 'Validation_NDE': 0.4304834216594463, 'Training_MAE': 44.513566403348506, 'Validation_MAE': 47.10322985904115, 'Training_MSE': 3527.6042, 'Validation_MSE': 4264.625}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 10 < 12; dropping {'Training_Loss': 0.7417366263307171, 'Validation_Loss': 0.7506119054703673, 'Training_R2': 0.2559373694344944, 'Validation_R2': 0.215357237874377, 'Training_F1': 0.590045458760534, 'Validation_F1': 0.6358677643629709, 'Training_NEP': 0.816234461419334, 'Validation_NEP': 0.6897583810420662, 'Training_NDE': 0.47070333835834305, 'Validation_NDE': 0.4187036031720557, 'Training_MAE': 40.88828439905688, 'Validation_MAE': 46.88432103314999, 'Training_MSE': 3215.0732, 'Validation_MSE': 4147.927}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 11 < 12; dropping {'Training_Loss': 0.7547423588851142, 'Validation_Loss': 0.810625464709337, 'Training_R2': 0.24354612403301856, 'Validation_R2': 0.1527920251101217, 'Training_F1': 0.6319272727615713, 'Validation_F1': 0.6305889988739974, 'Training_NEP': 0.7338966048307782, 'Validation_NEP': 0.7186182060321845, 'Training_NDE': 0.520100212492066, 'Validation_NDE': 0.45208985393750406, 'Training_MAE': 46.775005537791856, 'Validation_MAE': 48.84598375010466, 'Training_MSE': 6761.843, 'Validation_MSE': 4478.671}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 17 < 20; dropping {'Training_Loss': 0.7631050812057507, 'Validation_Loss': 0.8323028141802008, 'Training_R2': 0.25810511958282323, 'Validation_R2': 0.13003637672761836, 'Training_F1': 0.5791451095822033, 'Validation_F1': 0.5994205080028625, 'Training_NEP': 0.8410142503824624, 'Validation_NEP': 0.7104909120354878, 'Training_NDE': 0.4689945758648409, 'Validation_NDE': 0.46423279647158067, 'Training_MAE': 42.836405406248424, 'Validation_MAE': 48.293554564255174, 'Training_MSE': 3307.695, 'Validation_MSE': 4598.966}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 18 < 20; dropping {'Training_Loss': 0.7037830477511441, 'Validation_Loss': 0.814146583299499, 'Training_R2': 0.31577832287327245, 'Validation_R2': 0.14912892933753008, 'Training_F1': 0.5994004093659362, 'Validation_F1': 0.597612160709844, 'Training_NEP': 0.7971549819114327, 'Validation_NEP': 0.7057080072870408, 'Training_NDE': 0.43253601518470547, 'Validation_NDE': 0.4540445669263723, 'Training_MAE': 40.602467748007655, 'Validation_MAE': 47.96845051643138, 'Training_MSE': 3050.5623, 'Validation_MSE': 4498.035}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 19 < 20; dropping {'Training_Loss': 0.6728087351701799, 'Validation_Loss': 0.7695774115191019, 'Training_R2': 0.32833596095692474, 'Validation_R2': 0.19507229196879938, 'Training_F1': 0.675748230297768, 'Validation_F1': 0.6221399997063709, 'Training_NEP': 0.6472123534468346, 'Validation_NEP': 0.7061696010227686, 'Training_NDE': 0.4491108067319894, 'Validation_NDE': 0.4295281214761649, 'Training_MAE': 43.16084527680798, 'Validation_MAE': 47.999826008904634, 'Training_MSE': 6027.788, 'Validation_MSE': 4255.161}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 25 < 28; dropping {'Training_Loss': 0.6577199565223706, 'Validation_Loss': 0.714254388755018, 'Training_R2': 0.3236996084565029, 'Validation_R2': 0.2531802094809612, 'Training_F1': 0.5988659292177643, 'Validation_F1': 0.6676558436720526, 'Training_NEP': 0.7985513123938948, 'Validation_NEP': 0.6495847759988476, 'Training_NDE': 0.4278702533321851, 'Validation_NDE': 0.39852038698912795, 'Training_MAE': 39.50664711633214, 'Validation_MAE': 44.153637002809276, 'Training_MSE': 2850.9011, 'Validation_MSE': 3947.9797}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 26 < 28; dropping {'Training_Loss': 0.6111864653358489, 'Validation_Loss': 0.7085537539779647, 'Training_R2': 0.37154765767420594, 'Validation_R2': 0.25939962783933, 'Training_F1': 0.6189886330656211, 'Validation_F1': 0.6543264353173176, 'Training_NEP': 0.7593554852108348, 'Validation_NEP': 0.6761787633131348, 'Training_NDE': 0.3975985616457357, 'Validation_NDE': 0.3952015608914668, 'Training_MAE': 37.56751598108698, 'Validation_MAE': 45.96128598985147, 'Training_MSE': 2649.2007, 'Validation_MSE': 3915.1016}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 27 < 28; dropping {'Training_Loss': 0.6109516080882814, 'Validation_Loss': 0.732032129956671, 'Training_R2': 0.3818773267016121, 'Validation_R2': 0.23567860368546822, 'Training_F1': 0.6957626428943473, 'Validation_F1': 0.6810896637490068, 'Training_NEP': 0.6083353707882135, 'Validation_NEP': 0.7013552922748704, 'Training_NDE': 0.41691288358323836, 'Validation_NDE': 0.40785965036042077, 'Training_MAE': 39.76895912805247, 'Validation_MAE': 47.672587365500036, 'Training_MSE': 5473.601, 'Validation_MSE': 4040.5002}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 33 < 36; dropping {'Training_Loss': 0.6252691571911176, 'Validation_Loss': 0.7991658869730539, 'Training_R2': 0.368180197156319, 'Validation_R2': 0.16423768433105035, 'Training_F1': 0.6107957553391756, 'Validation_F1': 0.5935578959237642, 'Training_NEP': 0.7765857435824998, 'Validation_NEP': 0.6895197023194316, 'Training_NDE': 0.3994883482111313, 'Validation_NDE': 0.4459821843229909, 'Training_MAE': 38.78812842223747, 'Validation_MAE': 46.86809754074548, 'Training_MSE': 2710.2427, 'Validation_MSE': 4418.1646}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 34 < 36; dropping {'Training_Loss': 0.562363491943221, 'Validation_Loss': 0.7767707302181188, 'Training_R2': 0.4317448909539515, 'Validation_R2': 0.18754212719624352, 'Training_F1': 0.6302174960596484, 'Validation_F1': 0.6115397234934884, 'Training_NEP': 0.7394396492350954, 'Validation_NEP': 0.675503067957841, 'Training_NDE': 0.3592975304883045, 'Validation_NDE': 0.43354639230581876, 'Training_MAE': 36.93279243411473, 'Validation_MAE': 45.91535756211662, 'Training_MSE': 2437.5764, 'Validation_MSE': 4294.9683}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 35 < 36; dropping {'Training_Loss': 0.5265124463106668, 'Validation_Loss': 0.7122361092897486, 'Training_R2': 0.47235261443106447, 'Validation_R2': 0.2556518858747554, 'Training_F1': 0.7138635242896478, 'Validation_F1': 0.6405650364075313, 'Training_NEP': 0.5730818732174395, 'Validation_NEP': 0.6961559332865662, 'Training_NDE': 0.3518967219709654, 'Validation_NDE': 0.3972014430544978, 'Training_MAE': 38.29333207621461, 'Validation_MAE': 47.31917605122797, 'Training_MSE': 4717.0996, 'Validation_MSE': 3934.9136}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 41 < 44; dropping {'Training_Loss': 0.5780420196093159, 'Validation_Loss': 0.7462492502671628, 'Training_R2': 0.4181386891959664, 'Validation_R2': 0.2197109929135932, 'Training_F1': 0.6338859003038108, 'Validation_F1': 0.6350956451016855, 'Training_NEP': 0.7303609509515934, 'Validation_NEP': 0.6587216875615625, 'Training_NDE': 0.36752389357614, 'Validation_NDE': 0.4163803383562179, 'Training_MAE': 36.600269494766806, 'Validation_MAE': 44.774692008057116, 'Training_MSE': 2505.5356, 'Validation_MSE': 4124.911}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 42 < 44; dropping {'Training_Loss': 0.48761259005117563, 'Validation_Loss': 0.763612718067386, 'Training_R2': 0.5091656133454079, 'Validation_R2': 0.20174152572627857, 'Training_F1': 0.6615571116320724, 'Validation_F1': 0.6350383980002294, 'Training_NEP': 0.6753852292946227, 'Validation_NEP': 0.6606977510477979, 'Training_NDE': 0.3100281141481618, 'Validation_NDE': 0.4259692634334443, 'Training_MAE': 33.84529440239256, 'Validation_MAE': 44.90900917971741, 'Training_MSE': 2113.5674, 'Validation_MSE': 4219.905}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 43 < 44; dropping {'Training_Loss': 0.4509763898682736, 'Validation_Loss': 0.7990046395373739, 'Training_R2': 0.5445259937082116, 'Validation_R2': 0.16505011476005094, 'Training_F1': 0.7255025195295892, 'Validation_F1': 0.5862810823714466, 'Training_NEP': 0.5487725749582404, 'Validation_NEP': 0.6906113796804662, 'Training_NDE': 0.30728814216613387, 'Validation_NDE': 0.4455486525753358, 'Training_MAE': 35.892291858792305, 'Validation_MAE': 46.94230113618718, 'Training_MSE': 4040.361, 'Validation_MSE': 4413.8696}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=11000, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  249
+trigger times: 0
+Loss after 103680 batches: 1.0205
+trigger times: 0
+Loss after 207360 batches: 0.9857
+Time to train on one home:  82.14782810211182
+trigger times: 0
+Loss after 288000 batches: 0.9552
+trigger times: 0
+Loss after 368640 batches: 0.8040
+Time to train on one home:  72.633216381073
+trigger times: 0
+Loss after 472320 batches: 0.5693
+trigger times: 0
+Loss after 576000 batches: 0.3959
+Time to train on one home:  79.84965801239014
+trigger times: 0
+Loss after 679680 batches: 0.9901
+trigger times: 0
+Loss after 783360 batches: 0.8612
+Time to train on one home:  78.80682897567749
+train_results:  [0.7617083910305293]
+Round_0_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03])]
+average_updates:  [0.0025480348]
+max_updates:  [35.0301]
+trigger times: 0
+Loss after 887040 batches: 0.8138
+trigger times: 0
+Loss after 990720 batches: 0.7417
+Time to train on one home:  75.05619382858276
+trigger times: 0
+Loss after 1071360 batches: 0.7547
+trigger times: 1
+Loss after 1152000 batches: 0.6258
+Time to train on one home:  70.24342942237854
+trigger times: 0
+Loss after 1255680 batches: 0.5234
+trigger times: 1
+Loss after 1359360 batches: 0.4032
+Time to train on one home:  75.49617123603821
+trigger times: 0
+Loss after 1463040 batches: 0.8098
+trigger times: 0
+Loss after 1566720 batches: 0.7211
+Time to train on one home:  76.67289638519287
+train_results:  [0.7617083910305293, 0.6229851647397598]
+Round_1_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03])]
+average_updates:  [0.0025480348, 0.00068961433]
+max_updates:  [35.0301, 33.740936]
+trigger times: 0
+Loss after 1670400 batches: 0.7631
+trigger times: 0
+Loss after 1774080 batches: 0.7038
+Time to train on one home:  76.0405764579773
+trigger times: 0
+Loss after 1854720 batches: 0.6728
+trigger times: 0
+Loss after 1935360 batches: 0.5805
+Time to train on one home:  71.57090663909912
+trigger times: 0
+Loss after 2039040 batches: 0.4167
+trigger times: 1
+Loss after 2142720 batches: 0.3493
+Time to train on one home:  78.01544070243835
+trigger times: 0
+Loss after 2246400 batches: 0.7415
+trigger times: 1
+Loss after 2350080 batches: 0.6753
+Time to train on one home:  76.05800151824951
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935]
+Round_2_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914]
+max_updates:  [35.0301, 33.740936, 37.80583]
+trigger times: 0
+Loss after 2453760 batches: 0.6577
+trigger times: 1
+Loss after 2557440 batches: 0.6112
+Time to train on one home:  77.1109631061554
+trigger times: 0
+Loss after 2638080 batches: 0.6110
+trigger times: 1
+Loss after 2718720 batches: 0.5326
+Time to train on one home:  71.27601599693298
+trigger times: 0
+Loss after 2822400 batches: 0.3867
+trigger times: 0
+Loss after 2926080 batches: 0.3336
+Time to train on one home:  77.14487481117249
+trigger times: 0
+Loss after 3029760 batches: 0.6936
+trigger times: 0
+Loss after 3133440 batches: 0.6197
+Time to train on one home:  76.34129691123962
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229]
+Round_3_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127]
+trigger times: 0
+Loss after 3237120 batches: 0.6253
+trigger times: 0
+Loss after 3340800 batches: 0.5624
+Time to train on one home:  76.99440574645996
+trigger times: 0
+Loss after 3421440 batches: 0.5265
+trigger times: 0
+Loss after 3502080 batches: 0.4746
+Time to train on one home:  71.35853052139282
+trigger times: 0
+Loss after 3605760 batches: 0.3537
+trigger times: 1
+Loss after 3709440 batches: 0.2973
+Time to train on one home:  76.56225252151489
+trigger times: 0
+Loss after 3813120 batches: 0.6341
+trigger times: 1
+Loss after 3916800 batches: 0.5609
+Time to train on one home:  77.07001185417175
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153]
+Round_4_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576]
+trigger times: 0
+Loss after 4020480 batches: 0.5780
+trigger times: 1
+Loss after 4124160 batches: 0.4876
+Time to train on one home:  76.1405942440033
+trigger times: 0
+Loss after 4204800 batches: 0.4510
+trigger times: 1
+Loss after 4285440 batches: 0.3904
+Time to train on one home:  70.72996997833252
+trigger times: 0
+Loss after 4389120 batches: 0.3090
+trigger times: 1
+Loss after 4492800 batches: 0.2591
+Time to train on one home:  76.06739377975464
+trigger times: 0
+Loss after 4596480 batches: 0.5533
+trigger times: 1
+Loss after 4700160 batches: 0.4908
+Time to train on one home:  75.96563601493835
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153, 0.4069900804004226]
+Round_5_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977, 0.00031342552]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 49 < 52; dropping {'Training_Loss': 0.5317276724878652, 'Validation_Loss': 0.7349196344244578, 'Training_R2': 0.4652323006837963, 'Validation_R2': 0.23176524081732552, 'Training_F1': 0.6477755415246081, 'Validation_F1': 0.6615968308665947, 'Training_NEP': 0.7037498442689303, 'Validation_NEP': 0.6564662361060118, 'Training_NDE': 0.3366691118064774, 'Validation_NDE': 0.40994791168455785, 'Training_MAE': 35.43969637768136, 'Validation_MAE': 44.621384251278634, 'Training_MSE': 2304.7847, 'Validation_MSE': 4061.188}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 50 < 52; dropping {'Training_Loss': 0.4478631197992298, 'Validation_Loss': 0.7771512093869123, 'Training_R2': 0.5495763281398878, 'Validation_R2': 0.18752579378405887, 'Training_F1': 0.6748421654162965, 'Validation_F1': 0.6650190437000069, 'Training_NEP': 0.6497693296853806, 'Validation_NEP': 0.6968253109787117, 'Training_NDE': 0.2835693661671413, 'Validation_NDE': 0.4335551081939451, 'Training_MAE': 32.72132554928094, 'Validation_MAE': 47.36467505417385, 'Training_MSE': 1941.2723, 'Validation_MSE': 4295.0547}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 51 < 52; dropping {'Training_Loss': 0.3946061065361377, 'Validation_Loss': 0.7820390153768634, 'Training_R2': 0.5961599808456044, 'Validation_R2': 0.18333488168673795, 'Training_F1': 0.7395018738428274, 'Validation_F1': 0.5804313609046358, 'Training_NEP': 0.5197280577061658, 'Validation_NEP': 0.6934708214647746, 'Training_NDE': 0.26980456728251934, 'Validation_NDE': 0.4357914762335507, 'Training_MAE': 34.27455072251577, 'Validation_MAE': 47.13666337994648, 'Training_MSE': 3535.3318, 'Validation_MSE': 4317.21}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 57 < 60; dropping {'Training_Loss': 0.4949411303816754, 'Validation_Loss': 0.739300573044572, 'Training_R2': 0.5142677986839325, 'Validation_R2': 0.2272185961798744, 'Training_F1': 0.6681159765505399, 'Validation_F1': 0.6299903646243799, 'Training_NEP': 0.6639806492636396, 'Validation_NEP': 0.6780096140755457, 'Training_NDE': 0.3070615171942107, 'Validation_NDE': 0.4123741068703599, 'Training_MAE': 33.66032224851258, 'Validation_MAE': 46.08573274869909, 'Training_MSE': 2145.3328, 'Validation_MSE': 4085.223}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 58 < 60; dropping {'Training_Loss': 0.40644263062672115, 'Validation_Loss': 0.7833016081289812, 'Training_R2': 0.6011196818853308, 'Validation_R2': 0.18144001196618653, 'Training_F1': 0.6974617718970352, 'Validation_F1': 0.6206007248048998, 'Training_NEP': 0.6048353983448815, 'Validation_NEP': 0.6937367941468617, 'Training_NDE': 0.2521570431759395, 'Validation_NDE': 0.4368026227295526, 'Training_MAE': 30.66196949892206, 'Validation_MAE': 47.15474209990952, 'Training_MSE': 1761.7343, 'Validation_MSE': 4327.2266}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 59 < 60; dropping {'Training_Loss': 0.35044274373009565, 'Validation_Loss': 0.722552800412513, 'Training_R2': 0.6566010101645663, 'Validation_R2': 0.2455507774355119, 'Training_F1': 0.759384142529571, 'Validation_F1': 0.6322712041442156, 'Training_NEP': 0.4779968097137953, 'Validation_NEP': 0.6754602049694792, 'Training_NDE': 0.2307788178235444, 'Validation_NDE': 0.4025916291413297, 'Training_MAE': 31.928414455576547, 'Validation_MAE': 45.912444075072415, 'Training_MSE': 3139.6658, 'Validation_MSE': 3988.312}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 65 < 68; dropping {'Training_Loss': 0.4732727919647723, 'Validation_Loss': 0.7225193639924704, 'Training_R2': 0.5338790134450442, 'Validation_R2': 0.24466848360615112, 'Training_F1': 0.6745794104492079, 'Validation_F1': 0.6607243094157, 'Training_NEP': 0.6506263307860415, 'Validation_NEP': 0.6516492621558932, 'Training_NDE': 0.2917664716162806, 'Validation_NDE': 0.40306244162217025, 'Training_MAE': 33.36626188425738, 'Validation_MAE': 44.29396444850003, 'Training_MSE': 2051.4111, 'Validation_MSE': 3992.976}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 66 < 68; dropping {'Training_Loss': 0.39210662525377155, 'Validation_Loss': 0.7263704191062076, 'Training_R2': 0.6138186477651735, 'Validation_R2': 0.24081996919802984, 'Training_F1': 0.708300181119433, 'Validation_F1': 0.6598469450475923, 'Training_NEP': 0.5827701974986967, 'Validation_NEP': 0.6494202405293303, 'Training_NDE': 0.24172859363901442, 'Validation_NDE': 0.40511609830177125, 'Training_MAE': 29.886375801283638, 'Validation_MAE': 44.1424531825235, 'Training_MSE': 1699.5946, 'Validation_MSE': 4013.3208}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 67 < 68; dropping {'Training_Loss': 0.2476129990366716, 'Validation_Loss': 0.7170666056600484, 'Training_R2': 0.7554647336474765, 'Validation_R2': 0.2514549489749983, 'Training_F1': 0.7820926839238864, 'Validation_F1': 0.639126869798315, 'Training_NEP': 0.4340959569107601, 'Validation_NEP': 0.6577917307430514, 'Training_NDE': 0.1660529650435405, 'Validation_NDE': 0.3994410260686245, 'Training_MAE': 28.424801274140677, 'Validation_MAE': 44.71148089642094, 'Training_MSE': 2218.4, 'Validation_MSE': 3957.1}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 73 < 76; dropping {'Training_Loss': 0.3908839956201889, 'Validation_Loss': 0.8067191589839202, 'Training_R2': 0.6068766978284876, 'Validation_R2': 0.1569772052455205, 'Training_F1': 0.6986473412641536, 'Validation_F1': 0.6556805727917033, 'Training_NEP': 0.6024110148729451, 'Validation_NEP': 0.6978092329377067, 'Training_NDE': 0.24883459670805766, 'Validation_NDE': 0.44985654460591906, 'Training_MAE': 30.115065817682094, 'Validation_MAE': 47.43155428937415, 'Training_MSE': 1694.2949, 'Validation_MSE': 4456.5464}.
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 74 < 76; dropping {'Training_Loss': 0.33186527953287703, 'Validation_Loss': 0.7713366068345456, 'Training_R2': 0.6662335223221636, 'Validation_R2': 0.19365680886608905, 'Training_F1': 0.7254128162810406, 'Validation_F1': 0.6565325145185548, 'Training_NEP': 0.5484683462226664, 'Validation_NEP': 0.6791160799928061, 'Training_NDE': 0.21126360714023307, 'Validation_NDE': 0.43028345613792685, 'Training_MAE': 27.418423530808937, 'Validation_MAE': 46.160941553264394, 'Training_MSE': 1438.4772, 'Validation_MSE': 4262.6436}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[0m: [33mWARNING[0m Step must only increase in log calls.  Step 75 < 76; dropping {'Training_Loss': 0.21430371191263908, 'Validation_Loss': 0.7180581743066962, 'Training_R2': 0.7899775735602294, 'Validation_R2': 0.2503742779938444, 'Training_F1': 0.8012808830396994, 'Validation_F1': 0.6365970925149983, 'Training_NEP': 0.39625471966577697, 'Validation_NEP': 0.660444802075297, 'Training_NDE': 0.14207306663063488, 'Validation_NDE': 0.4000176972054702, 'Training_MAE': 26.20151772891718, 'Validation_MAE': 44.891815708557516, 'Training_MSE': 1919.9774, 'Validation_MSE': 3962.813}.
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576, 33.443523]
+trigger times: 0
+Loss after 4803840 batches: 0.5317
+trigger times: 1
+Loss after 4907520 batches: 0.4479
+Time to train on one home:  76.04531812667847
+trigger times: 0
+Loss after 4988160 batches: 0.3946
+trigger times: 0
+Loss after 5068800 batches: 0.3207
+Time to train on one home:  70.98512649536133
+trigger times: 0
+Loss after 5172480 batches: 0.2719
+trigger times: 1
+Loss after 5276160 batches: 0.2171
+Time to train on one home:  76.70596623420715
+trigger times: 0
+Loss after 5379840 batches: 0.4383
+trigger times: 0
+Loss after 5483520 batches: 0.3769
+Time to train on one home:  76.50654721260071
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153, 0.4069900804004226, 0.3406307210914981]
+Round_6_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03]), array([8.08853835e-01, 2.13640631e-01, 6.31320273e-01, 7.08133792e-01,
+       4.38001700e-01, 4.75445577e+01, 4.45699780e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977, 0.00031342552, 0.0009584496]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576, 33.443523, 35.545086]
+trigger times: 0
+Loss after 5587200 batches: 0.4949
+trigger times: 1
+Loss after 5690880 batches: 0.4064
+Time to train on one home:  77.10413122177124
+trigger times: 0
+Loss after 5771520 batches: 0.3504
+trigger times: 0
+Loss after 5852160 batches: 0.2867
+Time to train on one home:  71.58926153182983
+trigger times: 0
+Loss after 5955840 batches: 0.2736
+trigger times: 1
+Loss after 6059520 batches: 0.2155
+Time to train on one home:  76.11567854881287
+trigger times: 0
+Loss after 6163200 batches: 0.3600
+trigger times: 1
+Loss after 6266880 batches: 0.3051
+Time to train on one home:  77.0421130657196
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153, 0.4069900804004226, 0.3406307210914981, 0.30345332039708217]
+Round_7_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03]), array([8.08853835e-01, 2.13640631e-01, 6.31320273e-01, 7.08133792e-01,
+       4.38001700e-01, 4.75445577e+01, 4.45699780e+03]), array([7.88861536e-01, 2.31984611e-01, 6.37868096e-01, 6.83804123e-01,
+       4.27784114e-01, 4.59110481e+01, 4.35302612e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977, 0.00031342552, 0.0009584496, 0.0011928093]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576, 33.443523, 35.545086, 34.925766]
+trigger times: 0
+Loss after 6370560 batches: 0.4733
+trigger times: 0
+Loss after 6474240 batches: 0.3921
+Time to train on one home:  77.07723760604858
+trigger times: 0
+Loss after 6554880 batches: 0.2476
+trigger times: 1
+Loss after 6635520 batches: 0.2054
+Time to train on one home:  73.41921257972717
+trigger times: 0
+Loss after 6739200 batches: 0.2351
+trigger times: 1
+Loss after 6842880 batches: 0.1758
+Time to train on one home:  76.88908433914185
+trigger times: 0
+Loss after 6946560 batches: 0.2943
+trigger times: 1
+Loss after 7050240 batches: 0.2349
+Time to train on one home:  76.27972483634949
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153, 0.4069900804004226, 0.3406307210914981, 0.30345332039708217, 0.25204077010068426]
+Round_8_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03]), array([8.08853835e-01, 2.13640631e-01, 6.31320273e-01, 7.08133792e-01,
+       4.38001700e-01, 4.75445577e+01, 4.45699780e+03]), array([7.88861536e-01, 2.31984611e-01, 6.37868096e-01, 6.83804123e-01,
+       4.27784114e-01, 4.59110481e+01, 4.35302612e+03]), array([7.82551365e-01, 2.38725170e-01, 6.50144558e-01, 6.78249587e-01,
+       4.24029627e-01, 4.55381130e+01, 4.31482153e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977, 0.00031342552, 0.0009584496, 0.0011928093, 0.0011355554]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576, 33.443523, 35.545086, 34.925766, 33.525253]
+trigger times: 0
+Loss after 7153920 batches: 0.3909
+trigger times: 0
+Loss after 7257600 batches: 0.3319
+Time to train on one home:  75.65843963623047
+trigger times: 0
+Loss after 7338240 batches: 0.2143
+trigger times: 0
+Loss after 7418880 batches: 0.1747
+Time to train on one home:  70.64538431167603
+trigger times: 0
+Loss after 7522560 batches: 0.1921
+trigger times: 0
+Loss after 7626240 batches: 0.1375
+Time to train on one home:  75.78934502601624
+trigger times: 0
+Loss after 7729920 batches: 0.2272
+trigger times: 1
+Loss after 7833600 batches: 0.1928
+Time to train on one home:  76.40238499641418
+train_results:  [0.7617083910305293, 0.6229851647397598, 0.5772444500867935, 0.5242572103125229, 0.47377644523303153, 0.4069900804004226, 0.3406307210914981, 0.30345332039708217, 0.25204077010068426, 0.20921399885245698]
+Round_9_average_test_results:  [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03]), array([8.08853835e-01, 2.13640631e-01, 6.31320273e-01, 7.08133792e-01,
+       4.38001700e-01, 4.75445577e+01, 4.45699780e+03]), array([7.88861536e-01, 2.31984611e-01, 6.37868096e-01, 6.83804123e-01,
+       4.27784114e-01, 4.59110481e+01, 4.35302612e+03]), array([7.82551365e-01, 2.38725170e-01, 6.50144558e-01, 6.78249587e-01,
+       4.24029627e-01, 4.55381130e+01, 4.31482153e+03]), array([7.79378035e-01, 2.41380539e-01, 6.43462561e-01, 6.80086851e-01,
+       4.22550588e-01, 4.56614681e+01, 4.29977124e+03])]
+average_updates:  [0.0025480348, 0.00068961433, 0.00076882914, 0.00042493525, 0.00062088977, 0.00031342552, 0.0009584496, 0.0011928093, 0.0011355554, 0.001100296]
+max_updates:  [35.0301, 33.740936, 37.80583, 37.039127, 33.22576, 33.443523, 35.545086, 34.925766, 33.525253, 32.734123]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 76.412 MB of 76.412 MB uploaded (0.000 MB deduped)wandb: \ 76.412 MB of 76.412 MB uploaded (0.000 MB deduped)wandb: | 76.412 MB of 76.412 MB uploaded (0.000 MB deduped)wandb: / 76.412 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: - 76.412 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: \ 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: | 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: / 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: - 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: \ 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: | 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb: / 76.464 MB of 76.464 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:   Test_F1_Score ▁▁▁▁▅▅▅▅▆▆▆▆█▆██▇▅▇▆▇▁▇▆█▃█▃▇▅▇▄█▅█▄█▆█▃
+wandb:       Test_Loss ▇▇▇▇▄▄▄▄▂▂▂▂▁▄▁▁▂▃▂▃▁▆▁▅▂▅▂▇▂▄▂▇▁▄▁█▁▃▁█
+wandb:        Test_MAE ████▄▄▄▄▃▃▃▃▂▄▂▂▂▄▂▃▂▄▂▃▂▃▂▅▁▃▁▄▁▃▁▅▁▃▁▅
+wandb:        Test_MSE ▇▇▇▇▄▄▄▄▂▂▂▂▁▄▁▁▂▃▂▃▁▆▁▅▂▅▂▇▂▄▂▇▁▄▁█▁▄▁█
+wandb:        Test_NDE ▇▇▇▇▄▄▄▄▂▂▂▂▁▄▁▁▂▃▂▃▁▆▁▅▂▅▂▇▂▄▂▇▁▄▁█▁▄▁█
+wandb:        Test_NEP ████▄▄▄▄▃▃▃▃▂▄▂▂▂▄▂▃▂▄▂▃▂▃▂▅▁▃▁▄▁▃▁▅▁▃▁▅
+wandb:   Test_R2_Value ▂▂▂▂▅▅▅▅▇▇▇▇█▅██▇▆▇▆█▃█▄▇▄▇▂▇▅▇▂█▅█▁█▅█▁
+wandb:     Training_F1 ▁▁▃▆▆▃▅▆▇▅▅▆▅▅▅▇▅▅▇▇▅▆▇▇▆▆▇▆▆▆█▇▇▇█▇▇███
+wandb:   Training_Loss ██▇▄▃█▅▄▃▆▅▃▆▅▄▃▅▅▃▂▅▃▂▂▄▂▂▃▃▂▂▃▂▂▁▂▁▁▁▁
+wandb:    Training_MAE █▇█▅▃█▅▄▃▅▅▄▆▅▄▃▅▅▃▂▅▄▂▂▄▃▂▄▃▃▂▃▃▂▁▃▂▂▁▂
+wandb:    Training_MSE ▄▄█▃▂▅▅▃▂▃▅▂▄▃▅▂▃▃▂▂▃▃▂▂▂▃▂▂▂▃▁▂▂▁▁▂▂▁▁▁
+wandb:    Training_NDE ███▄▃▆▅▃▃▅▅▃▅▄▅▂▄▄▂▂▄▃▂▂▃▃▂▃▂▂▁▂▂▂▁▂▂▁▁▁
+wandb:    Training_NEP ██▆▃▃▆▄▃▂▄▄▃▄▄▄▂▄▄▂▂▄▃▂▂▃▃▂▃▃▃▁▂▂▂▁▂▂▁▁▁
+wandb:     Training_R2 ▁▁▂▅▆▁▄▅▆▃▄▆▃▄▅▆▄▄▆▇▄▆▇▇▅▆▇▆▆▇▇▆▇▇█▇████
+wandb:   Validation_F1 ▃▄▁▆▆▂▄▇▆▇▇▆▇██▇▇█▇▇█▄▇▇█▅█▆▆▆▇▇▆▇▇▇▇▇▇▆
+wandb: Validation_Loss ▆▅█▄▄▆▄▄▄▂▂▄▂▂▂▃▁▁▃▄▁▄▂▂▃▃▂▆▅▂▂▃▄▂▂▆▂▂▂▄
+wandb:  Validation_MAE █▇█▄▄█▄▄▅▂▃▄▂▂▃▃▂▁▄▄▁▃▂▃▂▃▃▄▄▂▃▂▃▂▃▃▂▃▃▃
+wandb:  Validation_MSE ▆▅█▄▄▆▄▄▄▂▂▄▂▂▂▃▁▁▃▄▁▄▂▂▃▃▂▆▅▂▂▃▄▂▂▆▂▂▂▄
+wandb:  Validation_NDE ▆▅█▄▄▆▄▄▄▂▂▄▂▂▂▃▁▁▃▄▁▄▂▂▃▃▂▆▅▂▂▃▄▂▂▆▂▂▂▄
+wandb:  Validation_NEP █▇█▄▄█▄▄▅▂▃▄▂▂▃▃▂▁▄▄▁▃▂▃▂▃▃▄▄▂▃▂▃▂▃▃▂▃▃▃
+wandb:   Validation_R2 ▃▄▁▅▅▃▅▅▅▇▇▅▇▇▇▆██▆▅█▅▇▇▆▆▇▃▄▇▇▆▅▇▇▃▇▇▇▅
+wandb: 
+wandb: Run summary:
+wandb:   Test_F1_Score 0.5693
+wandb:       Test_Loss 1.03499
+wandb:        Test_MAE 52.56683
+wandb:        Test_MSE 5702.96777
+wandb:        Test_NDE 0.56045
+wandb:        Test_NEP 0.78294
+wandb:   Test_R2_Value -0.00619
+wandb:     Training_F1 0.83952
+wandb:   Training_Loss 0.19281
+wandb:    Training_MAE 22.57941
+wandb:    Training_MSE 925.7533
+wandb:    Training_NDE 0.09466
+wandb:    Training_NEP 0.32082
+wandb:     Training_R2 0.80821
+wandb:   Validation_F1 0.63171
+wandb: Validation_Loss 0.82925
+wandb:  Validation_MAE 46.73217
+wandb:  Validation_MSE 4584.54883
+wandb:  Validation_NDE 0.46278
+wandb:  Validation_NEP 0.68752
+wandb:   Validation_R2 0.13276
+wandb: 
+wandb: Synced decent-voice-38: https://wandb.ai/nilm/march7_FL_trials/runs/2xixfbfu
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./wandb/run-20220415_212021-2xixfbfu/logs
+
+{'Train_home_[142, 145, 183, 335]_Test_home_[142, 145, 183, 335]': [array([1.01593825e+00, 1.13201876e-02, 5.30334049e-01, 9.21692681e-01,
+       5.50694066e-01, 6.18830387e+01, 5.60372803e+03]), array([7.97685992e-01, 2.23461421e-01, 6.10170780e-01, 7.63211468e-01,
+       4.32531526e-01, 5.12425082e+01, 4.40133496e+03]), array([7.26134141e-01, 2.92967581e-01, 6.53118239e-01, 6.88401329e-01,
+       3.93816636e-01, 4.62197075e+01, 4.00738159e+03]), array([6.93210287e-01, 3.27370514e-01, 6.72563599e-01, 6.71869952e-01,
+       3.74654223e-01, 4.51097802e+01, 3.81238953e+03]), array([7.29922733e-01, 2.89670646e-01, 6.49398560e-01, 6.90560951e-01,
+       3.95653027e-01, 4.63647059e+01, 4.02606824e+03]), array([7.75946640e-01, 2.44612531e-01, 6.33455350e-01, 6.86627789e-01,
+       4.20750370e-01, 4.61006308e+01, 4.28145264e+03]), array([8.08853835e-01, 2.13640631e-01, 6.31320273e-01, 7.08133792e-01,
+       4.38001700e-01, 4.75445577e+01, 4.45699780e+03]), array([7.88861536e-01, 2.31984611e-01, 6.37868096e-01, 6.83804123e-01,
+       4.27784114e-01, 4.59110481e+01, 4.35302612e+03]), array([7.82551365e-01, 2.38725170e-01, 6.50144558e-01, 6.78249587e-01,
+       4.24029627e-01, 4.55381130e+01, 4.31482153e+03]), array([7.79378035e-01, 2.41380539e-01, 6.43462561e-01, 6.80086851e-01,
+       4.22550588e-01, 4.56614681e+01, 4.29977124e+03])]}
+[(array([0, 1, 2, 3]), {'conv1.weight': tensor([[[ 0.2499, -0.1199,  0.2077,  0.0955,  0.2137,  0.2320, -0.2750,
+          -0.3342, -0.1083,  0.0735]],
+
+        [[-0.3270, -0.0123,  0.1401,  0.0393, -0.2012,  0.0342,  0.0464,
+           0.2543, -0.0396,  0.2940]],
+
+        [[ 0.2574, -0.0496, -0.3344,  0.1971, -0.0965, -0.2161,  0.2129,
+          -0.2006, -0.2038,  0.1110]],
+
+        [[ 0.3348, -0.0942,  0.0581,  0.0213, -0.0224, -0.2462,  0.1461,
+           0.0332,  0.0078, -0.2851]],
+
+        [[ 0.0385,  0.2166,  0.0361, -0.3502, -0.1941, -0.1269,  0.2843,
+          -0.1890,  0.0952, -0.2450]],
+
+        [[-0.0773,  0.3045, -0.0763, -0.1068, -0.2866, -0.1503, -0.1583,
+          -0.2935,  0.0155, -0.1548]],
+
+        [[-0.1238,  0.1137, -0.3068,  0.2549, -0.4054, -0.1216,  0.0863,
+          -0.1475,  0.1938,  0.0986]],
+
+        [[-0.2011, -0.0304, -0.0331, -0.1468, -0.0957,  0.2673, -0.2391,
+           0.2423,  0.1869, -0.1395]],
+
+        [[-0.1724,  0.2257,  0.2477, -0.1417, -0.2156,  0.2098, -0.2880,
+           0.0917,  0.0580,  0.2286]],
+
+        [[-0.1633,  0.1766, -0.2388, -0.2709,  0.1880,  0.2173, -0.0484,
+          -0.1041,  0.2863, -0.2931]],
+
+        [[ 0.0158,  0.0972,  0.2848,  0.2433,  0.0704, -0.2830, -0.2068,
+          -0.2072,  0.1889, -0.2366]],
+
+        [[ 0.0146,  0.0813, -0.0379, -0.0771, -0.1931, -0.0150, -0.1182,
+           0.1169,  0.0059, -0.1987]],
+
+        [[ 0.2868,  0.2091, -0.2102, -0.0867, -0.1225,  0.1924,  0.0083,
+          -0.1608, -0.1008, -0.0055]],
+
+        [[ 0.3034, -0.0619,  0.1164,  0.2091,  0.1489, -0.0671, -0.3245,
+          -0.2384,  0.0695, -0.1073]],
+
+        [[-0.3292, -0.0030,  0.0401, -0.0777,  0.2375, -0.0608,  0.0706,
+          -0.2512,  0.2180,  0.2490]],
+
+        [[-0.0883, -0.0835,  0.1470,  0.0771, -0.2961,  0.1674, -0.1224,
+           0.2493, -0.0232, -0.2256]],
+
+        [[-0.1856,  0.0505, -0.0058,  0.2763,  0.1327, -0.2075,  0.1738,
+          -0.1055, -0.2595, -0.0187]],
+
+        [[ 0.2746, -0.2092, -0.1152, -0.2456, -0.0781, -0.0882,  0.2711,
+           0.1978, -0.1124,  0.0052]],
+
+        [[-0.0474,  0.2832, -0.3295, -0.3406, -0.1051,  0.2930,  0.1198,
+          -0.0390, -0.1644,  0.1666]],
+
+        [[ 0.2330,  0.0465,  0.0876, -0.1857, -0.2032,  0.1484,  0.2860,
+          -0.0617, -0.1051, -0.3091]],
+
+        [[-0.1605,  0.1842,  0.2933,  0.2799,  0.0013, -0.1737,  0.0480,
+          -0.2779,  0.0023, -0.1283]],
+
+        [[ 0.0422,  0.1514,  0.1924, -0.0778, -0.0677, -0.0877,  0.1362,
+          -0.2604,  0.0069, -0.2651]],
+
+        [[ 0.2442,  0.0308, -0.1310, -0.0153, -0.0673, -0.2481, -0.1593,
+          -0.1052, -0.2674,  0.0137]],
+
+        [[-0.2080,  0.0222, -0.1501,  0.0781,  0.1981,  0.2583, -0.0758,
+          -0.2008, -0.1984,  0.1926]],
+
+        [[-0.0399,  0.0311,  0.2675,  0.2970, -0.2198,  0.0626, -0.0102,
+           0.0179, -0.1209,  0.0536]],
+
+        [[-0.1969, -0.1746, -0.0668, -0.1263, -0.0949, -0.2169, -0.0967,
+           0.0957,  0.1916, -0.1402]],
+
+        [[-0.3014,  0.2479, -0.1178, -0.1329,  0.0955,  0.0948, -0.2350,
+           0.0988,  0.2117,  0.0549]],
+
+        [[ 0.2744,  0.2841,  0.1020, -0.3397,  0.1398,  0.0657,  0.0683,
+           0.2100, -0.0534, -0.3306]],
+
+        [[-0.0091, -0.3408, -0.0837, -0.0306,  0.1285,  0.1764,  0.2054,
+           0.1203, -0.0939, -0.1692]],
+
+        [[-0.1918, -0.1269,  0.0414, -0.2890, -0.1725,  0.0492,  0.2010,
+           0.1491,  0.2344, -0.0598]]]), 'conv1.bias': tensor([ 0.2589, -0.3140, -0.2625,  0.1918, -0.2030,  0.0650, -0.2278,  0.1847,
+         0.1091, -0.1439,  0.2558, -0.0314,  0.1718,  0.1115,  0.1943, -0.1355,
+        -0.0582,  0.1103,  0.0374, -0.0486,  0.2336, -0.0928,  0.0690, -0.0040,
+        -0.3137,  0.1876,  0.2906, -0.3238,  0.1375, -0.0110]), 'conv2.weight': tensor([[[-0.0285, -0.0468, -0.0283,  ..., -0.0079, -0.0554,  0.0421],
+         [ 0.0312, -0.0153, -0.0638,  ..., -0.0364,  0.0450,  0.0316],
+         [-0.0199,  0.0037, -0.0425,  ..., -0.0776,  0.0170,  0.0287],
+         ...,
+         [-0.0377, -0.0813,  0.0125,  ..., -0.0872, -0.0397, -0.0522],
+         [-0.0783,  0.0436, -0.0348,  ..., -0.0246, -0.0379, -0.0266],
+         [-0.0019, -0.0281, -0.0109,  ..., -0.0223,  0.0286,  0.0453]],
+
+        [[ 0.0534,  0.0322,  0.0079,  ...,  0.0662,  0.0624,  0.0697],
+         [-0.0411,  0.0318, -0.0353,  ..., -0.0154, -0.0543, -0.0101],
+         [-0.0652, -0.0103, -0.0194,  ...,  0.0655,  0.0741,  0.0180],
+         ...,
+         [-0.0099,  0.0489,  0.0594,  ...,  0.0094, -0.0318, -0.0037],
+         [-0.0726, -0.0473,  0.0400,  ...,  0.0414, -0.0782, -0.0106],
+         [-0.0524, -0.0459, -0.0127,  ...,  0.0128,  0.0036, -0.0088]],
+
+        [[-0.0564, -0.0509,  0.0045,  ...,  0.0112,  0.0290, -0.0258],
+         [-0.0540,  0.0212,  0.0572,  ..., -0.0438, -0.0182,  0.0646],
+         [-0.0480, -0.0265,  0.0196,  ...,  0.0175,  0.0386,  0.0049],
+         ...,
+         [-0.0311, -0.0353, -0.0049,  ..., -0.0134,  0.0422, -0.0047],
+         [-0.0024, -0.0290, -0.0494,  ..., -0.0642,  0.0180,  0.0270],
+         [ 0.0177, -0.0298, -0.0228,  ...,  0.0145, -0.0437,  0.0574]],
+
+        ...,
+
+        [[-0.0169, -0.0395, -0.0034,  ...,  0.0022, -0.0387, -0.0619],
+         [ 0.0047,  0.0160,  0.0524,  ...,  0.0075,  0.0508, -0.0278],
+         [ 0.0377, -0.0186,  0.0689,  ...,  0.0715,  0.0942,  0.0575],
+         ...,
+         [-0.0173, -0.0332,  0.0687,  ..., -0.0148, -0.0102, -0.0431],
+         [ 0.0430, -0.0161,  0.0109,  ..., -0.0593, -0.0216,  0.0365],
+         [-0.0566,  0.0290, -0.0212,  ...,  0.0774,  0.0152,  0.0411]],
+
+        [[ 0.0160, -0.0533, -0.0135,  ..., -0.0407,  0.0179, -0.0418],
+         [ 0.0322,  0.0057,  0.0600,  ..., -0.0659, -0.0672,  0.0126],
+         [ 0.0359,  0.0368, -0.0199,  ...,  0.0997,  0.0662, -0.0578],
+         ...,
+         [-0.0423, -0.0633, -0.0787,  ..., -0.0384, -0.0313, -0.0233],
+         [-0.0729, -0.0817, -0.0711,  ...,  0.0502, -0.0396, -0.0382],
+         [-0.0531,  0.0561,  0.0024,  ...,  0.0095,  0.0490,  0.0634]],
+
+        [[ 0.0364,  0.0131, -0.0660,  ..., -0.0436, -0.0637,  0.0096],
+         [ 0.0161,  0.0289,  0.0228,  ...,  0.0745, -0.0110,  0.0653],
+         [ 0.0114,  0.0095,  0.0513,  ...,  0.0304,  0.0569, -0.0420],
+         ...,
+         [ 0.0498, -0.0570, -0.0215,  ...,  0.0368, -0.0632,  0.0562],
+         [-0.0472, -0.0229, -0.0085,  ..., -0.0062, -0.0741,  0.0434],
+         [-0.0911, -0.0589, -0.0127,  ...,  0.0154,  0.0446,  0.0676]]]), 'conv2.bias': tensor([ 0.0266, -0.0225, -0.0460,  0.0208,  0.0449,  0.0193,  0.0255,  0.0329,
+        -0.0452, -0.0548, -0.0288, -0.0722,  0.0147, -0.0549,  0.0045,  0.0110,
+         0.0291, -0.0440,  0.0314,  0.0491, -0.0489, -0.0534,  0.0545, -0.0195,
+        -0.0561, -0.0204, -0.0487, -0.0418, -0.0319, -0.0399]), 'conv3.weight': tensor([[[ 5.5692e-02,  6.6327e-02,  4.3388e-02,  8.9872e-02, -1.1597e-02,
+           7.6216e-02],
+         [ 8.3364e-02,  4.3307e-02, -5.1079e-02, -3.0439e-02, -5.9255e-03,
+           3.3357e-02],
+         [ 3.4501e-02,  3.4206e-02,  1.6520e-02, -2.2154e-02,  7.4980e-02,
+           2.1423e-02],
+         ...,
+         [-7.5645e-02, -7.5619e-02, -7.6859e-02,  1.8698e-02, -1.4095e-02,
+           2.6291e-02],
+         [ 6.4750e-03, -1.1586e-02, -7.6580e-02,  4.3580e-02,  4.4245e-02,
+           7.3042e-02],
+         [ 2.2234e-02, -6.4189e-02, -2.8142e-02,  1.1634e-02, -4.9354e-03,
+          -1.7138e-02]],
+
+        [[ 1.1317e-02, -5.7841e-02,  6.5285e-02, -2.0721e-02, -1.7025e-02,
+          -3.1696e-02],
+         [ 1.3289e-02,  2.7223e-02,  7.8282e-02, -7.1907e-03, -6.6991e-02,
+          -6.1623e-02],
+         [ 3.5366e-02, -7.1353e-02,  1.1295e-02,  3.4557e-02,  3.3241e-02,
+           5.5288e-02],
+         ...,
+         [ 5.9212e-02, -3.2175e-02,  3.8108e-02, -4.5850e-02,  1.4017e-02,
+          -5.4929e-02],
+         [ 2.2969e-02, -4.1366e-02, -8.2096e-02, -7.9048e-02, -3.6973e-02,
+          -4.5523e-02],
+         [-9.4642e-02,  4.2951e-02,  3.5642e-02, -4.9774e-02, -9.3379e-02,
+          -5.7460e-03]],
+
+        [[-4.3120e-02,  2.2944e-02,  6.4386e-02, -4.6267e-02, -8.0137e-02,
+          -9.1657e-02],
+         [-2.3161e-02, -1.3197e-02,  3.8215e-02, -2.0555e-02,  3.5394e-02,
+           4.3345e-02],
+         [ 7.0791e-02, -2.4889e-02,  1.3649e-02,  3.6239e-02, -7.0968e-02,
+           4.5313e-02],
+         ...,
+         [-3.8073e-02,  3.6718e-02,  2.1355e-02,  7.0875e-02,  5.4265e-02,
+          -4.5330e-02],
+         [-2.8852e-02,  1.0825e-02, -3.6521e-02,  1.8376e-02,  4.6777e-02,
+          -2.3661e-02],
+         [-5.8342e-02,  5.3955e-02,  4.6054e-02,  7.6815e-03,  2.2040e-02,
+           1.1329e-02]],
+
+        ...,
+
+        [[-1.5389e-02,  1.4706e-02,  7.6940e-03, -2.3306e-03,  1.4839e-02,
+          -9.2073e-02],
+         [-3.9759e-02, -2.8897e-02,  2.1958e-02, -7.2363e-03,  2.3470e-02,
+           3.6201e-02],
+         [-6.5088e-02,  8.6482e-03, -1.5886e-02, -3.1730e-03, -5.4630e-02,
+          -8.2453e-02],
+         ...,
+         [ 6.6177e-02,  2.0390e-02, -2.3875e-02,  6.4275e-03,  2.3818e-03,
+           3.6893e-02],
+         [-3.8695e-02,  6.9443e-02,  4.3893e-02, -3.0385e-02,  2.2855e-02,
+           1.5664e-02],
+         [-5.8871e-02,  6.8197e-02, -7.7787e-02,  1.7607e-02, -2.7262e-02,
+           4.4712e-02]],
+
+        [[ 3.2973e-02,  7.3494e-02, -1.7197e-02,  3.4220e-02, -5.4906e-05,
+          -6.7206e-02],
+         [-6.2878e-02, -3.5205e-02,  1.0112e-02,  4.8341e-02, -6.0492e-02,
+           9.3684e-03],
+         [-2.0782e-03,  5.7704e-02,  6.9042e-02, -1.9859e-02, -6.9705e-02,
+          -7.4437e-02],
+         ...,
+         [-3.8485e-02, -1.9977e-02,  4.5835e-02, -4.1582e-02,  5.7358e-02,
+           3.0228e-02],
+         [ 1.8679e-02, -1.2973e-02,  1.5936e-03, -5.1547e-02, -3.9675e-02,
+          -4.8258e-02],
+         [-7.4430e-02,  7.5967e-03,  4.4550e-02,  2.3750e-02,  6.7427e-02,
+          -2.0507e-02]],
+
+        [[ 2.9234e-02, -5.9934e-02, -7.0409e-02, -3.8603e-02, -3.6621e-02,
+           1.0604e-02],
+         [-5.2823e-02,  4.5338e-03,  6.2116e-02, -1.3991e-02,  6.5017e-03,
+           2.6530e-02],
+         [ 3.9059e-02, -3.1255e-02,  8.5195e-03,  2.3329e-03,  4.4022e-02,
+          -2.5632e-02],
+         ...,
+         [ 1.3701e-03, -2.1659e-02,  7.0956e-03,  5.8543e-02, -1.0234e-02,
+           2.7344e-04],
+         [-5.5859e-02,  6.1274e-02,  3.4042e-02,  8.4131e-02,  5.9350e-02,
+          -5.6167e-02],
+         [-2.4100e-02, -1.4172e-02,  6.9855e-02, -2.6251e-02,  5.2368e-02,
+          -7.5275e-02]]]), 'conv3.bias': tensor([ 0.0443,  0.0225, -0.0381,  0.0767, -0.0197, -0.0143, -0.0087,  0.0595,
+         0.0353, -0.0334,  0.0487,  0.0445,  0.0533,  0.0483, -0.0350,  0.0435,
+         0.0431, -0.0927, -0.0498,  0.0047, -0.0086, -0.0211, -0.0067,  0.0105,
+        -0.0308,  0.0355,  0.0105, -0.0209, -0.0473, -0.0782,  0.0692,  0.0269,
+        -0.0960,  0.0847, -0.0593, -0.0380, -0.0437,  0.0726,  0.0018, -0.0587]), 'conv4.weight': tensor([[[ 0.0766, -0.0013, -0.0437, -0.0525, -0.0323],
+         [ 0.0794,  0.0016,  0.0533,  0.0112, -0.0573],
+         [-0.0455,  0.0132, -0.0171, -0.0636, -0.0199],
+         ...,
+         [-0.0658, -0.0541, -0.0453,  0.0606,  0.0253],
+         [ 0.0512,  0.0353,  0.0320, -0.0719, -0.0661],
+         [-0.0579, -0.0041, -0.0745, -0.0228,  0.0438]],
+
+        [[ 0.0611,  0.0030,  0.0393,  0.0654, -0.0325],
+         [-0.0193, -0.0095,  0.0235, -0.0427, -0.0071],
+         [ 0.0098,  0.0246, -0.0398, -0.0468, -0.0378],
+         ...,
+         [ 0.0069,  0.0086,  0.0506,  0.0017, -0.0364],
+         [-0.0224,  0.0510,  0.0087,  0.0592, -0.0066],
+         [-0.0073, -0.0301, -0.0323,  0.0401,  0.0095]],
+
+        [[-0.0818, -0.0646, -0.0152,  0.0186,  0.0561],
+         [-0.0344, -0.0369, -0.0597,  0.0433,  0.0589],
+         [-0.0093,  0.0200, -0.0530,  0.0073, -0.0318],
+         ...,
+         [-0.0344, -0.0278,  0.0064,  0.0078, -0.1001],
+         [-0.0754, -0.0319, -0.0181, -0.0083, -0.0696],
+         [ 0.0506,  0.0537,  0.0406, -0.0547,  0.0689]],
+
+        ...,
+
+        [[ 0.0397,  0.0386,  0.0107,  0.0334, -0.0010],
+         [ 0.0200, -0.0321,  0.0488,  0.0364, -0.0085],
+         [ 0.0178, -0.0263,  0.0297,  0.0294, -0.0314],
+         ...,
+         [-0.0769, -0.0733,  0.0417, -0.0458,  0.0014],
+         [-0.0164, -0.0369, -0.0332,  0.0345,  0.0363],
+         [-0.0209,  0.0273,  0.0014, -0.0144, -0.0235]],
+
+        [[ 0.0292, -0.0868, -0.0520,  0.0479, -0.0525],
+         [-0.0215,  0.0387,  0.0162, -0.0714, -0.0019],
+         [ 0.0003,  0.0272, -0.0300,  0.0469, -0.0392],
+         ...,
+         [-0.0586, -0.0570,  0.0641,  0.0230,  0.0221],
+         [-0.0289,  0.0343, -0.0057,  0.0378, -0.0272],
+         [-0.0586, -0.0584,  0.0245,  0.0088,  0.0009]],
+
+        [[ 0.0605,  0.0437, -0.0337, -0.0009, -0.0566],
+         [-0.0554, -0.0003,  0.0234, -0.0479,  0.0078],
+         [ 0.0289,  0.0002,  0.0381, -0.0097,  0.0472],
+         ...,
+         [-0.0683,  0.0421,  0.0678, -0.0312,  0.0360],
+         [-0.0384, -0.0111, -0.0396,  0.0389,  0.0124],
+         [-0.0473,  0.0396, -0.0453,  0.0200,  0.0065]]]), 'conv4.bias': tensor([-0.0562, -0.0469,  0.0412, -0.0683, -0.0435, -0.0086,  0.0615,  0.0360,
+        -0.0927, -0.0594, -0.0560, -0.0877,  0.0384, -0.0359, -0.0507,  0.0640,
+        -0.0257, -0.0623, -0.0699,  0.0057, -0.0639, -0.0008,  0.0666, -0.0011,
+         0.0241, -0.0646,  0.0382,  0.0393, -0.0249,  0.0526, -0.0051,  0.0065,
+         0.0353, -0.0426,  0.0255,  0.0387,  0.0731, -0.0544, -0.0687,  0.0394,
+         0.0635, -0.0326, -0.0331, -0.0981,  0.0679, -0.0118,  0.0190, -0.0040,
+         0.0276, -0.0553]), 'conv5.weight': tensor([[[ 0.0575,  0.0004,  0.0200, -0.0214, -0.0677],
+         [-0.0154,  0.0054, -0.0239, -0.0337,  0.0440],
+         [ 0.0289,  0.0422,  0.0208,  0.0594,  0.0332],
+         ...,
+         [-0.0046,  0.0086, -0.0630, -0.0505,  0.0224],
+         [ 0.0121,  0.0050, -0.0196,  0.0015,  0.0312],
+         [-0.0213, -0.0482, -0.0405, -0.0477, -0.0053]],
+
+        [[-0.0309,  0.0205,  0.0173,  0.0073, -0.0341],
+         [-0.0293,  0.0432,  0.0293, -0.0576, -0.0287],
+         [ 0.0202, -0.0757, -0.0384, -0.0438,  0.0268],
+         ...,
+         [ 0.0473, -0.0497, -0.0443, -0.0652, -0.0374],
+         [ 0.0513, -0.0474,  0.0539,  0.0239, -0.0006],
+         [ 0.0133,  0.0053, -0.0279,  0.0475, -0.0296]],
+
+        [[ 0.0177,  0.0112,  0.0380,  0.0493, -0.0352],
+         [ 0.0120, -0.0151,  0.0172, -0.0463, -0.1068],
+         [-0.0495, -0.0243,  0.0031,  0.0182,  0.0287],
+         ...,
+         [-0.0325, -0.0425, -0.0341, -0.0695, -0.0417],
+         [ 0.0018,  0.0515, -0.0546,  0.0035,  0.0280],
+         [-0.0035,  0.0083, -0.0033,  0.0329, -0.0311]],
+
+        ...,
+
+        [[ 0.0638, -0.0067, -0.0548, -0.0327,  0.0069],
+         [ 0.0056,  0.0438, -0.0402, -0.0446, -0.0007],
+         [-0.0350,  0.0428,  0.0633,  0.0764,  0.0687],
+         ...,
+         [ 0.0089,  0.0455, -0.0405,  0.0453, -0.0309],
+         [-0.0267, -0.0634,  0.0258,  0.0059, -0.0325],
+         [-0.0030,  0.0149,  0.0388, -0.0277, -0.0129]],
+
+        [[ 0.0136,  0.0438,  0.0403, -0.0094,  0.0122],
+         [-0.0067,  0.0579, -0.0014, -0.0400,  0.0393],
+         [ 0.0189, -0.0133,  0.0128, -0.0170, -0.0579],
+         ...,
+         [ 0.0086, -0.0020,  0.0315,  0.0027,  0.0032],
+         [-0.0274,  0.0404, -0.0115, -0.0011, -0.0018],
+         [-0.0284, -0.0152, -0.0515,  0.0330, -0.0462]],
+
+        [[ 0.0657, -0.0231, -0.0180,  0.0022,  0.0183],
+         [ 0.0029, -0.0397,  0.0123, -0.0016,  0.0030],
+         [-0.0817, -0.0244, -0.0756, -0.0561,  0.0095],
+         ...,
+         [ 0.0110,  0.0475,  0.0237, -0.0531, -0.0170],
+         [-0.0519, -0.0189, -0.0524, -0.0882,  0.0230],
+         [-0.0148,  0.0119, -0.0180,  0.0069,  0.0424]]]), 'conv5.bias': tensor([-1.2550e-02, -1.5046e-02,  4.8890e-02, -1.9078e-02, -2.0209e-02,
+        -9.7204e-03, -6.8930e-04,  2.0516e-02, -3.1188e-02, -3.9141e-03,
+         4.7779e-02, -2.2607e-02,  2.0254e-02,  4.8504e-02, -6.9534e-02,
+         4.5928e-02, -4.1993e-02, -5.4864e-02, -2.7982e-02, -2.7440e-02,
+         4.0627e-02,  3.7750e-02,  2.2723e-02,  4.4384e-02, -2.2815e-02,
+        -5.6216e-02, -1.3641e-02,  3.9885e-05, -5.2778e-02,  2.3029e-02,
+         4.5776e-02,  4.4708e-02,  2.8555e-03, -3.9420e-02,  5.3337e-02,
+         4.1461e-02, -3.5418e-02, -3.4812e-02,  5.8316e-03, -1.0985e-02,
+         9.0550e-03,  3.6625e-02, -3.8827e-02,  2.2145e-02,  3.9084e-02,
+        -3.4610e-02,  5.0764e-02, -2.4370e-02,  5.6095e-03,  2.0806e-02]), 'linear1.weight': tensor([[ 0.0104,  0.0023,  0.0122,  ..., -0.0157, -0.0155, -0.0079],
+        [ 0.0134,  0.0114,  0.0147,  ...,  0.0006,  0.0014, -0.0092],
+        [-0.0091, -0.0043, -0.0047,  ..., -0.0050,  0.0045,  0.0070],
+        ...,
+        [ 0.0147,  0.0055,  0.0151,  ...,  0.0006,  0.0030, -0.0005],
+        [-0.0181, -0.0130, -0.0025,  ...,  0.0011, -0.0166, -0.0029],
+        [-0.0042,  0.0001, -0.0093,  ...,  0.0085, -0.0015, -0.0063]]), 'linear1.bias': tensor([-0.0141, -0.0135, -0.0047,  ..., -0.0042, -0.0173, -0.0134]), 'linear2.weight': tensor([[ 0.0027, -0.0024,  0.0042,  ..., -0.0053,  0.0007, -0.0017]]), 'linear2.bias': tensor([0.0457])}), (array([0, 2, 3]), {'conv1.weight': tensor([[[ 0.2468, -0.1241,  0.1992,  0.0866,  0.2030,  0.2214, -0.2897,
+          -0.3494, -0.1223,  0.0592]],
+
+        [[-0.3323, -0.0139,  0.1399,  0.0389, -0.2031,  0.0337,  0.0467,
+           0.2549, -0.0403,  0.2932]],
+
+        [[ 0.2663, -0.0460, -0.3385,  0.1968, -0.0904, -0.2114,  0.2236,
+          -0.1952, -0.1935,  0.1187]],
+
+        [[ 0.3373, -0.0927,  0.0593,  0.0247, -0.0177, -0.2391,  0.1519,
+           0.0372,  0.0059, -0.2910]],
+
+        [[ 0.0402,  0.2158,  0.0296, -0.3703, -0.2118, -0.1286,  0.2905,
+          -0.1762,  0.1071, -0.2396]],
+
+        [[-0.0755,  0.3097, -0.0681, -0.0956, -0.2789, -0.1418, -0.1499,
+          -0.2856,  0.0245, -0.1455]],
+
+        [[-0.1109,  0.1241, -0.3028,  0.2576, -0.4166, -0.1289,  0.0837,
+          -0.1475,  0.1947,  0.0980]],
+
+        [[-0.2026, -0.0324, -0.0331, -0.1478, -0.0953,  0.2711, -0.2341,
+           0.2457,  0.1907, -0.1336]],
+
+        [[-0.1807,  0.2189,  0.2404, -0.1522, -0.2233,  0.2058, -0.2905,
+           0.0882,  0.0534,  0.2238]],
+
+        [[-0.1649,  0.1735, -0.2583, -0.2898,  0.1857,  0.2193, -0.0515,
+          -0.1062,  0.2826, -0.2958]],
+
+        [[ 0.0204,  0.1002,  0.2864,  0.2454,  0.0717, -0.2844, -0.2094,
+          -0.2097,  0.1879, -0.2368]],
+
+        [[ 0.0229,  0.0866, -0.0329, -0.0754, -0.1911,  0.0021, -0.0943,
+           0.1364,  0.0229, -0.1856]],
+
+        [[ 0.2868,  0.2106, -0.2096, -0.0883, -0.1208,  0.1927,  0.0064,
+          -0.1648, -0.1047, -0.0105]],
+
+        [[ 0.3017, -0.0663,  0.1117,  0.2051,  0.1458, -0.0708, -0.3296,
+          -0.2444,  0.0647, -0.1124]],
+
+        [[-0.3351, -0.0038,  0.0397, -0.0768,  0.2377, -0.0602,  0.0733,
+          -0.2455,  0.2232,  0.2566]],
+
+        [[-0.0840, -0.0780,  0.1544,  0.0773, -0.3096,  0.1662, -0.1216,
+           0.2545, -0.0238, -0.2394]],
+
+        [[-0.1950,  0.0467, -0.0075,  0.2802,  0.1350, -0.2112,  0.1711,
+          -0.1121, -0.2679, -0.0188]],
+
+        [[ 0.2744, -0.2127, -0.1281, -0.2618, -0.0856, -0.0897,  0.2717,
+           0.1997, -0.1134,  0.0048]],
+
+        [[-0.0403,  0.2888, -0.3379, -0.3485, -0.1001,  0.3047,  0.1274,
+          -0.0319, -0.1611,  0.1660]],
+
+        [[ 0.2355,  0.0500,  0.0895, -0.1846, -0.2019,  0.1536,  0.2927,
+          -0.0574, -0.1091, -0.3189]],
+
+        [[-0.1585,  0.1838,  0.2928,  0.2790, -0.0005, -0.1771,  0.0442,
+          -0.2827, -0.0031, -0.1339]],
+
+        [[ 0.0448,  0.1549,  0.1982, -0.0713, -0.0651, -0.0799,  0.1465,
+          -0.2565,  0.0088, -0.2619]],
+
+        [[ 0.2494,  0.0369, -0.1251, -0.0054, -0.0542, -0.2377, -0.1511,
+          -0.0946, -0.2557,  0.0242]],
+
+        [[-0.2147,  0.0215, -0.1486,  0.0799,  0.2043,  0.2623, -0.0863,
+          -0.2177, -0.2036,  0.1855]],
+
+        [[-0.0418,  0.0281,  0.2662,  0.2959, -0.2224,  0.0597, -0.0138,
+           0.0138, -0.1258,  0.0471]],
+
+        [[-0.1901, -0.1641, -0.0555, -0.1182, -0.0859, -0.2048, -0.0848,
+           0.1016,  0.1971, -0.1373]],
+
+        [[-0.3042,  0.2467, -0.1177, -0.1309,  0.0985,  0.0993, -0.2283,
+           0.1046,  0.2187,  0.0652]],
+
+        [[ 0.2737,  0.2830,  0.0997, -0.3429,  0.1361,  0.0613,  0.0622,
+           0.2026, -0.0601, -0.3379]],
+
+        [[-0.0157, -0.3537, -0.0948, -0.0362,  0.1259,  0.1729,  0.2028,
+           0.1178, -0.0987, -0.1697]],
+
+        [[-0.1989, -0.1332,  0.0406, -0.2921, -0.1737,  0.0512,  0.2042,
+           0.1510,  0.2345, -0.0574]]]), 'conv1.bias': tensor([ 0.2406, -0.3162, -0.2579,  0.1846, -0.1962,  0.0641, -0.2314,  0.1781,
+         0.1087, -0.1287,  0.2449, -0.0456,  0.1630,  0.1065,  0.1879, -0.1103,
+        -0.0440,  0.0968,  0.0169, -0.0452,  0.2223, -0.0914,  0.0634,  0.0055,
+        -0.3156,  0.1865,  0.2855, -0.3279,  0.1255, -0.0106]), 'conv2.weight': tensor([[[-0.0244, -0.0419, -0.0214,  ..., -0.0074, -0.0601,  0.0377],
+         [ 0.0285, -0.0213, -0.0610,  ..., -0.0417,  0.0401,  0.0277],
+         [-0.0157,  0.0067, -0.0355,  ..., -0.0866, -0.0012,  0.0120],
+         ...,
+         [-0.0460, -0.0964, -0.0051,  ..., -0.0911, -0.0471, -0.0652],
+         [-0.0775,  0.0459, -0.0339,  ..., -0.0387, -0.0438, -0.0191],
+         [-0.0019, -0.0323, -0.0239,  ..., -0.0178,  0.0342,  0.0515]],
+
+        [[ 0.0471,  0.0306,  0.0091,  ...,  0.0688,  0.0664,  0.0734],
+         [-0.0325,  0.0268, -0.0380,  ..., -0.0136, -0.0569, -0.0054],
+         [-0.0668, -0.0146, -0.0231,  ...,  0.0616,  0.0848,  0.0265],
+         ...,
+         [-0.0052,  0.0548,  0.0645,  ...,  0.0168, -0.0253, -0.0006],
+         [-0.0730, -0.0434,  0.0476,  ...,  0.0298, -0.0952, -0.0192],
+         [-0.0434, -0.0375, -0.0178,  ...,  0.0046, -0.0016, -0.0132]],
+
+        [[-0.0640, -0.0541,  0.0009,  ...,  0.0153,  0.0360, -0.0214],
+         [-0.0535,  0.0251,  0.0575,  ..., -0.0536, -0.0258,  0.0576],
+         [-0.0416, -0.0200,  0.0195,  ...,  0.0170,  0.0370,  0.0015],
+         ...,
+         [-0.0306, -0.0359, -0.0061,  ..., -0.0141,  0.0400, -0.0056],
+         [-0.0034, -0.0295, -0.0472,  ..., -0.0603,  0.0184,  0.0228],
+         [ 0.0216, -0.0268, -0.0181,  ...,  0.0128, -0.0534,  0.0504]],
+
+        ...,
+
+        [[-0.0153, -0.0350,  0.0032,  ...,  0.0027, -0.0436, -0.0662],
+         [ 0.0002,  0.0066,  0.0433,  ...,  0.0093,  0.0586, -0.0192],
+         [ 0.0417, -0.0173,  0.0606,  ...,  0.0616,  0.0906,  0.0518],
+         ...,
+         [-0.0288, -0.0395,  0.0638,  ..., -0.0269, -0.0163, -0.0368],
+         [ 0.0521, -0.0095,  0.0116,  ..., -0.0586, -0.0144,  0.0452],
+         [-0.0540,  0.0259, -0.0261,  ...,  0.0851,  0.0262,  0.0573]],
+
+        [[ 0.0182, -0.0553, -0.0261,  ..., -0.0477,  0.0145, -0.0436],
+         [ 0.0325,  0.0018,  0.0539,  ..., -0.0676, -0.0726,  0.0041],
+         [ 0.0408,  0.0372, -0.0143,  ...,  0.1039,  0.0602, -0.0696],
+         ...,
+         [-0.0417, -0.0618, -0.0874,  ..., -0.0434, -0.0299, -0.0177],
+         [-0.0795, -0.0986, -0.0856,  ...,  0.0558, -0.0358, -0.0382],
+         [-0.0693,  0.0483,  0.0022,  ...,  0.0101,  0.0516,  0.0591]],
+
+        [[ 0.0441,  0.0154, -0.0677,  ..., -0.0429, -0.0636,  0.0091],
+         [ 0.0090,  0.0215,  0.0194,  ...,  0.0756, -0.0046,  0.0691],
+         [ 0.0125,  0.0088,  0.0540,  ...,  0.0342,  0.0482, -0.0565],
+         ...,
+         [ 0.0540, -0.0559, -0.0239,  ...,  0.0325, -0.0643,  0.0580],
+         [-0.0568, -0.0363, -0.0197,  ..., -0.0024, -0.0748,  0.0410],
+         [-0.1048, -0.0677, -0.0136,  ...,  0.0145,  0.0445,  0.0667]]]), 'conv2.bias': tensor([ 0.0269, -0.0235, -0.0486,  0.0144,  0.0438,  0.0153,  0.0211,  0.0296,
+        -0.0410, -0.0570, -0.0305, -0.0696,  0.0104, -0.0512,  0.0118,  0.0042,
+         0.0284, -0.0444,  0.0314,  0.0529, -0.0499, -0.0539,  0.0572, -0.0172,
+        -0.0605, -0.0164, -0.0528, -0.0367, -0.0379, -0.0400]), 'conv3.weight': tensor([[[ 0.0586,  0.0695,  0.0436,  0.0879, -0.0108,  0.0811],
+         [ 0.0845,  0.0478, -0.0468, -0.0275, -0.0042,  0.0326],
+         [ 0.0349,  0.0361,  0.0188, -0.0193,  0.0787,  0.0271],
+         ...,
+         [-0.0767, -0.0790, -0.0743,  0.0238, -0.0122,  0.0295],
+         [ 0.0084, -0.0116, -0.0765,  0.0462,  0.0505,  0.0824],
+         [ 0.0253, -0.0661, -0.0338,  0.0064, -0.0070, -0.0185]],
+
+        [[ 0.0174, -0.0489,  0.0680, -0.0246, -0.0133, -0.0225],
+         [ 0.0119,  0.0273,  0.0740, -0.0157, -0.0725, -0.0652],
+         [ 0.0343, -0.0743,  0.0125,  0.0406,  0.0383,  0.0560],
+         ...,
+         [ 0.0624, -0.0354,  0.0295, -0.0540,  0.0061, -0.0556],
+         [ 0.0177, -0.0359, -0.0745, -0.0745, -0.0349, -0.0436],
+         [-0.0938,  0.0444,  0.0336, -0.0547, -0.0998, -0.0126]],
+
+        [[-0.0474,  0.0226,  0.0724, -0.0409, -0.0816, -0.0945],
+         [-0.0201, -0.0175,  0.0377, -0.0211,  0.0314,  0.0425],
+         [ 0.0709, -0.0241,  0.0144,  0.0369, -0.0689,  0.0491],
+         ...,
+         [-0.0367,  0.0371,  0.0150,  0.0633,  0.0468, -0.0518],
+         [-0.0371,  0.0075, -0.0369,  0.0185,  0.0495, -0.0194],
+         [-0.0620,  0.0563,  0.0475,  0.0079,  0.0205,  0.0114]],
+
+        ...,
+
+        [[-0.0181,  0.0080,  0.0038,  0.0010,  0.0111, -0.1082],
+         [-0.0321, -0.0247,  0.0243, -0.0054,  0.0238,  0.0313],
+         [-0.0650,  0.0095, -0.0148, -0.0065, -0.0638, -0.0934],
+         ...,
+         [ 0.0698,  0.0231, -0.0298, -0.0096, -0.0153,  0.0211],
+         [-0.0556,  0.0666,  0.0493, -0.0245,  0.0230,  0.0096],
+         [-0.0567,  0.0730, -0.0700,  0.0257, -0.0248,  0.0413]],
+
+        [[ 0.0477,  0.0929, -0.0088,  0.0284, -0.0142, -0.0839],
+         [-0.0625, -0.0340,  0.0140,  0.0568, -0.0608,  0.0082],
+         [-0.0050,  0.0578,  0.0690, -0.0248, -0.0806, -0.0855],
+         ...,
+         [-0.0505, -0.0310,  0.0380, -0.0471,  0.0503,  0.0162],
+         [ 0.0031, -0.0301, -0.0073, -0.0479, -0.0297, -0.0420],
+         [-0.0779, -0.0025,  0.0349,  0.0171,  0.0668, -0.0230]],
+
+        [[ 0.0268, -0.0716, -0.0816, -0.0439, -0.0410,  0.0040],
+         [-0.0478,  0.0066,  0.0558, -0.0141,  0.0133,  0.0329],
+         [ 0.0325, -0.0312,  0.0109,  0.0032,  0.0386, -0.0338],
+         ...,
+         [ 0.0094, -0.0196,  0.0037,  0.0475, -0.0176, -0.0077],
+         [-0.0650,  0.0627,  0.0451,  0.0963,  0.0659, -0.0574],
+         [-0.0334, -0.0178,  0.0730, -0.0215,  0.0498, -0.0848]]]), 'conv3.bias': tensor([ 0.0465,  0.0183, -0.0415,  0.0797, -0.0202, -0.0148, -0.0163,  0.0618,
+         0.0369, -0.0350,  0.0505,  0.0392,  0.0606,  0.0498, -0.0302,  0.0499,
+         0.0409, -0.0991, -0.0513,  0.0007, -0.0082, -0.0280, -0.0041,  0.0178,
+        -0.0341,  0.0365,  0.0088, -0.0278, -0.0460, -0.0816,  0.0666,  0.0266,
+        -0.1012,  0.0914, -0.0638, -0.0418, -0.0422,  0.0770,  0.0038, -0.0618]), 'conv4.weight': tensor([[[ 0.0805, -0.0002, -0.0390, -0.0478, -0.0315],
+         [ 0.0835,  0.0009,  0.0500,  0.0073, -0.0657],
+         [-0.0476,  0.0053, -0.0306, -0.0806, -0.0339],
+         ...,
+         [-0.0622, -0.0610, -0.0528,  0.0574,  0.0248],
+         [ 0.0563,  0.0367,  0.0319, -0.0709, -0.0602],
+         [-0.0634, -0.0160, -0.0822, -0.0289,  0.0407]],
+
+        [[ 0.0631,  0.0060,  0.0401,  0.0613, -0.0420],
+         [-0.0151, -0.0115,  0.0115, -0.0628, -0.0319],
+         [ 0.0083,  0.0226, -0.0438, -0.0509, -0.0381],
+         ...,
+         [ 0.0081,  0.0124,  0.0614,  0.0166, -0.0187],
+         [-0.0242,  0.0512,  0.0090,  0.0609, -0.0073],
+         [-0.0197, -0.0345, -0.0265,  0.0495,  0.0157]],
+
+        [[-0.0889, -0.0662, -0.0148,  0.0206,  0.0592],
+         [-0.0406, -0.0372, -0.0573,  0.0480,  0.0653],
+         [-0.0121,  0.0160, -0.0583,  0.0008, -0.0394],
+         ...,
+         [-0.0463, -0.0361, -0.0045, -0.0079, -0.1208],
+         [-0.0791, -0.0338, -0.0205, -0.0111, -0.0776],
+         [ 0.0462,  0.0543,  0.0380, -0.0589,  0.0646]],
+
+        ...,
+
+        [[ 0.0464,  0.0448,  0.0171,  0.0413,  0.0092],
+         [ 0.0230, -0.0266,  0.0553,  0.0393, -0.0035],
+         [ 0.0212, -0.0268,  0.0258,  0.0255, -0.0377],
+         ...,
+         [-0.0868, -0.0865,  0.0278, -0.0527,  0.0003],
+         [-0.0045, -0.0299, -0.0335,  0.0328,  0.0395],
+         [-0.0134,  0.0303, -0.0011, -0.0210, -0.0345]],
+
+        [[ 0.0231, -0.0900, -0.0539,  0.0461, -0.0563],
+         [-0.0222,  0.0404,  0.0176, -0.0739, -0.0081],
+         [ 0.0139,  0.0383, -0.0204,  0.0516, -0.0358],
+         ...,
+         [-0.0565, -0.0521,  0.0717,  0.0320,  0.0308],
+         [-0.0290,  0.0362, -0.0017,  0.0394, -0.0274],
+         [-0.0646, -0.0629,  0.0207,  0.0051, -0.0031]],
+
+        [[ 0.0627,  0.0467, -0.0316, -0.0006, -0.0593],
+         [-0.0392,  0.0103,  0.0271, -0.0515, -0.0071],
+         [ 0.0287,  0.0060,  0.0459, -0.0047,  0.0586],
+         ...,
+         [-0.0658,  0.0486,  0.0764, -0.0192,  0.0505],
+         [-0.0507, -0.0178, -0.0409,  0.0409,  0.0135],
+         [-0.0545,  0.0269, -0.0664,  0.0111,  0.0093]]]), 'conv4.bias': tensor([-0.0561, -0.0467,  0.0425, -0.0724, -0.0485, -0.0045,  0.0621,  0.0451,
+        -0.0946, -0.0537, -0.0453, -0.0888,  0.0381, -0.0340, -0.0517,  0.0649,
+        -0.0328, -0.0588, -0.0765,  0.0020, -0.0667,  0.0015,  0.0658,  0.0003,
+         0.0264, -0.0657,  0.0381,  0.0401, -0.0259,  0.0594, -0.0026,  0.0102,
+         0.0384, -0.0403,  0.0274,  0.0359,  0.0734, -0.0536, -0.0592,  0.0417,
+         0.0686, -0.0317, -0.0334, -0.1027,  0.0669, -0.0094,  0.0269, -0.0004,
+         0.0305, -0.0586]), 'conv5.weight': tensor([[[ 0.0543, -0.0058,  0.0122, -0.0339, -0.0777],
+         [-0.0142,  0.0061, -0.0241, -0.0351,  0.0457],
+         [ 0.0380,  0.0512,  0.0301,  0.0680,  0.0415],
+         ...,
+         [-0.0120,  0.0062, -0.0628, -0.0486,  0.0270],
+         [ 0.0097,  0.0005, -0.0282, -0.0094,  0.0222],
+         [-0.0327, -0.0571, -0.0484, -0.0584, -0.0222]],
+
+        [[-0.0356,  0.0160,  0.0131,  0.0056, -0.0307],
+         [-0.0267,  0.0420,  0.0224, -0.0672, -0.0363],
+         [ 0.0132, -0.0844, -0.0474, -0.0515,  0.0225],
+         ...,
+         [ 0.0433, -0.0534, -0.0500, -0.0727, -0.0441],
+         [ 0.0564, -0.0452,  0.0540,  0.0215, -0.0051],
+         [ 0.0063, -0.0015, -0.0333,  0.0398, -0.0411]],
+
+        [[ 0.0147,  0.0075,  0.0349,  0.0471, -0.0355],
+         [ 0.0114, -0.0174,  0.0106, -0.0580, -0.1204],
+         [-0.0578, -0.0301, -0.0017,  0.0139,  0.0236],
+         ...,
+         [-0.0349, -0.0474, -0.0381, -0.0746, -0.0491],
+         [ 0.0099,  0.0593, -0.0479,  0.0093,  0.0321],
+         [-0.0010,  0.0084, -0.0019,  0.0373, -0.0238]],
+
+        ...,
+
+        [[ 0.0640, -0.0101, -0.0598, -0.0407, -0.0060],
+         [ 0.0135,  0.0514, -0.0342, -0.0427, -0.0012],
+         [-0.0260,  0.0515,  0.0728,  0.0868,  0.0790],
+         ...,
+         [ 0.0013,  0.0404, -0.0436,  0.0444, -0.0293],
+         [-0.0262, -0.0653,  0.0198, -0.0010, -0.0390],
+         [-0.0142,  0.0075,  0.0319, -0.0373, -0.0258]],
+
+        [[ 0.0150,  0.0450,  0.0408, -0.0106,  0.0097],
+         [-0.0132,  0.0497, -0.0079, -0.0465,  0.0346],
+         [ 0.0185, -0.0129,  0.0142, -0.0183, -0.0590],
+         ...,
+         [ 0.0124,  0.0041,  0.0365,  0.0064,  0.0055],
+         [-0.0341,  0.0369, -0.0154, -0.0017, -0.0057],
+         [-0.0366, -0.0223, -0.0592,  0.0255, -0.0542]],
+
+        [[ 0.0605, -0.0287, -0.0196,  0.0016,  0.0197],
+         [-0.0074, -0.0477,  0.0079, -0.0006,  0.0073],
+         [-0.0859, -0.0292, -0.0795, -0.0596,  0.0087],
+         ...,
+         [ 0.0117,  0.0521,  0.0291, -0.0506, -0.0191],
+         [-0.0586, -0.0247, -0.0581, -0.0951,  0.0174],
+         [-0.0201,  0.0040, -0.0267, -0.0037,  0.0343]]]), 'conv5.bias': tensor([-0.0101, -0.0165,  0.0506, -0.0218, -0.0186, -0.0104, -0.0051,  0.0226,
+        -0.0312, -0.0065,  0.0513, -0.0261,  0.0206,  0.0489, -0.0772,  0.0484,
+        -0.0473, -0.0573, -0.0330, -0.0316,  0.0392,  0.0344,  0.0191,  0.0475,
+        -0.0258, -0.0595, -0.0124,  0.0018, -0.0555,  0.0237,  0.0462,  0.0413,
+         0.0006, -0.0465,  0.0524,  0.0414, -0.0407, -0.0353,  0.0061, -0.0103,
+         0.0110,  0.0379, -0.0419,  0.0214,  0.0393, -0.0398,  0.0528, -0.0222,
+         0.0052,  0.0222]), 'linear1.weight': tensor([[ 0.0102,  0.0024,  0.0126,  ..., -0.0147, -0.0150, -0.0084],
+        [ 0.0096,  0.0069,  0.0117,  ...,  0.0053,  0.0108, -0.0014],
+        [-0.0063, -0.0024, -0.0009,  ..., -0.0036,  0.0081,  0.0107],
+        ...,
+        [ 0.0088,  0.0029,  0.0128,  ..., -0.0065, -0.0043, -0.0053],
+        [-0.0125, -0.0083,  0.0039,  ...,  0.0021, -0.0165, -0.0026],
+        [-0.0055,  0.0010, -0.0075,  ...,  0.0098,  0.0001, -0.0059]]), 'linear1.bias': tensor([-0.0144, -0.0131,  0.0016,  ..., -0.0040, -0.0200, -0.0133]), 'linear2.weight': tensor([[ 0.0019, -0.0009,  0.0005,  ..., -0.0032,  0.0005, -0.0013]]), 'linear2.bias': tensor([0.0510])}), (array([0, 2]), {'conv1.weight': tensor([[[ 0.2463, -0.1296,  0.1920,  0.0741,  0.1924,  0.2142, -0.3189,
+          -0.3735, -0.1277,  0.0531]],
+
+        [[-0.3294, -0.0078,  0.1442,  0.0370, -0.2102,  0.0306,  0.0478,
+           0.2593, -0.0395,  0.2979]],
+
+        [[ 0.3264, -0.0194, -0.3708,  0.1856, -0.0736, -0.2087,  0.2407,
+          -0.2064, -0.1543,  0.1404]],
+
+        [[ 0.3384, -0.1032,  0.0511,  0.0229, -0.0093, -0.2231,  0.1593,
+           0.0326, -0.0070, -0.3172]],
+
+        [[ 0.0451,  0.2194,  0.0261, -0.4379, -0.2602, -0.1225,  0.2959,
+          -0.1552,  0.1313, -0.2126]],
+
+        [[-0.0812,  0.3098, -0.0550, -0.0797, -0.2648, -0.1242, -0.1280,
+          -0.2749,  0.0221, -0.1420]],
+
+        [[-0.0709,  0.1418, -0.3016,  0.2253, -0.4848, -0.1567,  0.0951,
+          -0.1303,  0.1972,  0.0987]],
+
+        [[-0.2093, -0.0438, -0.0301, -0.1349, -0.0769,  0.2990, -0.2203,
+           0.2473,  0.1838, -0.1314]],
+
+        [[-0.2082,  0.2051,  0.2256, -0.1805, -0.2490,  0.2108, -0.2902,
+           0.0763,  0.0258,  0.1967]],
+
+        [[-0.1228,  0.1965, -0.3285, -0.3677,  0.1904,  0.2183, -0.0578,
+          -0.0739,  0.3083, -0.2734]],
+
+        [[ 0.0373,  0.1067,  0.2876,  0.2468,  0.0761, -0.2946, -0.2220,
+          -0.2168,  0.1902, -0.2338]],
+
+        [[ 0.0389,  0.1158,  0.0125, -0.0771, -0.2083,  0.0422, -0.0562,
+           0.1461,  0.0304, -0.1818]],
+
+        [[ 0.2597,  0.1990, -0.2322, -0.1190, -0.1246,  0.1907, -0.0243,
+          -0.2020, -0.1411, -0.0327]],
+
+        [[ 0.3122, -0.0718,  0.0994,  0.1946,  0.1442, -0.0773, -0.3405,
+          -0.2514,  0.0718, -0.1065]],
+
+        [[-0.3415, -0.0017,  0.0358, -0.0820,  0.2338, -0.0731,  0.0690,
+          -0.2398,  0.2365,  0.2729]],
+
+        [[-0.0841, -0.0657,  0.1856,  0.0797, -0.3294,  0.1765, -0.0912,
+           0.2775, -0.0017, -0.2800]],
+
+        [[-0.2213,  0.0440, -0.0168,  0.2619,  0.1206, -0.2053,  0.1993,
+          -0.0854, -0.2701,  0.0335]],
+
+        [[ 0.2975, -0.1880, -0.1385, -0.2955, -0.0708, -0.0603,  0.2812,
+           0.2028, -0.1089,  0.0351]],
+
+        [[-0.0157,  0.3095, -0.3695, -0.4048, -0.0839,  0.3292,  0.1262,
+          -0.0376, -0.1626,  0.1811]],
+
+        [[ 0.2382,  0.0616,  0.1054, -0.1768, -0.2010,  0.1649,  0.3004,
+          -0.0511, -0.1134, -0.3265]],
+
+        [[-0.1411,  0.1828,  0.2960,  0.2821, -0.0033, -0.1928,  0.0346,
+          -0.2892, -0.0081, -0.1453]],
+
+        [[ 0.0399,  0.1501,  0.2040, -0.0629, -0.0551, -0.0511,  0.1646,
+          -0.2525, -0.0114, -0.2806]],
+
+        [[ 0.2661,  0.0616, -0.1143,  0.0048, -0.0326, -0.2217, -0.1444,
+          -0.0780, -0.2237,  0.0541]],
+
+        [[-0.2061,  0.0480, -0.1267,  0.0836,  0.2145,  0.2741, -0.1074,
+          -0.2521, -0.1949,  0.1836]],
+
+        [[-0.0422,  0.0234,  0.2675,  0.2942, -0.2209,  0.0588, -0.0081,
+           0.0210, -0.1147,  0.0543]],
+
+        [[-0.2151, -0.1719, -0.0373, -0.0891, -0.0492, -0.1782, -0.0702,
+           0.1134,  0.1966, -0.1596]],
+
+        [[-0.3224,  0.2367, -0.1242, -0.1326,  0.0965,  0.0953, -0.2303,
+           0.1027,  0.2154,  0.0686]],
+
+        [[ 0.2657,  0.2756,  0.0980, -0.3390,  0.1432,  0.0599,  0.0564,
+           0.1961, -0.0572, -0.3323]],
+
+        [[-0.0062, -0.3668, -0.0971, -0.0171,  0.1548,  0.1812,  0.2074,
+           0.1387, -0.0792, -0.1400]],
+
+        [[-0.2219, -0.1393,  0.0435, -0.2910, -0.1759,  0.0538,  0.2112,
+           0.1498,  0.2294, -0.0534]]]), 'conv1.bias': tensor([ 1.6866e-01, -3.3598e-01, -2.2144e-01,  1.6711e-01, -1.7852e-01,
+         6.7135e-02, -2.5700e-01,  1.5128e-01,  6.2526e-02, -9.0376e-02,
+         2.0156e-01, -5.0145e-02,  1.2854e-01,  7.3610e-02,  1.7026e-01,
+        -4.4446e-02, -3.0746e-02,  6.5179e-02, -2.1581e-04, -2.1695e-02,
+         1.7275e-01, -1.0455e-01,  6.1894e-02,  3.3234e-02, -3.4539e-01,
+         1.7642e-01,  2.6286e-01, -3.7204e-01,  7.6008e-02, -5.5119e-03]), 'conv2.weight': tensor([[[-2.0694e-02, -4.2304e-02, -1.4596e-02,  ..., -1.1899e-02,
+          -7.3086e-02,  2.8001e-02],
+         [-3.7843e-03, -9.5879e-02, -6.3881e-02,  ..., -5.5659e-02,
+           2.7367e-02,  1.9021e-02],
+         [-4.7693e-02, -3.6660e-02, -6.1681e-02,  ..., -1.2073e-01,
+          -5.3171e-02, -3.8117e-02],
+         ...,
+         [-4.1926e-02, -9.0193e-02, -6.2391e-03,  ..., -1.0538e-01,
+          -6.3131e-02, -7.5111e-02],
+         [-8.8286e-02,  4.5834e-02, -2.2351e-02,  ..., -9.0952e-02,
+          -9.6532e-02, -3.3474e-02],
+         [-2.4219e-02, -4.4919e-02, -7.1344e-02,  ..., -1.8790e-02,
+           3.9293e-02,  5.0951e-02]],
+
+        [[ 3.0789e-02,  2.7239e-02,  2.7727e-03,  ...,  5.7211e-02,
+           6.7319e-02,  7.7999e-02],
+         [-1.4136e-02,  1.4184e-02, -4.3823e-02,  ...,  1.8542e-03,
+          -5.9969e-02, -1.5785e-03],
+         [-6.5424e-02, -3.1702e-02, -8.8195e-03,  ...,  7.9450e-02,
+           1.2377e-01,  3.0136e-02],
+         ...,
+         [-7.1243e-03,  6.3463e-02,  7.5538e-02,  ...,  3.7526e-02,
+          -1.4022e-02,  4.0029e-03],
+         [-1.2355e-01, -1.2058e-01,  1.4108e-02,  ...,  3.6563e-02,
+          -1.0238e-01,  1.6468e-02],
+         [-7.6605e-02, -8.5202e-02, -5.8858e-02,  ...,  2.7042e-02,
+           2.5073e-02, -3.0655e-02]],
+
+        [[-7.1808e-02, -5.5036e-02,  2.7037e-03,  ...,  1.8121e-02,
+           3.4538e-02, -2.3383e-02],
+         [-5.2999e-02,  2.0588e-02,  6.8181e-02,  ..., -5.8342e-02,
+          -2.2668e-02,  4.2785e-02],
+         [-6.4985e-02,  1.3007e-02,  5.1807e-02,  ...,  2.7260e-02,
+           3.6361e-02,  1.4792e-02],
+         ...,
+         [-2.4366e-02, -1.7218e-02, -3.5378e-03,  ..., -5.9185e-03,
+           4.4106e-02,  4.5831e-03],
+         [ 6.4202e-04, -2.2354e-02, -5.5805e-02,  ..., -8.4088e-02,
+           1.1143e-02,  2.3108e-02],
+         [ 1.8124e-02, -3.4213e-02, -3.6199e-02,  ...,  1.0467e-02,
+          -5.1719e-02,  5.6252e-02]],
+
+        ...,
+
+        [[-2.5731e-02, -1.7615e-02,  2.4906e-02,  ..., -1.3540e-02,
+          -3.2420e-02, -6.0199e-02],
+         [ 1.9684e-02,  1.8944e-02,  3.5701e-02,  ...,  2.4610e-02,
+           8.0517e-02, -7.9085e-03],
+         [ 1.1509e-01,  3.2292e-02,  1.0276e-01,  ...,  2.2304e-02,
+           9.7364e-02,  6.9651e-02],
+         ...,
+         [ 2.6190e-02,  7.1235e-03,  8.3864e-02,  ..., -3.1993e-02,
+          -9.7408e-03, -2.8976e-02],
+         [ 6.1906e-02,  5.2256e-05,  3.1714e-02,  ..., -7.5112e-02,
+          -1.7508e-02,  4.4947e-02],
+         [-6.9193e-02,  1.2509e-02, -6.3018e-02,  ...,  7.6584e-02,
+           1.2696e-02,  6.5327e-02]],
+
+        [[ 3.3986e-02, -5.0690e-02, -5.3847e-02,  ..., -3.0211e-02,
+           1.4836e-02, -3.7278e-02],
+         [ 3.2075e-02,  9.5521e-03,  6.9411e-02,  ..., -4.6255e-02,
+          -5.0297e-02,  2.4963e-02],
+         [ 1.0006e-01,  8.3959e-02, -8.0513e-03,  ...,  1.2748e-01,
+           1.0586e-01, -1.0320e-01],
+         ...,
+         [-2.6673e-02, -6.7847e-02, -1.2300e-01,  ..., -6.1524e-02,
+          -2.8952e-02,  1.2194e-02],
+         [-6.7254e-02, -8.3320e-02, -7.8599e-02,  ...,  6.7501e-02,
+          -2.1843e-02, -2.9326e-02],
+         [-7.2203e-02,  5.0226e-02,  8.7068e-03,  ...,  1.0898e-02,
+           7.5824e-02,  8.9772e-02]],
+
+        [[ 7.5936e-02,  2.1134e-02, -9.3523e-02,  ..., -3.3865e-02,
+          -5.4547e-02,  1.5679e-02],
+         [ 2.8607e-03,  3.4126e-02,  4.1971e-02,  ...,  9.3513e-02,
+           1.0040e-02,  6.8786e-02],
+         [ 8.4863e-02,  5.4173e-02,  4.3467e-02,  ...,  4.3045e-02,
+           7.2651e-02, -8.3337e-02],
+         ...,
+         [ 9.9581e-02, -5.3107e-02, -3.7500e-02,  ...,  2.5642e-02,
+          -6.7768e-02,  4.0567e-02],
+         [-8.7590e-02, -5.6861e-02, -3.1120e-02,  ...,  1.3531e-02,
+          -6.9174e-02,  2.9115e-02],
+         [-1.2539e-01, -7.5700e-02, -9.8453e-03,  ..., -6.5517e-03,
+           4.7128e-02,  7.3772e-02]]]), 'conv2.bias': tensor([ 0.0359, -0.0367, -0.0464,  0.0044,  0.0610,  0.0123, -0.0009,  0.0453,
+        -0.0406, -0.0687, -0.0265, -0.0883,  0.0056, -0.0567, -0.0064, -0.0182,
+         0.0414, -0.0479,  0.0374,  0.0569, -0.0650, -0.0477,  0.0488, -0.0119,
+        -0.0601, -0.0354, -0.0562, -0.0407, -0.0437, -0.0357]), 'conv3.weight': tensor([[[ 0.0625,  0.0806,  0.0473,  0.0831, -0.0090,  0.0893],
+         [ 0.0726,  0.0445, -0.0426, -0.0170,  0.0003,  0.0214],
+         [ 0.0239,  0.0274,  0.0138, -0.0270,  0.0676,  0.0126],
+         ...,
+         [-0.1123, -0.1500, -0.1150,  0.0130, -0.0219,  0.0407],
+         [ 0.0047, -0.0092, -0.0731,  0.0510,  0.0562,  0.0809],
+         [ 0.0469, -0.0562, -0.0331,  0.0065, -0.0036, -0.0191]],
+
+        [[-0.0360, -0.1060,  0.0416, -0.0332,  0.0207,  0.0183],
+         [-0.0034,  0.0137,  0.0823, -0.0175, -0.0737, -0.0556],
+         [ 0.0274, -0.0817,  0.0084,  0.0317,  0.0213,  0.0406],
+         ...,
+         [ 0.0718, -0.0525,  0.0131, -0.0610,  0.0120, -0.0588],
+         [ 0.0073, -0.0291, -0.0933, -0.0989, -0.0618, -0.0678],
+         [-0.1014,  0.0442,  0.0218, -0.0762, -0.1275, -0.0267]],
+
+        [[-0.0171,  0.0537,  0.0999, -0.0353, -0.1078, -0.1314],
+         [ 0.0106, -0.0149,  0.0223, -0.0429,  0.0236,  0.0592],
+         [ 0.0769, -0.0213,  0.0215,  0.0397, -0.0511,  0.0604],
+         ...,
+         [-0.0192,  0.0639,  0.0328,  0.0808,  0.0558, -0.0695],
+         [-0.0393,  0.0049, -0.0218,  0.0241,  0.0504, -0.0077],
+         [-0.0856,  0.0489,  0.0390, -0.0009,  0.0122,  0.0145]],
+
+        ...,
+
+        [[ 0.0119,  0.0128, -0.0084,  0.0137,  0.0193, -0.1249],
+         [-0.0536, -0.0296,  0.0345, -0.0016, -0.0072, -0.0009],
+         [-0.0738, -0.0060, -0.0393, -0.0325, -0.0806, -0.1030],
+         ...,
+         [ 0.0562,  0.0139, -0.0279,  0.0098, -0.0133,  0.0247],
+         [-0.1005,  0.0528,  0.0436, -0.0377, -0.0165, -0.0525],
+         [-0.0639,  0.0813, -0.0646,  0.0317, -0.0223,  0.0397]],
+
+        [[ 0.1131,  0.1557,  0.0011, -0.0245, -0.0615, -0.1090],
+         [-0.0972, -0.0463,  0.0014,  0.0451, -0.0937, -0.0228],
+         [-0.0032,  0.0682,  0.0704, -0.0265, -0.0868, -0.0932],
+         ...,
+         [-0.0757, -0.0518,  0.0381, -0.0500,  0.0501,  0.0418],
+         [-0.0274, -0.0769, -0.0288, -0.0342, -0.0156, -0.0522],
+         [-0.0657, -0.0276,  0.0240,  0.0308,  0.1058,  0.0048]],
+
+        [[ 0.0275, -0.1085, -0.1134, -0.0330,  0.0002,  0.0293],
+         [-0.0608,  0.0075,  0.0566, -0.0017,  0.0324,  0.0197],
+         [ 0.0450, -0.0382, -0.0147, -0.0112,  0.0279, -0.0343],
+         ...,
+         [-0.0064, -0.0310, -0.0073, -0.0049, -0.0420, -0.0320],
+         [-0.0572,  0.0801,  0.0830,  0.1243,  0.0470, -0.0878],
+         [-0.0238, -0.0113,  0.0903, -0.0074,  0.0513, -0.1130]]]), 'conv3.bias': tensor([ 0.0512,  0.0112, -0.0488,  0.0920, -0.0335, -0.0086, -0.0311,  0.0666,
+         0.0411, -0.0616,  0.0513,  0.0458,  0.0669,  0.0403, -0.0294,  0.0576,
+         0.0484, -0.1134, -0.0605,  0.0293, -0.0184, -0.0471, -0.0015,  0.0270,
+        -0.0417,  0.0494,  0.0436, -0.0488, -0.0662, -0.0812,  0.0798,  0.0641,
+        -0.1160,  0.0970, -0.0762, -0.0572, -0.0475,  0.1019,  0.0259, -0.0485]), 'conv4.weight': tensor([[[ 0.0890, -0.0004, -0.0343, -0.0480, -0.0324],
+         [ 0.0974, -0.0038,  0.0339,  0.0062, -0.0651],
+         [-0.0431, -0.0167, -0.0255, -0.0590, -0.0108],
+         ...,
+         [-0.0592, -0.0783, -0.0791,  0.0544,  0.0312],
+         [ 0.0158,  0.0107,  0.0188, -0.0660, -0.0630],
+         [-0.0803, -0.0056, -0.0931, -0.0194,  0.0716]],
+
+        [[ 0.0633,  0.0045,  0.0344,  0.0479, -0.0583],
+         [-0.0371, -0.0506, -0.0053, -0.0642, -0.0302],
+         [ 0.0168,  0.0411, -0.0326, -0.0589, -0.0351],
+         ...,
+         [ 0.0318,  0.0309,  0.0701,  0.0140,  0.0067],
+         [-0.0577,  0.0414,  0.0148,  0.0940,  0.0354],
+         [-0.0476, -0.0570, -0.0263,  0.0592,  0.0291]],
+
+        [[-0.1199, -0.0788, -0.0196,  0.0191,  0.0576],
+         [-0.0540, -0.0508, -0.0694,  0.0367,  0.0464],
+         [ 0.0015,  0.0144, -0.0758, -0.0222, -0.0721],
+         ...,
+         [-0.0697, -0.0483, -0.0166, -0.0484, -0.1874],
+         [-0.0141,  0.0068, -0.0026, -0.0172, -0.1109],
+         [ 0.0222,  0.0374,  0.0204, -0.0759,  0.0470]],
+
+        ...,
+
+        [[ 0.0695,  0.0591,  0.0242,  0.0433,  0.0110],
+         [ 0.0444, -0.0060,  0.0672,  0.0538, -0.0023],
+         [ 0.0052, -0.0239,  0.0286,  0.0268, -0.0456],
+         ...,
+         [-0.0918, -0.0868,  0.0113, -0.0858, -0.0386],
+         [ 0.0289, -0.0355, -0.0617,  0.0082,  0.0331],
+         [-0.0050,  0.0412, -0.0062, -0.0393, -0.0529]],
+
+        [[ 0.0016, -0.1021, -0.0575,  0.0405, -0.0696],
+         [-0.0459,  0.0200, -0.0065, -0.0990, -0.0190],
+         [ 0.0531,  0.1004,  0.0336,  0.0868, -0.0219],
+         ...,
+         [-0.0624, -0.0476,  0.0749,  0.0387,  0.0438],
+         [-0.0719,  0.0095, -0.0053,  0.0487, -0.0123],
+         [-0.0730, -0.0620,  0.0234,  0.0099,  0.0091]],
+
+        [[ 0.0527,  0.0288, -0.0601, -0.0371, -0.0994],
+         [-0.0884, -0.0293,  0.0079, -0.0561, -0.0174],
+         [ 0.0238, -0.0042,  0.0374,  0.0077,  0.1008],
+         ...,
+         [-0.0532,  0.0434,  0.0907,  0.0110,  0.0834],
+         [-0.0933, -0.0177,  0.0027,  0.1001,  0.0686],
+         [-0.0595,  0.0130, -0.0846, -0.0011,  0.0056]]]), 'conv4.bias': tensor([-0.0606, -0.0501,  0.0522, -0.0871, -0.0630, -0.0030,  0.0707,  0.0495,
+        -0.0999, -0.0609, -0.0700, -0.0896,  0.0500, -0.0230, -0.0474,  0.0723,
+        -0.0507, -0.0707, -0.0889,  0.0149, -0.0946,  0.0009,  0.0654,  0.0337,
+         0.0437, -0.0647,  0.0481,  0.0205, -0.0190,  0.0437, -0.0100,  0.0031,
+         0.0473, -0.0403,  0.0361,  0.0516,  0.0905, -0.0711, -0.0568,  0.0458,
+         0.0760, -0.0402, -0.0281, -0.1284,  0.0574, -0.0100,  0.0434, -0.0073,
+         0.0137, -0.0763]), 'conv5.weight': tensor([[[ 5.3428e-02, -9.3952e-03,  4.7376e-04, -3.7409e-02, -7.4609e-02],
+         [ 1.2437e-02,  3.1336e-02, -1.7970e-02, -4.9120e-02,  3.5344e-02],
+         [ 5.0891e-02,  5.8975e-02,  3.4831e-02,  7.3741e-02,  4.4690e-02],
+         ...,
+         [-4.0934e-02, -6.0912e-03, -7.0175e-02, -5.1566e-02,  2.7084e-02],
+         [-9.3161e-03, -1.8049e-02, -4.3273e-02, -2.4450e-02,  5.6553e-03],
+         [-5.8320e-02, -8.4284e-02, -7.4754e-02, -8.3264e-02, -6.0240e-02]],
+
+        [[-4.8049e-02,  9.7306e-03,  1.5049e-02,  6.9391e-03, -2.3723e-02],
+         [-1.7774e-02,  3.8307e-02, -6.2738e-03, -1.0239e-01, -6.9980e-02],
+         [ 1.2628e-02, -8.7771e-02, -5.6823e-02, -4.3779e-02,  3.6333e-02],
+         ...,
+         [ 6.5613e-02, -2.6393e-02, -2.8180e-02, -6.4349e-02, -3.5456e-02],
+         [ 7.2490e-02, -4.2708e-02,  3.8306e-02, -7.7776e-05, -6.2119e-03],
+         [-9.2431e-03,  2.8477e-04, -2.6332e-02,  4.4392e-02, -4.7790e-02]],
+
+        [[-6.1090e-06,  7.5421e-03,  3.9539e-02,  5.3714e-02, -3.0253e-02],
+         [-1.1679e-03, -4.1702e-02, -3.1167e-02, -1.1244e-01, -1.7117e-01],
+         [-5.2917e-02, -1.4548e-03,  1.7192e-02,  1.2892e-02,  1.9117e-02],
+         ...,
+         [-2.3288e-02, -4.3411e-02, -4.8179e-02, -9.8925e-02, -7.8669e-02],
+         [ 2.2419e-02,  7.5169e-02, -2.9420e-02,  2.1116e-02,  3.8648e-02],
+         [ 2.3265e-02,  3.2722e-02,  1.7308e-02,  5.1461e-02, -2.3006e-02]],
+
+        ...,
+
+        [[ 4.6776e-02, -2.5072e-02, -7.3668e-02, -6.0560e-02, -3.4566e-02],
+         [ 1.7500e-02,  5.7186e-02, -1.7578e-02, -4.4558e-02, -2.7534e-02],
+         [-4.4568e-03,  8.2434e-02,  1.0937e-01,  1.2481e-01,  1.1290e-01],
+         ...,
+         [-4.5895e-02, -1.3348e-02, -8.4665e-02,  2.2106e-02, -3.6301e-02],
+         [-3.9418e-02, -8.9735e-02, -2.0806e-02, -4.4200e-02, -7.0078e-02],
+         [-8.4110e-03,  3.0298e-02,  6.0676e-02, -1.9267e-02, -2.5763e-02]],
+
+        [[ 4.4005e-02,  6.5372e-02,  4.6081e-02, -2.2196e-02,  1.8863e-02],
+         [-1.8624e-04,  5.0368e-02, -2.0964e-02, -6.6724e-02,  1.9084e-02],
+         [-7.8430e-03, -3.5465e-02, -1.6511e-02, -4.6653e-02, -8.6203e-02],
+         ...,
+         [ 3.6310e-03,  1.0014e-02,  4.5704e-02,  1.8736e-02,  2.7268e-02],
+         [-3.5415e-02,  2.2773e-02, -4.1621e-02, -3.6310e-02, -3.8447e-02],
+         [-6.1679e-02, -3.7026e-02, -6.8881e-02, -7.0657e-03, -1.0884e-01]],
+
+        [[ 5.3128e-02, -3.8415e-02, -2.2465e-02, -1.1665e-02, -1.1814e-02],
+         [-1.4827e-02, -6.3156e-02, -7.4504e-03, -1.1692e-02,  3.6488e-04],
+         [-1.6889e-01, -1.0535e-01, -1.1635e-01, -5.8211e-02,  1.8582e-02],
+         ...,
+         [-1.1992e-02,  3.0102e-02,  1.2369e-02, -6.8708e-02, -4.6015e-02],
+         [-8.3990e-02, -5.4287e-02, -8.5264e-02, -1.2992e-01, -2.5302e-02],
+         [-4.8257e-02, -3.6134e-02, -1.0306e-01, -8.0802e-02, -3.1084e-02]]]), 'conv5.bias': tensor([ 0.0031, -0.0266,  0.0539, -0.0287, -0.0086, -0.0079, -0.0238,  0.0481,
+        -0.0258,  0.0011,  0.0764, -0.0286,  0.0246,  0.0833, -0.1125,  0.0600,
+        -0.0624, -0.0600, -0.0522, -0.0383,  0.0620,  0.0596,  0.0104,  0.0655,
+        -0.0366, -0.0726, -0.0351,  0.0024, -0.0651,  0.0574,  0.0952,  0.0626,
+         0.0215, -0.0512,  0.0741,  0.0672, -0.0628, -0.0452,  0.0044, -0.0014,
+         0.0240,  0.0889, -0.0618,  0.0196,  0.0701, -0.0555,  0.0755, -0.0127,
+         0.0272,  0.0289]), 'linear1.weight': tensor([[ 0.0196,  0.0183,  0.0237,  ..., -0.0264, -0.0207, -0.0175],
+        [ 0.0088, -0.0006,  0.0132,  ..., -0.0169, -0.0195, -0.0271],
+        [-0.0361, -0.0392, -0.0406,  ..., -0.0158, -0.0002, -0.0033],
+        ...,
+        [-0.0002, -0.0141, -0.0007,  ..., -0.0338, -0.0402, -0.0475],
+        [-0.0445, -0.0472, -0.0383,  ...,  0.0055, -0.0230, -0.0235],
+        [-0.0115, -0.0052, -0.0033,  ...,  0.0076, -0.0046, -0.0147]]), 'linear1.bias': tensor([-0.0366, -0.0375, -0.0018,  ..., -0.0311, -0.0378, -0.0312]), 'linear2.weight': tensor([[ 0.0086, -0.0051, -0.0557,  ..., -0.0393, -0.0151,  0.0012]]), 'linear2.bias': tensor([0.0551])}), (array([1]), {'conv1.weight': tensor([[[ 0.2463, -0.1296,  0.1920,  0.0741,  0.1924,  0.2142, -0.3189,
+          -0.3735, -0.1277,  0.0531]],
+
+        [[-0.3294, -0.0078,  0.1442,  0.0370, -0.2102,  0.0306,  0.0478,
+           0.2593, -0.0395,  0.2979]],
+
+        [[ 0.3264, -0.0194, -0.3708,  0.1856, -0.0736, -0.2087,  0.2407,
+          -0.2064, -0.1543,  0.1404]],
+
+        [[ 0.3384, -0.1032,  0.0511,  0.0229, -0.0093, -0.2231,  0.1593,
+           0.0326, -0.0070, -0.3172]],
+
+        [[ 0.0451,  0.2194,  0.0261, -0.4379, -0.2602, -0.1225,  0.2959,
+          -0.1552,  0.1313, -0.2126]],
+
+        [[-0.0812,  0.3098, -0.0550, -0.0797, -0.2648, -0.1242, -0.1280,
+          -0.2749,  0.0221, -0.1420]],
+
+        [[-0.0709,  0.1418, -0.3016,  0.2253, -0.4848, -0.1567,  0.0951,
+          -0.1303,  0.1972,  0.0987]],
+
+        [[-0.2093, -0.0438, -0.0301, -0.1349, -0.0769,  0.2990, -0.2203,
+           0.2473,  0.1838, -0.1314]],
+
+        [[-0.2082,  0.2051,  0.2256, -0.1805, -0.2490,  0.2108, -0.2902,
+           0.0763,  0.0258,  0.1967]],
+
+        [[-0.1228,  0.1965, -0.3285, -0.3677,  0.1904,  0.2183, -0.0578,
+          -0.0739,  0.3083, -0.2734]],
+
+        [[ 0.0373,  0.1067,  0.2876,  0.2468,  0.0761, -0.2946, -0.2220,
+          -0.2168,  0.1902, -0.2338]],
+
+        [[ 0.0389,  0.1158,  0.0125, -0.0771, -0.2083,  0.0422, -0.0562,
+           0.1461,  0.0304, -0.1818]],
+
+        [[ 0.2597,  0.1990, -0.2322, -0.1190, -0.1246,  0.1907, -0.0243,
+          -0.2020, -0.1411, -0.0327]],
+
+        [[ 0.3122, -0.0718,  0.0994,  0.1946,  0.1442, -0.0773, -0.3405,
+          -0.2514,  0.0718, -0.1065]],
+
+        [[-0.3415, -0.0017,  0.0358, -0.0820,  0.2338, -0.0731,  0.0690,
+          -0.2398,  0.2365,  0.2729]],
+
+        [[-0.0841, -0.0657,  0.1856,  0.0797, -0.3294,  0.1765, -0.0912,
+           0.2775, -0.0017, -0.2800]],
+
+        [[-0.2213,  0.0440, -0.0168,  0.2619,  0.1206, -0.2053,  0.1993,
+          -0.0854, -0.2701,  0.0335]],
+
+        [[ 0.2975, -0.1880, -0.1385, -0.2955, -0.0708, -0.0603,  0.2812,
+           0.2028, -0.1089,  0.0351]],
+
+        [[-0.0157,  0.3095, -0.3695, -0.4048, -0.0839,  0.3292,  0.1262,
+          -0.0376, -0.1626,  0.1811]],
+
+        [[ 0.2382,  0.0616,  0.1054, -0.1768, -0.2010,  0.1649,  0.3004,
+          -0.0511, -0.1134, -0.3265]],
+
+        [[-0.1411,  0.1828,  0.2960,  0.2821, -0.0033, -0.1928,  0.0346,
+          -0.2892, -0.0081, -0.1453]],
+
+        [[ 0.0399,  0.1501,  0.2040, -0.0629, -0.0551, -0.0511,  0.1646,
+          -0.2525, -0.0114, -0.2806]],
+
+        [[ 0.2661,  0.0616, -0.1143,  0.0048, -0.0326, -0.2217, -0.1444,
+          -0.0780, -0.2237,  0.0541]],
+
+        [[-0.2061,  0.0480, -0.1267,  0.0836,  0.2145,  0.2741, -0.1074,
+          -0.2521, -0.1949,  0.1836]],
+
+        [[-0.0422,  0.0234,  0.2675,  0.2942, -0.2209,  0.0588, -0.0081,
+           0.0210, -0.1147,  0.0543]],
+
+        [[-0.2151, -0.1719, -0.0373, -0.0891, -0.0492, -0.1782, -0.0702,
+           0.1134,  0.1966, -0.1596]],
+
+        [[-0.3224,  0.2367, -0.1242, -0.1326,  0.0965,  0.0953, -0.2303,
+           0.1027,  0.2154,  0.0686]],
+
+        [[ 0.2657,  0.2756,  0.0980, -0.3390,  0.1432,  0.0599,  0.0564,
+           0.1961, -0.0572, -0.3323]],
+
+        [[-0.0062, -0.3668, -0.0971, -0.0171,  0.1548,  0.1812,  0.2074,
+           0.1387, -0.0792, -0.1400]],
+
+        [[-0.2219, -0.1393,  0.0435, -0.2910, -0.1759,  0.0538,  0.2112,
+           0.1498,  0.2294, -0.0534]]]), 'conv1.bias': tensor([ 1.6866e-01, -3.3598e-01, -2.2144e-01,  1.6711e-01, -1.7852e-01,
+         6.7135e-02, -2.5700e-01,  1.5128e-01,  6.2526e-02, -9.0376e-02,
+         2.0156e-01, -5.0145e-02,  1.2854e-01,  7.3610e-02,  1.7026e-01,
+        -4.4446e-02, -3.0746e-02,  6.5179e-02, -2.1581e-04, -2.1695e-02,
+         1.7275e-01, -1.0455e-01,  6.1894e-02,  3.3234e-02, -3.4539e-01,
+         1.7642e-01,  2.6286e-01, -3.7204e-01,  7.6008e-02, -5.5119e-03]), 'conv2.weight': tensor([[[-2.0694e-02, -4.2304e-02, -1.4596e-02,  ..., -1.1899e-02,
+          -7.3086e-02,  2.8001e-02],
+         [-3.7843e-03, -9.5879e-02, -6.3881e-02,  ..., -5.5659e-02,
+           2.7367e-02,  1.9021e-02],
+         [-4.7693e-02, -3.6660e-02, -6.1681e-02,  ..., -1.2073e-01,
+          -5.3171e-02, -3.8117e-02],
+         ...,
+         [-4.1926e-02, -9.0193e-02, -6.2391e-03,  ..., -1.0538e-01,
+          -6.3131e-02, -7.5111e-02],
+         [-8.8286e-02,  4.5834e-02, -2.2351e-02,  ..., -9.0952e-02,
+          -9.6532e-02, -3.3474e-02],
+         [-2.4219e-02, -4.4919e-02, -7.1344e-02,  ..., -1.8790e-02,
+           3.9293e-02,  5.0951e-02]],
+
+        [[ 3.0789e-02,  2.7239e-02,  2.7727e-03,  ...,  5.7211e-02,
+           6.7319e-02,  7.7999e-02],
+         [-1.4136e-02,  1.4184e-02, -4.3823e-02,  ...,  1.8542e-03,
+          -5.9969e-02, -1.5785e-03],
+         [-6.5424e-02, -3.1702e-02, -8.8195e-03,  ...,  7.9450e-02,
+           1.2377e-01,  3.0136e-02],
+         ...,
+         [-7.1243e-03,  6.3463e-02,  7.5538e-02,  ...,  3.7526e-02,
+          -1.4022e-02,  4.0029e-03],
+         [-1.2355e-01, -1.2058e-01,  1.4108e-02,  ...,  3.6563e-02,
+          -1.0238e-01,  1.6468e-02],
+         [-7.6605e-02, -8.5202e-02, -5.8858e-02,  ...,  2.7042e-02,
+           2.5073e-02, -3.0655e-02]],
+
+        [[-7.1808e-02, -5.5036e-02,  2.7037e-03,  ...,  1.8121e-02,
+           3.4538e-02, -2.3383e-02],
+         [-5.2999e-02,  2.0588e-02,  6.8181e-02,  ..., -5.8342e-02,
+          -2.2668e-02,  4.2785e-02],
+         [-6.4985e-02,  1.3007e-02,  5.1807e-02,  ...,  2.7260e-02,
+           3.6361e-02,  1.4792e-02],
+         ...,
+         [-2.4366e-02, -1.7218e-02, -3.5378e-03,  ..., -5.9185e-03,
+           4.4106e-02,  4.5831e-03],
+         [ 6.4202e-04, -2.2354e-02, -5.5805e-02,  ..., -8.4088e-02,
+           1.1143e-02,  2.3108e-02],
+         [ 1.8124e-02, -3.4213e-02, -3.6199e-02,  ...,  1.0467e-02,
+          -5.1719e-02,  5.6252e-02]],
+
+        ...,
+
+        [[-2.5731e-02, -1.7615e-02,  2.4906e-02,  ..., -1.3540e-02,
+          -3.2420e-02, -6.0199e-02],
+         [ 1.9684e-02,  1.8944e-02,  3.5701e-02,  ...,  2.4610e-02,
+           8.0517e-02, -7.9085e-03],
+         [ 1.1509e-01,  3.2292e-02,  1.0276e-01,  ...,  2.2304e-02,
+           9.7364e-02,  6.9651e-02],
+         ...,
+         [ 2.6190e-02,  7.1235e-03,  8.3864e-02,  ..., -3.1993e-02,
+          -9.7408e-03, -2.8976e-02],
+         [ 6.1906e-02,  5.2256e-05,  3.1714e-02,  ..., -7.5112e-02,
+          -1.7508e-02,  4.4947e-02],
+         [-6.9193e-02,  1.2509e-02, -6.3018e-02,  ...,  7.6584e-02,
+           1.2696e-02,  6.5327e-02]],
+
+        [[ 3.3986e-02, -5.0690e-02, -5.3847e-02,  ..., -3.0211e-02,
+           1.4836e-02, -3.7278e-02],
+         [ 3.2075e-02,  9.5521e-03,  6.9411e-02,  ..., -4.6255e-02,
+          -5.0297e-02,  2.4963e-02],
+         [ 1.0006e-01,  8.3959e-02, -8.0513e-03,  ...,  1.2748e-01,
+           1.0586e-01, -1.0320e-01],
+         ...,
+         [-2.6673e-02, -6.7847e-02, -1.2300e-01,  ..., -6.1524e-02,
+          -2.8952e-02,  1.2194e-02],
+         [-6.7254e-02, -8.3320e-02, -7.8599e-02,  ...,  6.7501e-02,
+          -2.1843e-02, -2.9326e-02],
+         [-7.2203e-02,  5.0226e-02,  8.7068e-03,  ...,  1.0898e-02,
+           7.5824e-02,  8.9772e-02]],
+
+        [[ 7.5936e-02,  2.1134e-02, -9.3523e-02,  ..., -3.3865e-02,
+          -5.4547e-02,  1.5679e-02],
+         [ 2.8607e-03,  3.4126e-02,  4.1971e-02,  ...,  9.3513e-02,
+           1.0040e-02,  6.8786e-02],
+         [ 8.4863e-02,  5.4173e-02,  4.3467e-02,  ...,  4.3045e-02,
+           7.2651e-02, -8.3337e-02],
+         ...,
+         [ 9.9581e-02, -5.3107e-02, -3.7500e-02,  ...,  2.5642e-02,
+          -6.7768e-02,  4.0567e-02],
+         [-8.7590e-02, -5.6861e-02, -3.1120e-02,  ...,  1.3531e-02,
+          -6.9174e-02,  2.9115e-02],
+         [-1.2539e-01, -7.5700e-02, -9.8453e-03,  ..., -6.5517e-03,
+           4.7128e-02,  7.3772e-02]]]), 'conv2.bias': tensor([ 0.0359, -0.0367, -0.0464,  0.0044,  0.0610,  0.0123, -0.0009,  0.0453,
+        -0.0406, -0.0687, -0.0265, -0.0883,  0.0056, -0.0567, -0.0064, -0.0182,
+         0.0414, -0.0479,  0.0374,  0.0569, -0.0650, -0.0477,  0.0488, -0.0119,
+        -0.0601, -0.0354, -0.0562, -0.0407, -0.0437, -0.0357]), 'conv3.weight': tensor([[[ 0.0625,  0.0806,  0.0473,  0.0831, -0.0090,  0.0893],
+         [ 0.0726,  0.0445, -0.0426, -0.0170,  0.0003,  0.0214],
+         [ 0.0239,  0.0274,  0.0138, -0.0270,  0.0676,  0.0126],
+         ...,
+         [-0.1123, -0.1500, -0.1150,  0.0130, -0.0219,  0.0407],
+         [ 0.0047, -0.0092, -0.0731,  0.0510,  0.0562,  0.0809],
+         [ 0.0469, -0.0562, -0.0331,  0.0065, -0.0036, -0.0191]],
+
+        [[-0.0360, -0.1060,  0.0416, -0.0332,  0.0207,  0.0183],
+         [-0.0034,  0.0137,  0.0823, -0.0175, -0.0737, -0.0556],
+         [ 0.0274, -0.0817,  0.0084,  0.0317,  0.0213,  0.0406],
+         ...,
+         [ 0.0718, -0.0525,  0.0131, -0.0610,  0.0120, -0.0588],
+         [ 0.0073, -0.0291, -0.0933, -0.0989, -0.0618, -0.0678],
+         [-0.1014,  0.0442,  0.0218, -0.0762, -0.1275, -0.0267]],
+
+        [[-0.0171,  0.0537,  0.0999, -0.0353, -0.1078, -0.1314],
+         [ 0.0106, -0.0149,  0.0223, -0.0429,  0.0236,  0.0592],
+         [ 0.0769, -0.0213,  0.0215,  0.0397, -0.0511,  0.0604],
+         ...,
+         [-0.0192,  0.0639,  0.0328,  0.0808,  0.0558, -0.0695],
+         [-0.0393,  0.0049, -0.0218,  0.0241,  0.0504, -0.0077],
+         [-0.0856,  0.0489,  0.0390, -0.0009,  0.0122,  0.0145]],
+
+        ...,
+
+        [[ 0.0119,  0.0128, -0.0084,  0.0137,  0.0193, -0.1249],
+         [-0.0536, -0.0296,  0.0345, -0.0016, -0.0072, -0.0009],
+         [-0.0738, -0.0060, -0.0393, -0.0325, -0.0806, -0.1030],
+         ...,
+         [ 0.0562,  0.0139, -0.0279,  0.0098, -0.0133,  0.0247],
+         [-0.1005,  0.0528,  0.0436, -0.0377, -0.0165, -0.0525],
+         [-0.0639,  0.0813, -0.0646,  0.0317, -0.0223,  0.0397]],
+
+        [[ 0.1131,  0.1557,  0.0011, -0.0245, -0.0615, -0.1090],
+         [-0.0972, -0.0463,  0.0014,  0.0451, -0.0937, -0.0228],
+         [-0.0032,  0.0682,  0.0704, -0.0265, -0.0868, -0.0932],
+         ...,
+         [-0.0757, -0.0518,  0.0381, -0.0500,  0.0501,  0.0418],
+         [-0.0274, -0.0769, -0.0288, -0.0342, -0.0156, -0.0522],
+         [-0.0657, -0.0276,  0.0240,  0.0308,  0.1058,  0.0048]],
+
+        [[ 0.0275, -0.1085, -0.1134, -0.0330,  0.0002,  0.0293],
+         [-0.0608,  0.0075,  0.0566, -0.0017,  0.0324,  0.0197],
+         [ 0.0450, -0.0382, -0.0147, -0.0112,  0.0279, -0.0343],
+         ...,
+         [-0.0064, -0.0310, -0.0073, -0.0049, -0.0420, -0.0320],
+         [-0.0572,  0.0801,  0.0830,  0.1243,  0.0470, -0.0878],
+         [-0.0238, -0.0113,  0.0903, -0.0074,  0.0513, -0.1130]]]), 'conv3.bias': tensor([ 0.0512,  0.0112, -0.0488,  0.0920, -0.0335, -0.0086, -0.0311,  0.0666,
+         0.0411, -0.0616,  0.0513,  0.0458,  0.0669,  0.0403, -0.0294,  0.0576,
+         0.0484, -0.1134, -0.0605,  0.0293, -0.0184, -0.0471, -0.0015,  0.0270,
+        -0.0417,  0.0494,  0.0436, -0.0488, -0.0662, -0.0812,  0.0798,  0.0641,
+        -0.1160,  0.0970, -0.0762, -0.0572, -0.0475,  0.1019,  0.0259, -0.0485]), 'conv4.weight': tensor([[[ 0.0890, -0.0004, -0.0343, -0.0480, -0.0324],
+         [ 0.0974, -0.0038,  0.0339,  0.0062, -0.0651],
+         [-0.0431, -0.0167, -0.0255, -0.0590, -0.0108],
+         ...,
+         [-0.0592, -0.0783, -0.0791,  0.0544,  0.0312],
+         [ 0.0158,  0.0107,  0.0188, -0.0660, -0.0630],
+         [-0.0803, -0.0056, -0.0931, -0.0194,  0.0716]],
+
+        [[ 0.0633,  0.0045,  0.0344,  0.0479, -0.0583],
+         [-0.0371, -0.0506, -0.0053, -0.0642, -0.0302],
+         [ 0.0168,  0.0411, -0.0326, -0.0589, -0.0351],
+         ...,
+         [ 0.0318,  0.0309,  0.0701,  0.0140,  0.0067],
+         [-0.0577,  0.0414,  0.0148,  0.0940,  0.0354],
+         [-0.0476, -0.0570, -0.0263,  0.0592,  0.0291]],
+
+        [[-0.1199, -0.0788, -0.0196,  0.0191,  0.0576],
+         [-0.0540, -0.0508, -0.0694,  0.0367,  0.0464],
+         [ 0.0015,  0.0144, -0.0758, -0.0222, -0.0721],
+         ...,
+         [-0.0697, -0.0483, -0.0166, -0.0484, -0.1874],
+         [-0.0141,  0.0068, -0.0026, -0.0172, -0.1109],
+         [ 0.0222,  0.0374,  0.0204, -0.0759,  0.0470]],
+
+        ...,
+
+        [[ 0.0695,  0.0591,  0.0242,  0.0433,  0.0110],
+         [ 0.0444, -0.0060,  0.0672,  0.0538, -0.0023],
+         [ 0.0052, -0.0239,  0.0286,  0.0268, -0.0456],
+         ...,
+         [-0.0918, -0.0868,  0.0113, -0.0858, -0.0386],
+         [ 0.0289, -0.0355, -0.0617,  0.0082,  0.0331],
+         [-0.0050,  0.0412, -0.0062, -0.0393, -0.0529]],
+
+        [[ 0.0016, -0.1021, -0.0575,  0.0405, -0.0696],
+         [-0.0459,  0.0200, -0.0065, -0.0990, -0.0190],
+         [ 0.0531,  0.1004,  0.0336,  0.0868, -0.0219],
+         ...,
+         [-0.0624, -0.0476,  0.0749,  0.0387,  0.0438],
+         [-0.0719,  0.0095, -0.0053,  0.0487, -0.0123],
+         [-0.0730, -0.0620,  0.0234,  0.0099,  0.0091]],
+
+        [[ 0.0527,  0.0288, -0.0601, -0.0371, -0.0994],
+         [-0.0884, -0.0293,  0.0079, -0.0561, -0.0174],
+         [ 0.0238, -0.0042,  0.0374,  0.0077,  0.1008],
+         ...,
+         [-0.0532,  0.0434,  0.0907,  0.0110,  0.0834],
+         [-0.0933, -0.0177,  0.0027,  0.1001,  0.0686],
+         [-0.0595,  0.0130, -0.0846, -0.0011,  0.0056]]]), 'conv4.bias': tensor([-0.0606, -0.0501,  0.0522, -0.0871, -0.0630, -0.0030,  0.0707,  0.0495,
+        -0.0999, -0.0609, -0.0700, -0.0896,  0.0500, -0.0230, -0.0474,  0.0723,
+        -0.0507, -0.0707, -0.0889,  0.0149, -0.0946,  0.0009,  0.0654,  0.0337,
+         0.0437, -0.0647,  0.0481,  0.0205, -0.0190,  0.0437, -0.0100,  0.0031,
+         0.0473, -0.0403,  0.0361,  0.0516,  0.0905, -0.0711, -0.0568,  0.0458,
+         0.0760, -0.0402, -0.0281, -0.1284,  0.0574, -0.0100,  0.0434, -0.0073,
+         0.0137, -0.0763]), 'conv5.weight': tensor([[[ 5.3428e-02, -9.3952e-03,  4.7376e-04, -3.7409e-02, -7.4609e-02],
+         [ 1.2437e-02,  3.1336e-02, -1.7970e-02, -4.9120e-02,  3.5344e-02],
+         [ 5.0891e-02,  5.8975e-02,  3.4831e-02,  7.3741e-02,  4.4690e-02],
+         ...,
+         [-4.0934e-02, -6.0912e-03, -7.0175e-02, -5.1566e-02,  2.7084e-02],
+         [-9.3161e-03, -1.8049e-02, -4.3273e-02, -2.4450e-02,  5.6553e-03],
+         [-5.8320e-02, -8.4284e-02, -7.4754e-02, -8.3264e-02, -6.0240e-02]],
+
+        [[-4.8049e-02,  9.7306e-03,  1.5049e-02,  6.9391e-03, -2.3723e-02],
+         [-1.7774e-02,  3.8307e-02, -6.2738e-03, -1.0239e-01, -6.9980e-02],
+         [ 1.2628e-02, -8.7771e-02, -5.6823e-02, -4.3779e-02,  3.6333e-02],
+         ...,
+         [ 6.5613e-02, -2.6393e-02, -2.8180e-02, -6.4349e-02, -3.5456e-02],
+         [ 7.2490e-02, -4.2708e-02,  3.8306e-02, -7.7776e-05, -6.2119e-03],
+         [-9.2431e-03,  2.8477e-04, -2.6332e-02,  4.4392e-02, -4.7790e-02]],
+
+        [[-6.1090e-06,  7.5421e-03,  3.9539e-02,  5.3714e-02, -3.0253e-02],
+         [-1.1679e-03, -4.1702e-02, -3.1167e-02, -1.1244e-01, -1.7117e-01],
+         [-5.2917e-02, -1.4548e-03,  1.7192e-02,  1.2892e-02,  1.9117e-02],
+         ...,
+         [-2.3288e-02, -4.3411e-02, -4.8179e-02, -9.8925e-02, -7.8669e-02],
+         [ 2.2419e-02,  7.5169e-02, -2.9420e-02,  2.1116e-02,  3.8648e-02],
+         [ 2.3265e-02,  3.2722e-02,  1.7308e-02,  5.1461e-02, -2.3006e-02]],
+
+        ...,
+
+        [[ 4.6776e-02, -2.5072e-02, -7.3668e-02, -6.0560e-02, -3.4566e-02],
+         [ 1.7500e-02,  5.7186e-02, -1.7578e-02, -4.4558e-02, -2.7534e-02],
+         [-4.4568e-03,  8.2434e-02,  1.0937e-01,  1.2481e-01,  1.1290e-01],
+         ...,
+         [-4.5895e-02, -1.3348e-02, -8.4665e-02,  2.2106e-02, -3.6301e-02],
+         [-3.9418e-02, -8.9735e-02, -2.0806e-02, -4.4200e-02, -7.0078e-02],
+         [-8.4110e-03,  3.0298e-02,  6.0676e-02, -1.9267e-02, -2.5763e-02]],
+
+        [[ 4.4005e-02,  6.5372e-02,  4.6081e-02, -2.2196e-02,  1.8863e-02],
+         [-1.8624e-04,  5.0368e-02, -2.0964e-02, -6.6724e-02,  1.9084e-02],
+         [-7.8430e-03, -3.5465e-02, -1.6511e-02, -4.6653e-02, -8.6203e-02],
+         ...,
+         [ 3.6310e-03,  1.0014e-02,  4.5704e-02,  1.8736e-02,  2.7268e-02],
+         [-3.5415e-02,  2.2773e-02, -4.1621e-02, -3.6310e-02, -3.8447e-02],
+         [-6.1679e-02, -3.7026e-02, -6.8881e-02, -7.0657e-03, -1.0884e-01]],
+
+        [[ 5.3128e-02, -3.8415e-02, -2.2465e-02, -1.1665e-02, -1.1814e-02],
+         [-1.4827e-02, -6.3156e-02, -7.4504e-03, -1.1692e-02,  3.6488e-04],
+         [-1.6889e-01, -1.0535e-01, -1.1635e-01, -5.8211e-02,  1.8582e-02],
+         ...,
+         [-1.1992e-02,  3.0102e-02,  1.2369e-02, -6.8708e-02, -4.6015e-02],
+         [-8.3990e-02, -5.4287e-02, -8.5264e-02, -1.2992e-01, -2.5302e-02],
+         [-4.8257e-02, -3.6134e-02, -1.0306e-01, -8.0802e-02, -3.1084e-02]]]), 'conv5.bias': tensor([ 0.0031, -0.0266,  0.0539, -0.0287, -0.0086, -0.0079, -0.0238,  0.0481,
+        -0.0258,  0.0011,  0.0764, -0.0286,  0.0246,  0.0833, -0.1125,  0.0600,
+        -0.0624, -0.0600, -0.0522, -0.0383,  0.0620,  0.0596,  0.0104,  0.0655,
+        -0.0366, -0.0726, -0.0351,  0.0024, -0.0651,  0.0574,  0.0952,  0.0626,
+         0.0215, -0.0512,  0.0741,  0.0672, -0.0628, -0.0452,  0.0044, -0.0014,
+         0.0240,  0.0889, -0.0618,  0.0196,  0.0701, -0.0555,  0.0755, -0.0127,
+         0.0272,  0.0289]), 'linear1.weight': tensor([[ 0.0196,  0.0183,  0.0237,  ..., -0.0264, -0.0207, -0.0175],
+        [ 0.0088, -0.0006,  0.0132,  ..., -0.0169, -0.0195, -0.0271],
+        [-0.0361, -0.0392, -0.0406,  ..., -0.0158, -0.0002, -0.0033],
+        ...,
+        [-0.0002, -0.0141, -0.0007,  ..., -0.0338, -0.0402, -0.0475],
+        [-0.0445, -0.0472, -0.0383,  ...,  0.0055, -0.0230, -0.0235],
+        [-0.0115, -0.0052, -0.0033,  ...,  0.0076, -0.0046, -0.0147]]), 'linear1.bias': tensor([-0.0366, -0.0375, -0.0018,  ..., -0.0311, -0.0378, -0.0312]), 'linear2.weight': tensor([[ 0.0086, -0.0051, -0.0557,  ..., -0.0393, -0.0151,  0.0012]]), 'linear2.bias': tensor([0.0551])}), (array([1]), {'conv1.weight': tensor([[[ 0.2463, -0.1296,  0.1920,  0.0741,  0.1924,  0.2142, -0.3189,
+          -0.3735, -0.1277,  0.0531]],
+
+        [[-0.3294, -0.0078,  0.1442,  0.0370, -0.2102,  0.0306,  0.0478,
+           0.2593, -0.0395,  0.2979]],
+
+        [[ 0.3264, -0.0194, -0.3708,  0.1856, -0.0736, -0.2087,  0.2407,
+          -0.2064, -0.1543,  0.1404]],
+
+        [[ 0.3384, -0.1032,  0.0511,  0.0229, -0.0093, -0.2231,  0.1593,
+           0.0326, -0.0070, -0.3172]],
+
+        [[ 0.0451,  0.2194,  0.0261, -0.4379, -0.2602, -0.1225,  0.2959,
+          -0.1552,  0.1313, -0.2126]],
+
+        [[-0.0812,  0.3098, -0.0550, -0.0797, -0.2648, -0.1242, -0.1280,
+          -0.2749,  0.0221, -0.1420]],
+
+        [[-0.0709,  0.1418, -0.3016,  0.2253, -0.4848, -0.1567,  0.0951,
+          -0.1303,  0.1972,  0.0987]],
+
+        [[-0.2093, -0.0438, -0.0301, -0.1349, -0.0769,  0.2990, -0.2203,
+           0.2473,  0.1838, -0.1314]],
+
+        [[-0.2082,  0.2051,  0.2256, -0.1805, -0.2490,  0.2108, -0.2902,
+           0.0763,  0.0258,  0.1967]],
+
+        [[-0.1228,  0.1965, -0.3285, -0.3677,  0.1904,  0.2183, -0.0578,
+          -0.0739,  0.3083, -0.2734]],
+
+        [[ 0.0373,  0.1067,  0.2876,  0.2468,  0.0761, -0.2946, -0.2220,
+          -0.2168,  0.1902, -0.2338]],
+
+        [[ 0.0389,  0.1158,  0.0125, -0.0771, -0.2083,  0.0422, -0.0562,
+           0.1461,  0.0304, -0.1818]],
+
+        [[ 0.2597,  0.1990, -0.2322, -0.1190, -0.1246,  0.1907, -0.0243,
+          -0.2020, -0.1411, -0.0327]],
+
+        [[ 0.3122, -0.0718,  0.0994,  0.1946,  0.1442, -0.0773, -0.3405,
+          -0.2514,  0.0718, -0.1065]],
+
+        [[-0.3415, -0.0017,  0.0358, -0.0820,  0.2338, -0.0731,  0.0690,
+          -0.2398,  0.2365,  0.2729]],
+
+        [[-0.0841, -0.0657,  0.1856,  0.0797, -0.3294,  0.1765, -0.0912,
+           0.2775, -0.0017, -0.2800]],
+
+        [[-0.2213,  0.0440, -0.0168,  0.2619,  0.1206, -0.2053,  0.1993,
+          -0.0854, -0.2701,  0.0335]],
+
+        [[ 0.2975, -0.1880, -0.1385, -0.2955, -0.0708, -0.0603,  0.2812,
+           0.2028, -0.1089,  0.0351]],
+
+        [[-0.0157,  0.3095, -0.3695, -0.4048, -0.0839,  0.3292,  0.1262,
+          -0.0376, -0.1626,  0.1811]],
+
+        [[ 0.2382,  0.0616,  0.1054, -0.1768, -0.2010,  0.1649,  0.3004,
+          -0.0511, -0.1134, -0.3265]],
+
+        [[-0.1411,  0.1828,  0.2960,  0.2821, -0.0033, -0.1928,  0.0346,
+          -0.2892, -0.0081, -0.1453]],
+
+        [[ 0.0399,  0.1501,  0.2040, -0.0629, -0.0551, -0.0511,  0.1646,
+          -0.2525, -0.0114, -0.2806]],
+
+        [[ 0.2661,  0.0616, -0.1143,  0.0048, -0.0326, -0.2217, -0.1444,
+          -0.0780, -0.2237,  0.0541]],
+
+        [[-0.2061,  0.0480, -0.1267,  0.0836,  0.2145,  0.2741, -0.1074,
+          -0.2521, -0.1949,  0.1836]],
+
+        [[-0.0422,  0.0234,  0.2675,  0.2942, -0.2209,  0.0588, -0.0081,
+           0.0210, -0.1147,  0.0543]],
+
+        [[-0.2151, -0.1719, -0.0373, -0.0891, -0.0492, -0.1782, -0.0702,
+           0.1134,  0.1966, -0.1596]],
+
+        [[-0.3224,  0.2367, -0.1242, -0.1326,  0.0965,  0.0953, -0.2303,
+           0.1027,  0.2154,  0.0686]],
+
+        [[ 0.2657,  0.2756,  0.0980, -0.3390,  0.1432,  0.0599,  0.0564,
+           0.1961, -0.0572, -0.3323]],
+
+        [[-0.0062, -0.3668, -0.0971, -0.0171,  0.1548,  0.1812,  0.2074,
+           0.1387, -0.0792, -0.1400]],
+
+        [[-0.2219, -0.1393,  0.0435, -0.2910, -0.1759,  0.0538,  0.2112,
+           0.1498,  0.2294, -0.0534]]]), 'conv1.bias': tensor([ 1.6866e-01, -3.3598e-01, -2.2144e-01,  1.6711e-01, -1.7852e-01,
+         6.7135e-02, -2.5700e-01,  1.5128e-01,  6.2526e-02, -9.0376e-02,
+         2.0156e-01, -5.0145e-02,  1.2854e-01,  7.3610e-02,  1.7026e-01,
+        -4.4446e-02, -3.0746e-02,  6.5179e-02, -2.1581e-04, -2.1695e-02,
+         1.7275e-01, -1.0455e-01,  6.1894e-02,  3.3234e-02, -3.4539e-01,
+         1.7642e-01,  2.6286e-01, -3.7204e-01,  7.6008e-02, -5.5119e-03]), 'conv2.weight': tensor([[[-2.0694e-02, -4.2304e-02, -1.4596e-02,  ..., -1.1899e-02,
+          -7.3086e-02,  2.8001e-02],
+         [-3.7843e-03, -9.5879e-02, -6.3881e-02,  ..., -5.5659e-02,
+           2.7367e-02,  1.9021e-02],
+         [-4.7693e-02, -3.6660e-02, -6.1681e-02,  ..., -1.2073e-01,
+          -5.3171e-02, -3.8117e-02],
+         ...,
+         [-4.1926e-02, -9.0193e-02, -6.2391e-03,  ..., -1.0538e-01,
+          -6.3131e-02, -7.5111e-02],
+         [-8.8286e-02,  4.5834e-02, -2.2351e-02,  ..., -9.0952e-02,
+          -9.6532e-02, -3.3474e-02],
+         [-2.4219e-02, -4.4919e-02, -7.1344e-02,  ..., -1.8790e-02,
+           3.9293e-02,  5.0951e-02]],
+
+        [[ 3.0789e-02,  2.7239e-02,  2.7727e-03,  ...,  5.7211e-02,
+           6.7319e-02,  7.7999e-02],
+         [-1.4136e-02,  1.4184e-02, -4.3823e-02,  ...,  1.8542e-03,
+          -5.9969e-02, -1.5785e-03],
+         [-6.5424e-02, -3.1702e-02, -8.8195e-03,  ...,  7.9450e-02,
+           1.2377e-01,  3.0136e-02],
+         ...,
+         [-7.1243e-03,  6.3463e-02,  7.5538e-02,  ...,  3.7526e-02,
+          -1.4022e-02,  4.0029e-03],
+         [-1.2355e-01, -1.2058e-01,  1.4108e-02,  ...,  3.6563e-02,
+          -1.0238e-01,  1.6468e-02],
+         [-7.6605e-02, -8.5202e-02, -5.8858e-02,  ...,  2.7042e-02,
+           2.5073e-02, -3.0655e-02]],
+
+        [[-7.1808e-02, -5.5036e-02,  2.7037e-03,  ...,  1.8121e-02,
+           3.4538e-02, -2.3383e-02],
+         [-5.2999e-02,  2.0588e-02,  6.8181e-02,  ..., -5.8342e-02,
+          -2.2668e-02,  4.2785e-02],
+         [-6.4985e-02,  1.3007e-02,  5.1807e-02,  ...,  2.7260e-02,
+           3.6361e-02,  1.4792e-02],
+         ...,
+         [-2.4366e-02, -1.7218e-02, -3.5378e-03,  ..., -5.9185e-03,
+           4.4106e-02,  4.5831e-03],
+         [ 6.4202e-04, -2.2354e-02, -5.5805e-02,  ..., -8.4088e-02,
+           1.1143e-02,  2.3108e-02],
+         [ 1.8124e-02, -3.4213e-02, -3.6199e-02,  ...,  1.0467e-02,
+          -5.1719e-02,  5.6252e-02]],
+
+        ...,
+
+        [[-2.5731e-02, -1.7615e-02,  2.4906e-02,  ..., -1.3540e-02,
+          -3.2420e-02, -6.0199e-02],
+         [ 1.9684e-02,  1.8944e-02,  3.5701e-02,  ...,  2.4610e-02,
+           8.0517e-02, -7.9085e-03],
+         [ 1.1509e-01,  3.2292e-02,  1.0276e-01,  ...,  2.2304e-02,
+           9.7364e-02,  6.9651e-02],
+         ...,
+         [ 2.6190e-02,  7.1235e-03,  8.3864e-02,  ..., -3.1993e-02,
+          -9.7408e-03, -2.8976e-02],
+         [ 6.1906e-02,  5.2256e-05,  3.1714e-02,  ..., -7.5112e-02,
+          -1.7508e-02,  4.4947e-02],
+         [-6.9193e-02,  1.2509e-02, -6.3018e-02,  ...,  7.6584e-02,
+           1.2696e-02,  6.5327e-02]],
+
+        [[ 3.3986e-02, -5.0690e-02, -5.3847e-02,  ..., -3.0211e-02,
+           1.4836e-02, -3.7278e-02],
+         [ 3.2075e-02,  9.5521e-03,  6.9411e-02,  ..., -4.6255e-02,
+          -5.0297e-02,  2.4963e-02],
+         [ 1.0006e-01,  8.3959e-02, -8.0513e-03,  ...,  1.2748e-01,
+           1.0586e-01, -1.0320e-01],
+         ...,
+         [-2.6673e-02, -6.7847e-02, -1.2300e-01,  ..., -6.1524e-02,
+          -2.8952e-02,  1.2194e-02],
+         [-6.7254e-02, -8.3320e-02, -7.8599e-02,  ...,  6.7501e-02,
+          -2.1843e-02, -2.9326e-02],
+         [-7.2203e-02,  5.0226e-02,  8.7068e-03,  ...,  1.0898e-02,
+           7.5824e-02,  8.9772e-02]],
+
+        [[ 7.5936e-02,  2.1134e-02, -9.3523e-02,  ..., -3.3865e-02,
+          -5.4547e-02,  1.5679e-02],
+         [ 2.8607e-03,  3.4126e-02,  4.1971e-02,  ...,  9.3513e-02,
+           1.0040e-02,  6.8786e-02],
+         [ 8.4863e-02,  5.4173e-02,  4.3467e-02,  ...,  4.3045e-02,
+           7.2651e-02, -8.3337e-02],
+         ...,
+         [ 9.9581e-02, -5.3107e-02, -3.7500e-02,  ...,  2.5642e-02,
+          -6.7768e-02,  4.0567e-02],
+         [-8.7590e-02, -5.6861e-02, -3.1120e-02,  ...,  1.3531e-02,
+          -6.9174e-02,  2.9115e-02],
+         [-1.2539e-01, -7.5700e-02, -9.8453e-03,  ..., -6.5517e-03,
+           4.7128e-02,  7.3772e-02]]]), 'conv2.bias': tensor([ 0.0359, -0.0367, -0.0464,  0.0044,  0.0610,  0.0123, -0.0009,  0.0453,
+        -0.0406, -0.0687, -0.0265, -0.0883,  0.0056, -0.0567, -0.0064, -0.0182,
+         0.0414, -0.0479,  0.0374,  0.0569, -0.0650, -0.0477,  0.0488, -0.0119,
+        -0.0601, -0.0354, -0.0562, -0.0407, -0.0437, -0.0357]), 'conv3.weight': tensor([[[ 0.0625,  0.0806,  0.0473,  0.0831, -0.0090,  0.0893],
+         [ 0.0726,  0.0445, -0.0426, -0.0170,  0.0003,  0.0214],
+         [ 0.0239,  0.0274,  0.0138, -0.0270,  0.0676,  0.0126],
+         ...,
+         [-0.1123, -0.1500, -0.1150,  0.0130, -0.0219,  0.0407],
+         [ 0.0047, -0.0092, -0.0731,  0.0510,  0.0562,  0.0809],
+         [ 0.0469, -0.0562, -0.0331,  0.0065, -0.0036, -0.0191]],
+
+        [[-0.0360, -0.1060,  0.0416, -0.0332,  0.0207,  0.0183],
+         [-0.0034,  0.0137,  0.0823, -0.0175, -0.0737, -0.0556],
+         [ 0.0274, -0.0817,  0.0084,  0.0317,  0.0213,  0.0406],
+         ...,
+         [ 0.0718, -0.0525,  0.0131, -0.0610,  0.0120, -0.0588],
+         [ 0.0073, -0.0291, -0.0933, -0.0989, -0.0618, -0.0678],
+         [-0.1014,  0.0442,  0.0218, -0.0762, -0.1275, -0.0267]],
+
+        [[-0.0171,  0.0537,  0.0999, -0.0353, -0.1078, -0.1314],
+         [ 0.0106, -0.0149,  0.0223, -0.0429,  0.0236,  0.0592],
+         [ 0.0769, -0.0213,  0.0215,  0.0397, -0.0511,  0.0604],
+         ...,
+         [-0.0192,  0.0639,  0.0328,  0.0808,  0.0558, -0.0695],
+         [-0.0393,  0.0049, -0.0218,  0.0241,  0.0504, -0.0077],
+         [-0.0856,  0.0489,  0.0390, -0.0009,  0.0122,  0.0145]],
+
+        ...,
+
+        [[ 0.0119,  0.0128, -0.0084,  0.0137,  0.0193, -0.1249],
+         [-0.0536, -0.0296,  0.0345, -0.0016, -0.0072, -0.0009],
+         [-0.0738, -0.0060, -0.0393, -0.0325, -0.0806, -0.1030],
+         ...,
+         [ 0.0562,  0.0139, -0.0279,  0.0098, -0.0133,  0.0247],
+         [-0.1005,  0.0528,  0.0436, -0.0377, -0.0165, -0.0525],
+         [-0.0639,  0.0813, -0.0646,  0.0317, -0.0223,  0.0397]],
+
+        [[ 0.1131,  0.1557,  0.0011, -0.0245, -0.0615, -0.1090],
+         [-0.0972, -0.0463,  0.0014,  0.0451, -0.0937, -0.0228],
+         [-0.0032,  0.0682,  0.0704, -0.0265, -0.0868, -0.0932],
+         ...,
+         [-0.0757, -0.0518,  0.0381, -0.0500,  0.0501,  0.0418],
+         [-0.0274, -0.0769, -0.0288, -0.0342, -0.0156, -0.0522],
+         [-0.0657, -0.0276,  0.0240,  0.0308,  0.1058,  0.0048]],
+
+        [[ 0.0275, -0.1085, -0.1134, -0.0330,  0.0002,  0.0293],
+         [-0.0608,  0.0075,  0.0566, -0.0017,  0.0324,  0.0197],
+         [ 0.0450, -0.0382, -0.0147, -0.0112,  0.0279, -0.0343],
+         ...,
+         [-0.0064, -0.0310, -0.0073, -0.0049, -0.0420, -0.0320],
+         [-0.0572,  0.0801,  0.0830,  0.1243,  0.0470, -0.0878],
+         [-0.0238, -0.0113,  0.0903, -0.0074,  0.0513, -0.1130]]]), 'conv3.bias': tensor([ 0.0512,  0.0112, -0.0488,  0.0920, -0.0335, -0.0086, -0.0311,  0.0666,
+         0.0411, -0.0616,  0.0513,  0.0458,  0.0669,  0.0403, -0.0294,  0.0576,
+         0.0484, -0.1134, -0.0605,  0.0293, -0.0184, -0.0471, -0.0015,  0.0270,
+        -0.0417,  0.0494,  0.0436, -0.0488, -0.0662, -0.0812,  0.0798,  0.0641,
+        -0.1160,  0.0970, -0.0762, -0.0572, -0.0475,  0.1019,  0.0259, -0.0485]), 'conv4.weight': tensor([[[ 0.0890, -0.0004, -0.0343, -0.0480, -0.0324],
+         [ 0.0974, -0.0038,  0.0339,  0.0062, -0.0651],
+         [-0.0431, -0.0167, -0.0255, -0.0590, -0.0108],
+         ...,
+         [-0.0592, -0.0783, -0.0791,  0.0544,  0.0312],
+         [ 0.0158,  0.0107,  0.0188, -0.0660, -0.0630],
+         [-0.0803, -0.0056, -0.0931, -0.0194,  0.0716]],
+
+        [[ 0.0633,  0.0045,  0.0344,  0.0479, -0.0583],
+         [-0.0371, -0.0506, -0.0053, -0.0642, -0.0302],
+         [ 0.0168,  0.0411, -0.0326, -0.0589, -0.0351],
+         ...,
+         [ 0.0318,  0.0309,  0.0701,  0.0140,  0.0067],
+         [-0.0577,  0.0414,  0.0148,  0.0940,  0.0354],
+         [-0.0476, -0.0570, -0.0263,  0.0592,  0.0291]],
+
+        [[-0.1199, -0.0788, -0.0196,  0.0191,  0.0576],
+         [-0.0540, -0.0508, -0.0694,  0.0367,  0.0464],
+         [ 0.0015,  0.0144, -0.0758, -0.0222, -0.0721],
+         ...,
+         [-0.0697, -0.0483, -0.0166, -0.0484, -0.1874],
+         [-0.0141,  0.0068, -0.0026, -0.0172, -0.1109],
+         [ 0.0222,  0.0374,  0.0204, -0.0759,  0.0470]],
+
+        ...,
+
+        [[ 0.0695,  0.0591,  0.0242,  0.0433,  0.0110],
+         [ 0.0444, -0.0060,  0.0672,  0.0538, -0.0023],
+         [ 0.0052, -0.0239,  0.0286,  0.0268, -0.0456],
+         ...,
+         [-0.0918, -0.0868,  0.0113, -0.0858, -0.0386],
+         [ 0.0289, -0.0355, -0.0617,  0.0082,  0.0331],
+         [-0.0050,  0.0412, -0.0062, -0.0393, -0.0529]],
+
+        [[ 0.0016, -0.1021, -0.0575,  0.0405, -0.0696],
+         [-0.0459,  0.0200, -0.0065, -0.0990, -0.0190],
+         [ 0.0531,  0.1004,  0.0336,  0.0868, -0.0219],
+         ...,
+         [-0.0624, -0.0476,  0.0749,  0.0387,  0.0438],
+         [-0.0719,  0.0095, -0.0053,  0.0487, -0.0123],
+         [-0.0730, -0.0620,  0.0234,  0.0099,  0.0091]],
+
+        [[ 0.0527,  0.0288, -0.0601, -0.0371, -0.0994],
+         [-0.0884, -0.0293,  0.0079, -0.0561, -0.0174],
+         [ 0.0238, -0.0042,  0.0374,  0.0077,  0.1008],
+         ...,
+         [-0.0532,  0.0434,  0.0907,  0.0110,  0.0834],
+         [-0.0933, -0.0177,  0.0027,  0.1001,  0.0686],
+         [-0.0595,  0.0130, -0.0846, -0.0011,  0.0056]]]), 'conv4.bias': tensor([-0.0606, -0.0501,  0.0522, -0.0871, -0.0630, -0.0030,  0.0707,  0.0495,
+        -0.0999, -0.0609, -0.0700, -0.0896,  0.0500, -0.0230, -0.0474,  0.0723,
+        -0.0507, -0.0707, -0.0889,  0.0149, -0.0946,  0.0009,  0.0654,  0.0337,
+         0.0437, -0.0647,  0.0481,  0.0205, -0.0190,  0.0437, -0.0100,  0.0031,
+         0.0473, -0.0403,  0.0361,  0.0516,  0.0905, -0.0711, -0.0568,  0.0458,
+         0.0760, -0.0402, -0.0281, -0.1284,  0.0574, -0.0100,  0.0434, -0.0073,
+         0.0137, -0.0763]), 'conv5.weight': tensor([[[ 5.3428e-02, -9.3952e-03,  4.7376e-04, -3.7409e-02, -7.4609e-02],
+         [ 1.2437e-02,  3.1336e-02, -1.7970e-02, -4.9120e-02,  3.5344e-02],
+         [ 5.0891e-02,  5.8975e-02,  3.4831e-02,  7.3741e-02,  4.4690e-02],
+         ...,
+         [-4.0934e-02, -6.0912e-03, -7.0175e-02, -5.1566e-02,  2.7084e-02],
+         [-9.3161e-03, -1.8049e-02, -4.3273e-02, -2.4450e-02,  5.6553e-03],
+         [-5.8320e-02, -8.4284e-02, -7.4754e-02, -8.3264e-02, -6.0240e-02]],
+
+        [[-4.8049e-02,  9.7306e-03,  1.5049e-02,  6.9391e-03, -2.3723e-02],
+         [-1.7774e-02,  3.8307e-02, -6.2738e-03, -1.0239e-01, -6.9980e-02],
+         [ 1.2628e-02, -8.7771e-02, -5.6823e-02, -4.3779e-02,  3.6333e-02],
+         ...,
+         [ 6.5613e-02, -2.6393e-02, -2.8180e-02, -6.4349e-02, -3.5456e-02],
+         [ 7.2490e-02, -4.2708e-02,  3.8306e-02, -7.7776e-05, -6.2119e-03],
+         [-9.2431e-03,  2.8477e-04, -2.6332e-02,  4.4392e-02, -4.7790e-02]],
+
+        [[-6.1090e-06,  7.5421e-03,  3.9539e-02,  5.3714e-02, -3.0253e-02],
+         [-1.1679e-03, -4.1702e-02, -3.1167e-02, -1.1244e-01, -1.7117e-01],
+         [-5.2917e-02, -1.4548e-03,  1.7192e-02,  1.2892e-02,  1.9117e-02],
+         ...,
+         [-2.3288e-02, -4.3411e-02, -4.8179e-02, -9.8925e-02, -7.8669e-02],
+         [ 2.2419e-02,  7.5169e-02, -2.9420e-02,  2.1116e-02,  3.8648e-02],
+         [ 2.3265e-02,  3.2722e-02,  1.7308e-02,  5.1461e-02, -2.3006e-02]],
+
+        ...,
+
+        [[ 4.6776e-02, -2.5072e-02, -7.3668e-02, -6.0560e-02, -3.4566e-02],
+         [ 1.7500e-02,  5.7186e-02, -1.7578e-02, -4.4558e-02, -2.7534e-02],
+         [-4.4568e-03,  8.2434e-02,  1.0937e-01,  1.2481e-01,  1.1290e-01],
+         ...,
+         [-4.5895e-02, -1.3348e-02, -8.4665e-02,  2.2106e-02, -3.6301e-02],
+         [-3.9418e-02, -8.9735e-02, -2.0806e-02, -4.4200e-02, -7.0078e-02],
+         [-8.4110e-03,  3.0298e-02,  6.0676e-02, -1.9267e-02, -2.5763e-02]],
+
+        [[ 4.4005e-02,  6.5372e-02,  4.6081e-02, -2.2196e-02,  1.8863e-02],
+         [-1.8624e-04,  5.0368e-02, -2.0964e-02, -6.6724e-02,  1.9084e-02],
+         [-7.8430e-03, -3.5465e-02, -1.6511e-02, -4.6653e-02, -8.6203e-02],
+         ...,
+         [ 3.6310e-03,  1.0014e-02,  4.5704e-02,  1.8736e-02,  2.7268e-02],
+         [-3.5415e-02,  2.2773e-02, -4.1621e-02, -3.6310e-02, -3.8447e-02],
+         [-6.1679e-02, -3.7026e-02, -6.8881e-02, -7.0657e-03, -1.0884e-01]],
+
+        [[ 5.3128e-02, -3.8415e-02, -2.2465e-02, -1.1665e-02, -1.1814e-02],
+         [-1.4827e-02, -6.3156e-02, -7.4504e-03, -1.1692e-02,  3.6488e-04],
+         [-1.6889e-01, -1.0535e-01, -1.1635e-01, -5.8211e-02,  1.8582e-02],
+         ...,
+         [-1.1992e-02,  3.0102e-02,  1.2369e-02, -6.8708e-02, -4.6015e-02],
+         [-8.3990e-02, -5.4287e-02, -8.5264e-02, -1.2992e-01, -2.5302e-02],
+         [-4.8257e-02, -3.6134e-02, -1.0306e-01, -8.0802e-02, -3.1084e-02]]]), 'conv5.bias': tensor([ 0.0031, -0.0266,  0.0539, -0.0287, -0.0086, -0.0079, -0.0238,  0.0481,
+        -0.0258,  0.0011,  0.0764, -0.0286,  0.0246,  0.0833, -0.1125,  0.0600,
+        -0.0624, -0.0600, -0.0522, -0.0383,  0.0620,  0.0596,  0.0104,  0.0655,
+        -0.0366, -0.0726, -0.0351,  0.0024, -0.0651,  0.0574,  0.0952,  0.0626,
+         0.0215, -0.0512,  0.0741,  0.0672, -0.0628, -0.0452,  0.0044, -0.0014,
+         0.0240,  0.0889, -0.0618,  0.0196,  0.0701, -0.0555,  0.0755, -0.0127,
+         0.0272,  0.0289]), 'linear1.weight': tensor([[ 0.0196,  0.0183,  0.0237,  ..., -0.0264, -0.0207, -0.0175],
+        [ 0.0088, -0.0006,  0.0132,  ..., -0.0169, -0.0195, -0.0271],
+        [-0.0361, -0.0392, -0.0406,  ..., -0.0158, -0.0002, -0.0033],
+        ...,
+        [-0.0002, -0.0141, -0.0007,  ..., -0.0338, -0.0402, -0.0475],
+        [-0.0445, -0.0472, -0.0383,  ...,  0.0055, -0.0230, -0.0235],
+        [-0.0115, -0.0052, -0.0033,  ...,  0.0076, -0.0046, -0.0147]]), 'linear1.bias': tensor([-0.0366, -0.0375, -0.0018,  ..., -0.0311, -0.0378, -0.0312]), 'linear2.weight': tensor([[ 0.0086, -0.0051, -0.0557,  ..., -0.0393, -0.0151,  0.0012]]), 'linear2.bias': tensor([0.0551])})]

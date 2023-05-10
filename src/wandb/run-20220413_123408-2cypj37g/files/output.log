@@ -1,0 +1,912 @@
+LSTM(
+  (conv1): Conv1d(1, 30, kernel_size=(10,), stride=(1,))
+  (conv2): Conv1d(30, 30, kernel_size=(8,), stride=(1,))
+  (conv3): Conv1d(30, 40, kernel_size=(6,), stride=(1,))
+  (conv4): Conv1d(40, 50, kernel_size=(5,), stride=(1,))
+  (conv5): Conv1d(50, 50, kernel_size=(5,), stride=(1,))
+  (linear1): Linear(in_features=11000, out_features=1024, bias=True)
+  (linear2): Linear(in_features=1024, out_features=1, bias=True)
+  (relu): ReLU()
+  (leaky): LeakyReLU(negative_slope=0.01)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+Window Length:  249
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 103680 batches: 1.0059
+trigger times: 0
+Loss after 207360 batches: 0.9038
+Time to train on one home:  80.96991467475891
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 288000 batches: 0.9305
+trigger times: 0
+Loss after 368640 batches: 0.7895
+Time to train on one home:  70.79544711112976
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 472320 batches: 0.6363
+trigger times: 1
+Loss after 576000 batches: 0.4646
+Time to train on one home:  75.76460385322571
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 679680 batches: 0.9944
+trigger times: 0
+Loss after 783360 batches: 0.9509
+Time to train on one home:  76.99481010437012
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518]]
+Round_0_results:  [1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 887040 batches: 0.8350
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 9 < 10; dropping {'Training_Loss': 0.8350000215441357, 'Validation_Loss': 0.9295338059172911, 'Training_R2': 0.15156177599491172, 'Validation_R2': 0.2569971325071051, 'Training_F1': 0.5405118782646592, 'Validation_F1': 0.42079807100793615, 'Training_NEP': 0.9169904694597101, 'Validation_NEP': 1.0174542404948488, 'Training_NDE': 0.53242988325207, 'Validation_NDE': 0.6016682143492253, 'Training_MAE': 46.14095625965683, 'Validation_MAE': 29.068573442211857, 'Training_MSE': 3619.3257, 'Validation_MSE': 2581.7644}.
+trigger times: 1
+Loss after 990720 batches: 0.7486
+Time to train on one home:  74.42803192138672
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1071360 batches: 0.8160
+trigger times: 0
+Loss after 1152000 batches: 0.6698
+Time to train on one home:  68.41180419921875
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1255680 batches: 0.5319
+trigger times: 1
+Loss after 1359360 batches: 0.3981
+Time to train on one home:  74.69255661964417
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1463040 batches: 0.8168
+trigger times: 0
+Loss after 1566720 batches: 0.7324
+Time to train on one home:  74.33921647071838
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674]]
+Round_1_results:  [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 17 < 18; dropping {'Training_Loss': 0.7450921082846177, 'Validation_Loss': 0.8907521857934839, 'Training_R2': 0.24409906694948413, 'Validation_R2': 0.2869202213471267, 'Training_F1': 0.5769576428640935, 'Validation_F1': 0.514864959984355, 'Training_NEP': 0.8387005028741376, 'Validation_NEP': 1.010920461213084, 'Training_NDE': 0.47805618982025594, 'Validation_NDE': 0.5774371215528556, 'Training_MAE': 41.793777545385154, 'Validation_MAE': 28.8819039731114, 'Training_MSE': 3229.6172, 'Validation_MSE': 2477.7883}.
+trigger times: 0
+Loss after 1670400 batches: 0.7451
+trigger times: 1
+Loss after 1774080 batches: 0.6881
+Time to train on one home:  76.29487299919128
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 1854720 batches: 0.6746
+trigger times: 1
+Loss after 1935360 batches: 0.6017
+Time to train on one home:  68.9202208518982
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2039040 batches: 0.4323
+trigger times: 0
+Loss after 2142720 batches: 0.3568
+Time to train on one home:  74.85037302970886
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2246400 batches: 0.7258
+trigger times: 1
+Loss after 2350080 batches: 0.6574
+Time to train on one home:  74.76883459091187
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848]]
+Round_2_results:  [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 25 < 26; dropping {'Training_Loss': 0.6649048218664564, 'Validation_Loss': 2.022064785746967, 'Training_R2': 0.32236727701997503, 'Validation_R2': -0.617083766280857, 'Training_F1': 0.5994910706456261, 'Validation_F1': 0.39742519825291484, 'Training_NEP': 0.7961115433054756, 'Validation_NEP': 2.105697593734399, 'Training_NDE': 0.4302964983521358, 'Validation_NDE': 1.3094806826174559, 'Training_MAE': 39.362893675212504, 'Validation_MAE': 60.15958528099237, 'Training_MSE': 2882.0442, 'Validation_MSE': 5618.995}.
+trigger times: 0
+Loss after 2453760 batches: 0.6649
+trigger times: 0
+Loss after 2557440 batches: 0.6176
+Time to train on one home:  75.3650803565979
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2638080 batches: 0.6307
+trigger times: 0
+Loss after 2718720 batches: 0.5628
+Time to train on one home:  71.7130434513092
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 2822400 batches: 0.3834
+trigger times: 1
+Loss after 2926080 batches: 0.3315
+Time to train on one home:  74.26657366752625
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3029760 batches: 0.6941
+trigger times: 1
+Loss after 3133440 batches: 0.6256
+Time to train on one home:  74.91557240486145
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502]]
+Round_3_results:  [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 33 < 34; dropping {'Training_Loss': 0.6900621649843676, 'Validation_Loss': 1.1984534763238008, 'Training_R2': 0.3338553094937825, 'Validation_R2': 0.04178889172003719, 'Training_F1': 0.6163944857721675, 'Validation_F1': 0.45985075745805926, 'Training_NEP': 0.7601919651709969, 'Validation_NEP': 1.4693880781701085, 'Training_NDE': 0.4185083498750848, 'Validation_NDE': 0.7759393559728227, 'Training_MAE': 39.184002445307044, 'Validation_MAE': 41.980281338868316, 'Training_MSE': 2991.0889, 'Validation_MSE': 3329.564}.
+trigger times: 0
+Loss after 3237120 batches: 0.6901
+trigger times: 0
+Loss after 3340800 batches: 0.6244
+Time to train on one home:  73.92973399162292
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3421440 batches: 0.5594
+trigger times: 0
+Loss after 3502080 batches: 0.5029
+Time to train on one home:  70.0280020236969
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3605760 batches: 0.3491
+trigger times: 1
+Loss after 3709440 batches: 0.3000
+Time to train on one home:  73.911208152771
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 3813120 batches: 0.6553
+trigger times: 0
+Loss after 3916800 batches: 0.5840
+Time to train on one home:  74.14199447631836
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417]]
+Round_4_results:  [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 41 < 42; dropping {'Training_Loss': 0.5693179832472477, 'Validation_Loss': 1.1227129268295624, 'Training_R2': 0.41588455627832455, 'Validation_R2': 0.10221315350375704, 'Training_F1': 0.6341312026739456, 'Validation_F1': 0.40821239214525123, 'Training_NEP': 0.7321262162075036, 'Validation_NEP': 1.2396337534700534, 'Training_NDE': 0.3711925025038074, 'Validation_NDE': 0.7270090499385348, 'Training_MAE': 36.04095372761841, 'Validation_MAE': 35.41622155573633, 'Training_MSE': 2467.721, 'Validation_MSE': 3119.6033}.
+trigger times: 0
+Loss after 4020480 batches: 0.5693
+trigger times: 1
+Loss after 4124160 batches: 0.5034
+Time to train on one home:  76.21360445022583
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4204800 batches: 0.4888
+trigger times: 1
+Loss after 4285440 batches: 0.4197
+Time to train on one home:  69.76921272277832
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4389120 batches: 0.3116
+trigger times: 0
+Loss after 4492800 batches: 0.2632
+Time to train on one home:  77.76981735229492
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4596480 batches: 0.5390
+trigger times: 1
+Loss after 4700160 batches: 0.5099
+Time to train on one home:  74.5125949382782
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147]]
+Round_5_results:  [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4803840 batches: 0.5562
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 49 < 50; dropping {'Training_Loss': 0.5561804878812882, 'Validation_Loss': 1.460715337711222, 'Training_R2': 0.4429654940255253, 'Validation_R2': -0.16777960157169303, 'Training_F1': 0.6493343601954465, 'Validation_F1': 0.4013059844605955, 'Training_NEP': 0.7007542652319048, 'Validation_NEP': 1.6257838816302081, 'Training_NDE': 0.34850045579407835, 'Validation_NDE': 0.9456435477859165, 'Training_MAE': 35.66070731048599, 'Validation_MAE': 46.44849496263045, 'Training_MSE': 2410.7761, 'Validation_MSE': 4057.766}.
+trigger times: 1
+Loss after 4907520 batches: 0.4960
+Time to train on one home:  75.30511808395386
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 4988160 batches: 0.4046
+trigger times: 1
+Loss after 5068800 batches: 0.3346
+Time to train on one home:  69.90865993499756
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5172480 batches: 0.2965
+trigger times: 0
+Loss after 5276160 batches: 0.2435
+Time to train on one home:  74.2461097240448
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5379840 batches: 0.4986
+trigger times: 0
+Loss after 5483520 batches: 0.4320
+Time to train on one home:  74.58250641822815
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972]]
+Round_6_results:  [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 57 < 58; dropping {'Training_Loss': 0.5429136427464308, 'Validation_Loss': 1.5147337221047457, 'Training_R2': 0.4545109364867619, 'Validation_R2': -0.209879901726451, 'Training_F1': 0.6478973307953428, 'Validation_F1': 0.39959090661527086, 'Training_NEP': 0.7063884576729094, 'Validation_NEP': 1.5203300087393712, 'Training_NDE': 0.34302219415530977, 'Validation_NDE': 0.9797354921456356, 'Training_MAE': 35.64530995462412, 'Validation_MAE': 43.435687578386734, 'Training_MSE': 2353.271, 'Validation_MSE': 4204.0547}.
+trigger times: 0
+Loss after 5587200 batches: 0.5429
+trigger times: 0
+Loss after 5690880 batches: 0.4891
+Time to train on one home:  74.72332715988159
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5771520 batches: 0.3626
+trigger times: 1
+Loss after 5852160 batches: 0.2802
+Time to train on one home:  68.8433792591095
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 5955840 batches: 0.2753
+trigger times: 1
+Loss after 6059520 batches: 0.2210
+Time to train on one home:  74.97286438941956
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 6163200 batches: 0.4293
+trigger times: 1
+Loss after 6266880 batches: 0.3506
+Time to train on one home:  74.29327344894409
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924]]
+Round_7_results:  [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 65 < 66; dropping {'Training_Loss': 0.5002737664790066, 'Validation_Loss': 1.5343622609096415, 'Training_R2': 0.4860859458767719, 'Validation_R2': -0.22495126483005667, 'Training_F1': 0.6564884227851558, 'Validation_F1': 0.31209966582367854, 'Training_NEP': 0.686822353204855, 'Validation_NEP': 1.6709373009608404, 'Training_NDE': 0.3260336742974109, 'Validation_NDE': 0.991939967421691, 'Training_MAE': 33.86749640088758, 'Validation_MAE': 47.73852397203446, 'Training_MSE': 2168.4473, 'Validation_MSE': 4256.4243}.
+trigger times: 0
+Loss after 6370560 batches: 0.5003
+trigger times: 1
+Loss after 6474240 batches: 0.4241
+Time to train on one home:  76.43959975242615
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 6554880 batches: 0.3070
+trigger times: 1
+Loss after 6635520 batches: 0.2271
+Time to train on one home:  70.5972273349762
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 6739200 batches: 0.2633
+trigger times: 1
+Loss after 6842880 batches: 0.2049
+Time to train on one home:  74.81838750839233
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 6946560 batches: 0.3405
+trigger times: 1
+Loss after 7050240 batches: 0.2668
+Time to train on one home:  74.87089824676514
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143]]
+Round_8_results:  [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 7153920 batches: 0.4387
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 73 < 74; dropping {'Training_Loss': 0.4386947907783367, 'Validation_Loss': 1.35835681505063, 'Training_R2': 0.5549337099876444, 'Validation_R2': -0.0852743867412944, 'Training_F1': 0.6820703779996176, 'Validation_F1': 0.21141649712491695, 'Training_NEP': 0.6371755053308379, 'Validation_NEP': 1.3574406467416171, 'Training_NDE': 0.2835291435047467, 'Validation_NDE': 0.878832546841859, 'Training_MAE': 31.436621901650486, 'Validation_MAE': 38.781953588459224, 'Training_MSE': 1901.532, 'Validation_MSE': 3771.079}.
+trigger times: 1
+Loss after 7257600 batches: 0.3578
+Time to train on one home:  74.86090302467346
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 7338240 batches: 0.2186
+trigger times: 1
+Loss after 7418880 batches: 0.1987
+Time to train on one home:  69.59174847602844
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 7522560 batches: 0.2183
+trigger times: 0
+Loss after 7626240 batches: 0.1705
+Time to train on one home:  76.47823309898376
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 7729920 batches: 0.2799
+trigger times: 1
+Loss after 7833600 batches: 0.2256
+Time to train on one home:  76.14730453491211
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394]]
+Round_9_results:  [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 81 < 82; dropping {'Training_Loss': 0.432123996850885, 'Validation_Loss': 1.5357383805162765, 'Training_R2': 0.5714487033724305, 'Validation_R2': -0.22741900152088634, 'Training_F1': 0.6938631167909001, 'Validation_F1': 0.26297602565893163, 'Training_NEP': 0.6132533347138546, 'Validation_NEP': 1.557866785724124, 'Training_NDE': 0.26840210914515455, 'Validation_NDE': 0.99393828908802, 'Training_MAE': 31.31718216461164, 'Validation_MAE': 44.508109821213615, 'Training_MSE': 1873.0508, 'Validation_MSE': 4264.999}.
+trigger times: 0
+Loss after 7937280 batches: 0.4321
+trigger times: 1
+Loss after 8040960 batches: 0.3589
+Time to train on one home:  75.80239534378052
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 8121600 batches: 0.1796
+trigger times: 1
+Loss after 8202240 batches: 0.1778
+Time to train on one home:  69.67995023727417
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 8305920 batches: 0.1975
+trigger times: 0
+Loss after 8409600 batches: 0.1486
+Time to train on one home:  76.1353690624237
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 8513280 batches: 0.2272
+trigger times: 1
+Loss after 8616960 batches: 0.1821
+Time to train on one home:  75.35750102996826
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888]]
+Round_10_results:  [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 89 < 90; dropping {'Training_Loss': 0.37899299469534997, 'Validation_Loss': 1.4955266363480513, 'Training_R2': 0.6231960378517414, 'Validation_R2': -0.1947561444433319, 'Training_F1': 0.7076490505301046, 'Validation_F1': 0.39576567234736415, 'Training_NEP': 0.5862860598124597, 'Validation_NEP': 1.583612959775631, 'Training_NDE': 0.2373589292957104, 'Validation_NDE': 0.9674885891565671, 'Training_MAE': 29.671310927212975, 'Validation_MAE': 45.243675629960165, 'Training_MSE': 1642.753, 'Validation_MSE': 4151.504}.
+Loss after 8720640 batches: 0.3790
+trigger times: 1
+Loss after 8824320 batches: 0.3052
+Time to train on one home:  75.1784839630127
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 8904960 batches: 0.1742
+trigger times: 0
+Loss after 8985600 batches: 0.1570
+Time to train on one home:  68.52359914779663
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 9089280 batches: 0.1784
+trigger times: 0
+Loss after 9192960 batches: 0.1225
+Time to train on one home:  74.87316918373108
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 9296640 batches: 0.1753
+trigger times: 0
+Loss after 9400320 batches: 0.1369
+Time to train on one home:  74.66032910346985
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479]]
+Round_11_results:  [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 97 < 98; dropping {'Training_Loss': 0.33026196889487314, 'Validation_Loss': 1.6643490195274353, 'Training_R2': 0.6677397292513938, 'Validation_R2': -0.3281801281928176, 'Training_F1': 0.7247998088177705, 'Validation_F1': 0.3265459590311426, 'Training_NEP': 0.5501985755159918, 'Validation_NEP': 1.6588935804375564, 'Training_NDE': 0.20995453902198435, 'Validation_NDE': 1.075532546409102, 'Training_MAE': 27.563913818439584, 'Validation_MAE': 47.394435991843544, 'Training_MSE': 1431.5276, 'Validation_MSE': 4615.121}.
+trigger times: 0
+Loss after 9504000 batches: 0.3303
+trigger times: 1
+Loss after 9607680 batches: 0.2577
+Time to train on one home:  75.13006973266602
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 9688320 batches: 0.1414
+trigger times: 1
+Loss after 9768960 batches: 0.1367
+Time to train on one home:  71.01958322525024
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 9872640 batches: 0.1697
+trigger times: 1
+Loss after 9976320 batches: 0.1145
+Time to train on one home:  74.57031559944153
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 10080000 batches: 0.1533
+trigger times: 0
+Loss after 10183680 batches: 0.1229
+Time to train on one home:  77.99404048919678
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875]]
+Round_12_results:  [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 105 < 106; dropping {'Training_Loss': 0.30203778582774565, 'Validation_Loss': 2.00308453773751, 'Training_R2': 0.6936361151627339, 'Validation_R2': -0.598916787656526, 'Training_F1': 0.7358285384395992, 'Validation_F1': 0.3407767955283333, 'Training_NEP': 0.5268697094377581, 'Validation_NEP': 1.8639762553531074, 'Training_NDE': 0.19260880115393827, 'Validation_NDE': 1.294769442503532, 'Training_MAE': 26.468723734606197, 'Validation_MAE': 53.25362902504426, 'Training_MSE': 1309.1892, 'Validation_MSE': 5555.8687}.
+trigger times: 0
+Loss after 10287360 batches: 0.3020
+trigger times: 0
+Loss after 10391040 batches: 0.2366
+Time to train on one home:  75.28241205215454
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 10471680 batches: 0.1309
+trigger times: 1
+Loss after 10552320 batches: 0.1212
+Time to train on one home:  69.13687634468079
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 10656000 batches: 0.1357
+trigger times: 1
+Loss after 10759680 batches: 0.1064
+Time to train on one home:  74.71615290641785
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 10863360 batches: 0.1314
+trigger times: 0
+Loss after 10967040 batches: 0.1060
+Time to train on one home:  74.38506031036377
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838]]
+Round_13_results:  [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 113 < 114; dropping {'Training_Loss': 0.28242382283012074, 'Validation_Loss': 1.6126576258855707, 'Training_R2': 0.7189817467745934, 'Validation_R2': -0.289542883313741, 'Training_F1': 0.7432365522981199, 'Validation_F1': 0.3763958262254108, 'Training_NEP': 0.5130135052471181, 'Validation_NEP': 1.6563278184086434, 'Training_NDE': 0.1778031232303787, 'Validation_NDE': 1.044244911931715, 'Training_MAE': 25.797924181377446, 'Validation_MAE': 47.321132408248054, 'Training_MSE': 1224.1721, 'Validation_MSE': 4480.8657}.
+trigger times: 0
+Loss after 11070720 batches: 0.2824
+trigger times: 0
+Loss after 11174400 batches: 0.2154
+Time to train on one home:  75.53510880470276
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 11255040 batches: 0.1197
+trigger times: 1
+Loss after 11335680 batches: 0.1078
+Time to train on one home:  71.20656943321228
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 11439360 batches: 0.1091
+trigger times: 1
+Loss after 11543040 batches: 0.0886
+Time to train on one home:  76.21984028816223
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 11646720 batches: 0.1189
+trigger times: 1
+Loss after 11750400 batches: 0.0960
+Time to train on one home:  75.40593218803406
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868]]
+Round_14_results:  [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 11854080 batches: 0.2244
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 121 < 122; dropping {'Training_Loss': 0.224404684615172, 'Validation_Loss': 1.9470952486290651, 'Training_R2': 0.7743475924756205, 'Validation_R2': -0.5559338616290177, 'Training_F1': 0.7716373055682064, 'Validation_F1': 0.37087744296836095, 'Training_NEP': 0.45693805679018984, 'Validation_NEP': 1.9785793497415944, 'Training_NDE': 0.14198882993962678, 'Validation_NDE': 1.259962766133978, 'Training_MAE': 23.028466075051714, 'Validation_MAE': 56.52782882032571, 'Training_MSE': 972.68695, 'Validation_MSE': 5406.513}.
+trigger times: 0
+Loss after 11957760 batches: 0.2677
+Time to train on one home:  75.79672360420227
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 12038400 batches: 0.1039
+trigger times: 0
+Loss after 12119040 batches: 0.0980
+Time to train on one home:  71.43796849250793
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 12222720 batches: 0.0978
+trigger times: 1
+Loss after 12326400 batches: 0.0896
+Time to train on one home:  75.33520555496216
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 12430080 batches: 0.1163
+trigger times: 0
+Loss after 12533760 batches: 0.0979
+Time to train on one home:  74.88220119476318
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587, 0.1382870095919545]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868], [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692]]
+Round_15_results:  [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 12637440 batches: 0.2056
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 129 < 130; dropping {'Training_Loss': 0.20561641257394242, 'Validation_Loss': 2.033786994569442, 'Training_R2': 0.7963830548266116, 'Validation_R2': -0.6223815773764343, 'Training_F1': 0.783526622688812, 'Validation_F1': 0.3967333444166664, 'Training_NEP': 0.43259331516341654, 'Validation_NEP': 2.0312608979053572, 'Training_NDE': 0.1282874530230593, 'Validation_NDE': 1.3137707394682336, 'Training_MAE': 21.931216837097832, 'Validation_MAE': 58.03293577344329, 'Training_MSE': 891.24884, 'Validation_MSE': 5637.404}.
+trigger times: 0
+Loss after 12741120 batches: 0.1638
+Time to train on one home:  76.03003644943237
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 12821760 batches: 0.1049
+trigger times: 1
+Loss after 12902400 batches: 0.0942
+Time to train on one home:  70.02877640724182
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 13006080 batches: 0.0941
+trigger times: 0
+Loss after 13109760 batches: 0.0858
+Time to train on one home:  74.54749536514282
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 13213440 batches: 0.0861
+trigger times: 1
+Loss after 13317120 batches: 0.0841
+Time to train on one home:  74.65191435813904
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587, 0.1382870095919545, 0.10695949107937425]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868], [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692], [0.9097484148600522, 0.15971043964540788, 0.387759554298983, 1.2239247950934065, 0.6755961461443902, 33.091300015758584, 2519.7532]]
+Round_16_results:  [0.9097484148600522, 0.15971043964540788, 0.387759554298983, 1.2239247950934065, 0.6755961461443902, 33.091300015758584, 2519.7532]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 137 < 138; dropping {'Training_Loss': 0.20008737819246303, 'Validation_Loss': 1.5221861592110466, 'Training_R2': 0.8011584800751386, 'Validation_R2': -0.21576431508030036, 'Training_F1': 0.7877780206508711, 'Validation_F1': 0.4248051638585966, 'Training_NEP': 0.4235654699330825, 'Validation_NEP': 1.65053184968443, 'Training_NDE': 0.12491052630784179, 'Validation_NDE': 0.9845005672617649, 'Training_MAE': 21.5209374634572, 'Validation_MAE': 47.15554211846104, 'Training_MSE': 867.283, 'Validation_MSE': 4224.502}.
+Loss after 13420800 batches: 0.2001
+trigger times: 0
+Loss after 13524480 batches: 0.1698
+Time to train on one home:  74.07738757133484
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 13605120 batches: 0.0904
+trigger times: 1
+Loss after 13685760 batches: 0.0889
+Time to train on one home:  71.64749884605408
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 13789440 batches: 0.0818
+trigger times: 0
+Loss after 13893120 batches: 0.0686
+Time to train on one home:  74.81070518493652
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 13996800 batches: 0.1014
+trigger times: 0
+Loss after 14100480 batches: 0.0828
+Time to train on one home:  75.57511687278748
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587, 0.1382870095919545, 0.10695949107937425, 0.10255317231067382]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868], [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692], [0.9097484148600522, 0.15971043964540788, 0.387759554298983, 1.2239247950934065, 0.6755961461443902, 33.091300015758584, 2519.7532], [0.9141977188341758, 0.15608958679894946, 0.4034017898504031, 1.2044934421026177, 0.6785073262235416, 32.5659338052626, 2530.6113]]
+Round_17_results:  [0.9141977188341758, 0.15608958679894946, 0.4034017898504031, 1.2044934421026177, 0.6785073262235416, 32.5659338052626, 2530.6113]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 14204160 batches: 0.1579
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 145 < 146; dropping {'Training_Loss': 0.15786104577559013, 'Validation_Loss': 1.6565268407849705, 'Training_R2': 0.8363432333973755, 'Validation_R2': -0.3219245645095683, 'Training_F1': 0.8049008369359643, 'Validation_F1': 0.3652275233636876, 'Training_NEP': 0.3907229387610586, 'Validation_NEP': 1.7773253725177396, 'Training_NDE': 0.10387638939114874, 'Validation_NDE': 1.0704669215027693, 'Training_MAE': 19.165973878550677, 'Validation_MAE': 50.7780213256677, 'Training_MSE': 684.252, 'Validation_MSE': 4593.3843}.
+trigger times: 1
+Loss after 14307840 batches: 0.1397
+Time to train on one home:  74.95044350624084
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 14388480 batches: 0.0937
+trigger times: 1
+Loss after 14469120 batches: 0.0923
+Time to train on one home:  69.6784782409668
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 14572800 batches: 0.0767
+trigger times: 0
+Loss after 14676480 batches: 0.0805
+Time to train on one home:  75.54960012435913
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 14780160 batches: 0.0780
+trigger times: 1
+Loss after 14883840 batches: 0.0757
+Time to train on one home:  75.03221726417542
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587, 0.1382870095919545, 0.10695949107937425, 0.10255317231067382, 0.09706464867818793]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868], [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692], [0.9097484148600522, 0.15971043964540788, 0.387759554298983, 1.2239247950934065, 0.6755961461443902, 33.091300015758584, 2519.7532], [0.9141977188341758, 0.15608958679894946, 0.4034017898504031, 1.2044934421026177, 0.6785073262235416, 32.5659338052626, 2530.6113], [0.932950417346814, 0.1387376612448965, 0.41606135866472943, 1.2164135911675642, 0.6924583433319247, 32.888219317021196, 2582.644]]
+Round_18_results:  [0.932950417346814, 0.1387376612448965, 0.41606135866472943, 1.2164135911675642, 0.6924583433319247, 32.888219317021196, 2582.644]
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step must only increase in log calls.  Step 153 < 154; dropping {'Training_Loss': 0.1676001930816306, 'Validation_Loss': 1.735202793689335, 'Training_R2': 0.8316325397567632, 'Validation_R2': -0.3849312120918973, 'Training_F1': 0.8007369732244823, 'Validation_F1': 0.3911344232536774, 'Training_NEP': 0.3984355423952961, 'Validation_NEP': 1.832861641005776, 'Training_NDE': 0.10637790420281504, 'Validation_NDE': 1.121488389657942, 'Training_MAE': 19.97884470342118, 'Validation_MAE': 52.36468737412382, 'Training_MSE': 726.4667, 'Validation_MSE': 4812.318}.
+Loss after 14987520 batches: 0.1676
+trigger times: 0
+Loss after 15091200 batches: 0.1548
+Time to train on one home:  75.15428876876831
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 15171840 batches: 0.0961
+trigger times: 1
+Loss after 15252480 batches: 0.0760
+Time to train on one home:  70.4823567867279
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 15356160 batches: 0.0691
+trigger times: 1
+Loss after 15459840 batches: 0.0686
+Time to train on one home:  74.7218644618988
+/home/Alfredo/private_nilm/src_3/clean_data_seq2point.py:320: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  i['net_power'] = split_data(normalize_x(i['net_power'].values), window_length)
+trigger times: 0
+Loss after 15563520 batches: 0.0908
+trigger times: 0
+Loss after 15667200 batches: 0.0738
+Time to train on one home:  75.0810022354126
+<__main__.ExperimentLogger object at 0x7ff836a71580>
+train_results:  [0.7772069162269273, 0.6372202451675933, 0.5759934692011203, 0.5343670187105722, 0.5028287045628068, 0.4240542796794802, 0.37651351991871695, 0.3352330197346096, 0.2807074957448378, 0.23813747581758915, 0.21684532544556745, 0.18040184856349736, 0.15794396960123966, 0.14252353831094966, 0.12695290379302587, 0.1382870095919545, 0.10695949107937425, 0.10255317231067382, 0.09706464867818793, 0.09329252514529913]
+test_results:  [[1.073667989057653, 0.006943428366990689, 0.23712390550173637, 1.497119432063159, 0.7984214303644422, 40.477673533889984, 2977.8518], [0.7724852886270074, 0.28512575831350395, 0.4226519660270348, 1.174467066361688, 0.5747617314887075, 31.754109572260468, 2143.674], [0.7595676762216231, 0.29662717249152293, 0.4975707082628465, 1.2285075735618929, 0.5655145487787366, 33.2152047669446, 2109.1848], [0.8285635749206823, 0.23357755085752452, 0.46488851636398915, 1.1337304376075223, 0.616206695154822, 30.652711831861073, 2298.2502], [0.8348732652033076, 0.227844464191148, 0.3871636939867599, 1.1197423917127003, 0.6208161196199804, 30.274516516923903, 2315.4417], [0.9025605943273095, 0.16685978863712192, 0.3823918724904438, 1.093924926094046, 0.6698480411409137, 29.576488742784218, 2498.3147], [0.9303410013808924, 0.13858654213285593, 0.38374485772455574, 1.2166124283433237, 0.6925798436986083, 32.893595285106585, 2583.0972], [0.9700519714285346, 0.10493984023471192, 0.40841992889001477, 1.3004119909030083, 0.7196319257490656, 35.15928716173878, 2683.9924], [1.4808863870361273, -0.3614736471559239, 0.40078138206686165, 1.5110958581712874, 1.09463022330962, 40.855554684223954, 4082.6143], [0.9827354208511465, 0.09248538081511914, 0.4347647313662702, 1.2583669912304096, 0.7296453606210137, 34.022514948359245, 2721.3394], [0.8634512591011384, 0.20338459430985611, 0.4230809208256164, 1.1736837038995984, 0.6404819522170444, 31.732929772359352, 2388.7888], [0.917772105511497, 0.15213192141701537, 0.44954808993426004, 1.2668738420510384, 0.6816893049198324, 34.25251498906701, 2542.479], [1.1488480528487879, -0.0622658409566732, 0.3922938999996545, 1.3607605036043078, 0.8540659579637204, 36.79093213478724, 3185.3875], [1.040698122452287, 0.038295208661309754, 0.3613660231376202, 1.280990282613276, 0.7732144744043211, 34.63418171538247, 2883.838], [0.9348024129867554, 0.13712265088234565, 0.38731432328137727, 1.2281286996339436, 0.69375681808206, 33.20496113852219, 2587.4868], [0.9502349609837812, 0.12255543036406269, 0.36785230482415865, 1.1889277318880254, 0.7054689212742434, 32.14508312167945, 2631.1692], [0.9097484148600522, 0.15971043964540788, 0.387759554298983, 1.2239247950934065, 0.6755961461443902, 33.091300015758584, 2519.7532], [0.9141977188341758, 0.15608958679894946, 0.4034017898504031, 1.2044934421026177, 0.6785073262235416, 32.5659338052626, 2530.6113], [0.932950417346814, 0.1387376612448965, 0.41606135866472943, 1.2164135911675642, 0.6924583433319247, 32.888219317021196, 2582.644], [0.9167643391034183, 0.15334550817885262, 0.39556533086679463, 1.2129557979824368, 0.6807135763400758, 32.794730834607726, 2538.8398]]
+Round_19_results:  [0.9167643391034183, 0.15334550817885262, 0.39556533086679463, 1.2129557979824368, 0.6807135763400758, 32.794730834607726, 2538.8398]

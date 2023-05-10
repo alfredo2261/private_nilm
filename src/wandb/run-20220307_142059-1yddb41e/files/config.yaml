@@ -1,0 +1,68 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    code_path: code/src_3/main_fed.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1646680859
+    t:
+      1:
+      - 1
+      - 5
+      - 35
+      2:
+      - 1
+      - 5
+      - 35
+      3:
+      - 2
+      - 16
+      - 17
+      4: 3.9.7
+      5: 0.12.11
+      8:
+      - 5
+appliance:
+  desc: null
+  value: refrigerator1
+batch_size:
+  desc: null
+  value: 500
+epochs:
+  desc: null
+  value: 200
+fc1:
+  desc: null
+  value: 211
+fc2:
+  desc: null
+  value: 109
+hidden_size_1:
+  desc: null
+  value: 64
+hidden_size_2:
+  desc: null
+  value: 85
+in_channels:
+  desc: null
+  value: 1
+kernel_size:
+  desc: null
+  value: 7
+learning_rate:
+  desc: null
+  value: 0.0003318089969908341
+out_channels:
+  desc: null
+  value: 16
+weight_decay:
+  desc: null
+  value: 0
+window_size:
+  desc: null
+  value: 499
